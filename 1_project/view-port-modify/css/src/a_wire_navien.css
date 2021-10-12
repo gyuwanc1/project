@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* a_wire_navien */
+
+
+/* work place */
+
+/* head Box */
+
+#wrap {
+  width: 1280px; height: auto; min-height:31.25rem;
+  margin: auto; 
+  background-color: #fff; padding-top: 5rem;}
+
+#headBox {position:fixed; left: 0; top: 0; z-index: 1000;
+  width: 100%; height: 5rem;background-color: #fff;
+ margin:auto; padding:1.5625rem; box-sizing: border-box; box-shadow: 3px 3px 3px 5px #333;}
+
+ .header{  position: relative; width: 100%; max-width: 90rem; margin: auto;}
+
+ h1 {float:left; width: 13.75rem; height: 2rem; margin: auto; margin-left: 6.25rem;}
+
+ h1 img {width: 13.75rem ; height: 1.75rem;}
+
+ .menu button {width: 100%; height: 100%;}
+
+ .menu{  position:absolute; top:0; left:0;
+  width: 2rem; height: 2rem;  margin-left:1.25rem; border: #333;}
+
+ .navigation{float:right; width:auto; height: 1.875rem; }  
+
+  .gnb {float:left; width: auto; height: 100%;}
+
+  .unb {float:left; margin-left:3.75rem; width: auto; height: 100%;}
+
+  .navigation li {float:left; width: 4.375rem; height: 100%; margin-right: 1.875rem; border: 0.0625rem solid #333;}
+  
+  .navigation li a { display:block; width: 100%; height: 100%; text-align: center; line-height:1.875rem;}  
+
+  .search {float: right; width: 2rem; height: 2rem; }
+
+  .search button {width: 100%; height: 100%;}  
+
+
+
+  /*------------------------------------------------------------*/
+
+  
+/* 광고영역  */
+
+#commercial{position: relative; width: 100%; height: 50rem; background-color: #dfdfdf; overflow: hidden;} 
+
+    .btn_i {position: absolute; top:22.5rem; left:0; right: 0; z-index: 100;width: 92.361%; width:calc(100% - 120px); height: 0; margin: auto; background-color: #333; 
+      }
+      .btn_i button {
+        width: 2.5rem; height: 2.5rem; background-color: #fff;border-radius: 100%;
+      }
+      .btn_i .next {float:right;}
+      .btn_i .prev {float:left;} 
+      
+      .next:hover {background-color: #fda;}
+      .prev:hover {background-color: #fda;}
+/*--------------------------------------*/
+
+
+/* 새로운 제품 */
+#newMd { width: 100%; height: 37.5rem; background-color: #fff ; padding: 50px; box-sizing: border-box;}
+    .new_box {width: 68.75rem; height: 26.25rem; margin:auto;}
+    #newMd h2 {text-align:center; font-weight:bold;}
+    
+    .new_box > ul {width: auto; height: 17.5rem; margin-top: 6.25rem; margin-bottom: 2.5rem;}
+    .new_box li {float:left;width: 12.5rem; height:17.5rem; background-color:#333 ;
+   margin-right: 6.25rem;}
+    .new_box a {display:block; width: 12.5rem; height:17.5rem;}
+
+    .new_box li:last-child {margin-right: 0; }
+    
+    .n_button {clear:both; width: 100%; height: 1.875rem; text-align: center; }
+    .new_md {width: 18.125rem; height: 1.875rem;border-radius: 1.875rem; background-color: #eee;}
+    
+    .new_md:hover {background-color: #fda;}
+    
+/*-----------------------------------------------------------*/
+
+
+/* 새로운 것 중 베스트 */
+#bestOnnew {width:100%; height: 31.25rem; background-color: #C5D3D9; padding-top: 3.125rem; box-sizing: border-box;}
+  .bn_Box {width:58.125rem; height:31.25rem; margin: auto;}
+  h2 {text-align:center;}
+  .bn_img {float:left; width: 20rem; height: 20rem; background-color: #333;
+    margin-left: 3.125rem;  margin-top: 3.125rem;}
+  .bn_Box dl {float: right;width: 20rem; height: 12.5rem; margin-top: 6.25rem; margin-right: 3.125rem;}
+  .bn_text > dt {float:left; width: 20rem; height: 1.5rem; font-size: 1.5rem; font-weight: bold;}
+  .bn_text > dd {float:left; width: 20rem; height: 7.5rem;  margin-top: 1.875rem;}
+  dd > a {display:block; width: 80px; height: 20px; margin-top: 20px;
+  background-color: #fff; font-weight: bold; text-align: center;}
+  
+  .bn_text a:hover {background-color: #fda;}
+
+/*-------------------------------------------------------------*/
+
+
+/* 가장 잘팔린 것 */
+#bestMd {width:100%; height: 34.375rem;
+padding-top: 4.6875rem; box-sizing: border-box;}
+  .best_box {width: 68.75rem; height: auto;  margin:auto;}
+  #bestmd h2 {text-align:center}
+  .best_box > ul {width: 100%; height:17.5rem; margin-top: 6.25rem; margin-bottom: 40px;}
+  .best_box li {float: left; width: 12.5rem; height:17.5rem; background-color:#333 ;
+  margin-right:6.25rem;}
+  .best_box a {display:block;width: 12.5rem; height:17.5rem;}
+  .best_box   li:last-child {margin-right: 0; }
+  
+  .b_button {clear:both; width: 100%; height: 1.875rem; text-align: center; }
+    .best_md {width: 18.125rem; height: 1.875rem;border-radius: 1.875rem; background-color: #eee;}
+    
+    .best_md:hover {background-color: #fda;}
+
+/*-------------------------------------------------------*/
+
+
+/* go to magazine */
+#gotomagazine {width:100%; height: 23.75rem; background-color:#313131; padding-top:3.125rem; box-sizing: border-box;}
+  #gotomagazine  h2 { color:#eee; text-align: center; }
+  .magz_text_box {float: right; width: auto; height: 12.5rem;margin-top: 2.5rem;}
+    .magazine_title {width: auto; height: 1.875rem;  margin-bottom: 1.25rem;
+    color: #eee; font-size: large; font-style: italic; font-weight: bolder; line-height: 1.875rem; }
+    .magazine_text {width: 25rem; height: 8.75rem;color:#eee; font-style: italic;}
+
+  .btn {clear:both; width: 100%; height: 1.875rem; text-align: center;}
+  .btn button {width: 18.125rem; height: 1.875rem;border-radius: 1.875rem; background-color: #eee; }
+  .m_button:hover {background-color: #fda;}
+  
+  /*--------------------------------------------------*/  
+  
+/* Eco */
+#eco {width:100%; height: 87.5rem; background-color:#E8EFEE; padding: 6.25rem; box-sizing:border-box}
+.eco_con { float:left; width: 100%; height: auto; padding-top: 6.25rem; box-sizing:border-box;}
+  #eco > h2 {text-align: center;}
+  .eco_image {float:left; width: 100%; height: 31.25rem; margin:auto;} 
+    .eco_img_01 {float:left; width: 55%; height: 31.25rem; background-color:#313131;} 
+    .eco_img_02 {float:right; width: 40%; height: 31.25rem; background-color: #313131;}
+    
+
+  .explain_area {float:left;width: 100%; height: 25rem; margin:auto; margin-top: 6.25rem;}
+    .explain_area > ul {float:left; width: 37.5rem; height: 18.75rem;  margin-top: 2.5rem;
+      }
+    .con_title {float:left; width: 18.75rem; height: 1.5rem; margin-top:1.875rem; margin-bottom: 1.875rem; 
+     font-weight: bold; font-size: 1.5rem;}
+    
+     .con_text {float:left; width: 37.5rem; height: 14.75rem;}
+
+     .con_text a {display:block; width: 80px; height: 20px; margin-top: 20px;
+    background-color: #fff;}
+    
+    .con_img {float:right; width: 40%; height: 25rem; background-color: #313131;}
+
+    /* .eco_img_01:hover {background-color: #fda;}
+    .eco_img_02:hover {background-color: #fda;}
+    .con_img:hover {background-color: #fda;}
+     */ 
+
+     .eco_image a:hover {background-color: #fda;}
+     .eco_image a:focus {border:10px solid #fda;}
+     .con_text a:hover {background-color: #fda;}
+
+/*----------------------------------------*/    
+
+/*  고객센터  */
+#service {width:100%; height: 25rem;  padding-top: 4.375rem; box-sizing: border-box;}
+  .cs_img {width: 26.875rem; height: 16.25rem; background-color: #eee; margin: auto;}
+  .cs_img > h3 {width:26.875rem; height: 50px; background-color: #2D3C73;
+  font-size: 40px; color:#fff; border-radius: 3.75rem;
+text-align: center;}
+
+/*------------------------------------------------*/    
+
+
+/* company */
+#footBox {width:100%; height: 15.625rem; background-color: #dfdfdf;}
+  .use_info {float:left;width: 100%; height: 3.75rem;}
+  .temp {float: left; width: auto; height: 3.75rem;margin-left: 6.25rem;}
+  .temp li {float:left; width: 4.375rem; height: 100%; margin-right: 1.875rem; 
+  text-align:center; line-height: 3.75rem;}
+  .com_info {float:left;width: 100%; height: 11.875rem; background-color: #333;}
+
+
+
