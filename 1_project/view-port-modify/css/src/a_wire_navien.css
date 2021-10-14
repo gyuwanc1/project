@@ -142,14 +142,14 @@ padding-top: 4.6875rem; box-sizing: border-box;}
     
 
   .explain_area {float:left;width: 100%; height: 25rem; margin:auto; margin-top: 6.25rem;}
-    .explain_area > ul {float:left; width: 37.5rem; height: 18.75rem;  margin-top: 2.5rem;
-      }
+    .explain_area > ul {float:left; width: 37.5rem; height: 18.75rem;}
     .con_title {float:left; width: 18.75rem; height: 1.5rem; margin-top:1.875rem; margin-bottom: 1.875rem; 
      font-weight: bold; font-size: 1.5rem;}
     
-     .con_text {float:left; width: 37.5rem; height: 14.75rem;}
+     .con_text {float:left; width: 37.5rem; height: 14.75rem; line-height: 25px;}
 
-     .con_text a {display:block; width: 80px; height: 20px; margin-top: 20px;
+     .con_text a {display:block; width: 100%; height: 40px; margin-top: 20px;
+      text-align: center; line-height: 40px; font-size: 30px; border-bottom: 1px solid #171717;
     background-color: #fff;}
     
     .con_img {float:right; width: 40%; height: 25rem; background-color: #313131;}
