@@ -60,8 +60,17 @@ padding:75px 220px; box-sizing: border-box; }
 #md_box_01 {width: 100%; height: auto; min-height: 1600px;padding:200px 100px 100px; box-sizing: border-box;
   background-color:#eee;}
 
-  #md_box_01 div {width: 100%; height: 600px; background-color: #8559D6;}
-  .boiler_box {margin-bottom: 100px;}
+  .boiler_box{width: 100%; height: 600px;
+    padding:125px 175px; box-sizing: border-box; margin-bottom: 100px;
+    background-color: #8559D6;}
+
+    .boiler_card {width: 100%; height: 350px; background-color:#BAC58E;} 
+
+  .hotmat_box {width: 100%; height: 600px;
+    padding:125px 175px; box-sizing: border-box; margin-bottom: 100px;
+    background-color: #8559D6;} 
+
+  .hotmat_card { width: 100%; height: 350px; background-color: #949D54;} 
 
 
   
@@ -74,7 +83,11 @@ padding:75px 220px; box-sizing: border-box; }
   padding:100px; box-sizing: border-box;
   background-color: #eee;}
 
-  .develop_card {width: 100%; height: 300px; background-color: #D29D94;}
+  .develop_card {width: 100%; height: 300px; 
+  padding: 50px 0px; box-sizing: border-box;  background-color: #D29D94;}
+
+    .develop_text { float:right; width:400px; height: 200px;
+      margin-right:200px ; background-color: #72C2E2;}
 
 /*-----------------------------------------------------------*/
 
@@ -84,7 +97,10 @@ padding:75px 220px; box-sizing: border-box; }
   padding:100px; box-sizing: border-box; 
   background-color: #eee;}
   
-  .smart_card {width: 100%; height: 600px; background-color: #76BEA1;}
+  .smart_box {width: 100%; height: 600px;
+    padding:125px 175px; box-sizing: border-box; margin-bottom: 100px;background-color: #76BEA1;}
+
+    .smart_card {width: 100%; height: 350px; background-color:#53DDCE;}
 
 /*-----------------------------------------------------------*/
 
