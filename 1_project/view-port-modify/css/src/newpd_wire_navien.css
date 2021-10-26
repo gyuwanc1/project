@@ -52,10 +52,10 @@
   background-image: url(../../multi/img/art_15855146784668_5fd194.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: contain;
+  background-size:cover;
 }
 
-.com_video {
+.com_video {  
   position: absolute; z-index: 1;
   top: 50%; left:50%;
   width: auto; height: auto;
@@ -71,26 +71,30 @@
 #slogan_box {width: 100%; height: auto; min-height: 400px; background-color: #eee;
 padding:75px 220px; box-sizing: border-box; }
 
-    .slogan_card {width: 100%; height: 250px; background-color: #AA72BD;}
+    .slogan_card {width: 100%; height: 250px; background-color: #171717;}
 
 /*-----------------------------------------------------------*/
 
 /*md_box_01*/
 
-#md_box_01 {width: 100%; height: auto; min-height: 1600px;padding:200px 100px 100px; box-sizing: border-box;
+#md_box_01 {width: 100%; height: auto; min-height: 1600px;padding:100px 100px 100px; box-sizing: border-box;
   background-color:#eee;}
 
   .boiler_box{width: 100%; height: 600px;
-    padding:125px 175px;  margin-bottom: 100px;
+    padding:125px 175px; margin-top: 100px; margin-bottom: 100px;
     background-color: #8559D6;}
 
     .boiler_card {width: 100%; height: 350px; background-color:#BAC58E;} 
+      .img_box {float:left; width: 350px; height: 350px; background-color: #eee;}
+      .text_box {float:right; width: 400px; height: 300px; margin-top: 25px; background-color: #eee;}
 
   .hotmat_box {width: 100%; height: 600px;
     padding:125px 175px; box-sizing: border-box; margin-bottom: 100px;
     background-color: #8559D6;} 
 
   .hotmat_card { width: 100%; height: 350px; background-color: #949D54;} 
+    .img_box2 {float:left; width: 350px; height: 350px; background-color: #eee;}
+    .text_box2 {float:right; width: 400px; height: 300px; margin-top: 25px; background-color: #eee;}
 
 
   
@@ -121,6 +125,8 @@ padding:75px 220px; box-sizing: border-box; }
     padding:125px 175px; box-sizing: border-box; margin-bottom: 100px;background-color: #76BEA1;}
 
     .smart_card {width: 100%; height: 350px; background-color:#53DDCE;}
+      .img_box2 {float:left; width: 350px; height: 350px; background-color: #eee;}
+      .text_box2 {float:right; width: 400px; height: 300px; margin-top: 25px; background-color: #eee;}
 
 /*-----------------------------------------------------------*/
 
