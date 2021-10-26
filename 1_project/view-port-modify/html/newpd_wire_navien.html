@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  
+  <link rel="stylesheet" href="../fonts/fontAwesome/css/all.min.css" />
+  <link rel="stylesheet" href="../fonts/ibm_Plex/IBMPlex.css" />
   <link rel="stylesheet" href="../css/common/reset.css">
   <link rel="stylesheet" href="../css/common/common.css">  
   <link rel="stylesheet" href="../css/src/newpd_wire_navien.css">
@@ -22,24 +23,44 @@
       <div class="main_box">        
         <h1><a href="main_wire_navien.html"><img src="../multi/img/Home_Logo.svg" alt="navien" /></a></h1> 
         <div class="menu">
-          <button type="button">menu</button>
+          <button type="button"><i class="fas fa-bars"></i></button>
         </div>     
         <nav class="navigation">
           <h2 class="blind">navigation</h2>
           <ul class="gnb">
-            <li><a href="#">product</a></li>
-            <li><a href="#">magazine</a></li>
-            <li><a href="#">eco</a></li>
-          </ul>
-          <ul class="unb">
-            <li><a href="#">sign up</a></li>
-            <li><a href="#">log in</a></li>
-            <li><a href="#">c/s</a></li>
-          </ul>
-          <div class="search">
-            <button type="button">search</button>
-          </div>       
-        </nav>        
+            <li>
+              <div><a href="#">product</a></div>
+              <ul class="nav_list">
+                <li><a href="#">boiler</a></li>
+                <li><a href="#">water mat</a></li>
+                <li><a href="#">smart system</a></li>
+              </ul>            
+            </li>
+            <li>
+              <div><a href="#">magazine</a></div>
+              <ul class="nav_list">
+                <li><a href="#">magazine01</a></li>
+                <li><a href="#">magazine02</a></li>
+                <li><a href="#">magazine03</a></li>
+              </ul>
+            <li>
+              <div><a href="#">eco</a></div>
+              <ul class="nav_list">
+                <li><a href="#">eco summary01</a></li>
+                <li><a href="#">eco summary02</a></li>
+                <li><a href="#">eco news</a></li>
+              </ul>
+            </li>          
+          </ul>                
+        </nav>
+        <div class="unb">
+          <div class="customer"><a href="#">c/s</a></div>
+          <div class="log_in"><a href="#">log in</a></div>
+          <div class="sign_up"><a href="#">sign up</a></div>
+        </div>
+        <div class="search">
+          <button type="button"><i class="fas fa-search"></i></button>
+        </div>         
       </div>
     </header>
     <!--headBox-->
