@@ -24,16 +24,25 @@
   
   .next:hover {background-color: #fda;}
   .prev:hover {background-color: #fda;}
+  /* button*/
+
+  dd > a {display:block; width: 150px; height: 20px; margin-top: 15px;
+    border: 1px solid #171717;
+    background-color: #eee; font-weight: bold; text-align: center;}
+  /*see more*/  
+
+  .md_wrap { overflow:hidden; width: 900px; height: 350px;}
+  .md_cover { width: 400%; height: 350px;} /*---mdwrap,mdcover---*/
 
 /*---------------------------------------------------------------------*/
 
 /* head Box*/
 
-#headBox {position:fixed; left: 0; top: 0; z-index: 1000;
+#mainBox {position:fixed; left: 0; top: 0; z-index: 1000;
   width: 100%; height: 5rem;background-color: #fff;
   margin:auto; padding:1.5625rem; box-sizing: border-box; box-shadow: 0px 3px  2px #333;}
 
-  .header{  position: relative; width: 100%; max-width: 90rem; margin: auto;}
+  .main_box{  position: relative; width: 100%; max-width: 90rem; margin: auto;}
 
   h1 {float:left; width: 13.75rem; height: 2rem; margin: auto; margin-left: 6.25rem;}
 
@@ -86,41 +95,47 @@
 
 /*slogan box*/
 
-#slogan_box {width: 100%; height: auto; min-height: 400px; background-color: #eee;
+#slogan_box {width: 100%; height: auto; min-height: 400px; background-color: #E8EFEE;
 padding:75px 220px; box-sizing: border-box; }
 
-    .slogan_card {width: 100%; height: 250px; background-color: #171717;}
+    .slogan_card {width: 100%; height: 250px; 
+      background-color: #171717;
+      background-image: url(../../multi/img/slogan.jpg);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+    }
+      
 
 /*-----------------------------------------------------------*/
 
 /*md_box_01*/
 
-#md_box_01 {width: 100%; height: auto; min-height: 1600px;padding:100px 100px 100px; box-sizing: border-box;
-  background-color:#eee;}
-
+#md_box_01 {width: 100%; height: auto; min-height: 1600px;padding:100px 100px 100px; box-sizing: border-box;}
 
   .boiler_box{position:relative; width: 100%; height: 600px;
     padding:50px 175px  ; margin-top: 100px; margin-bottom: 100px;
-    background-color: #8559D6;}    
+    background-color: #C5D3D9;}
 
-    .boiler_card { width: 100%; height: 350px; background-color:#BAC58E;} 
-      .img_box {float:left; width: 350px; height: 350px; background-color: #eee;}
-      .text_box {float:right; width: 350px; height: 300px; margin-top: 25px; background-color: #eee;}
-        .text_box dt {font-weight: bold; font-size: 28px; margin-top: 30px;}
-        .text_box dd {font-weight:normal; font-size: 24px; margin-top: 30px;}
+    
+    .boiler_card {float:left; width: 900px; height: 350px; background-color:#C5D3D9;}     
+      .img_box {float:left; width: 350px; height: 350px; background-color: #333;}
+      .text_box {float:right; width: 350px; height: 300px; margin-top: 25px; background-color:#C5D3D9;}
+        .text_box dt {margin-left:10px; font-weight: bold; font-size: 28px; margin-top: 30px;}
+        .text_box dd {margin-left:10px; font-weight:normal; font-size: 24px; margin-top: 30px;}
 
   .hotmat_box {position:relative; width: 100%; height: 600px;
     padding:50px 175px; box-sizing: border-box; margin-bottom: 100px;
-    background-color: #8559D6;} 
+    background-color: #C5D3D9;} 
 
-  .hotmat_card { width: 100%; height: 350px; background-color: #949D54;} 
-    .img_box2 {float:left; width: 350px; height: 350px; background-color: #eee;}
-    .text_box2 {float:right; width: 350px; height: 300px; margin-top: 25px; background-color: #eee;}
+  .hotmat_card { float:left; width: 900px; height: 350px; background-color: #C5D3D9;} 
+    .img_box2 {float:left; width: 350px; height: 350px; background-color: #333;}
+    .text_box2 {float:right; width: 350px; height: 300px; margin-top: 25px; background-color: #C5D3D9;}
       .text_box2 dt {font-weight: bold; font-size: 28px; margin-top: 30px;}
       .text_box2 dd {font-weight:normal; font-size: 24px; margin-top: 30px;}
 
 /**버튼은 최상단 common work에 위치 함**/
-  
+/*** 커버와 랩관련 코드는 최상단 common work에 위치함 ***/  
 
 /*-----------------------------------------------------------*/
 
@@ -128,13 +143,13 @@ padding:75px 220px; box-sizing: border-box; }
 
 #developer_story {width: 100%; height: auto; min-height: 500px; 
   padding:100px; box-sizing: border-box;
-  background-color: #eee;}
+  background-color: #333;}
 
   .develop_card {width: 100%; height: 300px; 
-  padding: 50px 0px; box-sizing: border-box;  background-color: #D29D94;}
+  padding: 50px 0px; box-sizing: border-box;}
 
-    .develop_text { float:right; width:400px; height: 200px;
-      margin-right:200px ; background-color: #72C2E2;}
+    .develop_text { float:right; width:400px; height: 200px; color:#fff;
+      margin-right:200px ;}
       .develop_text dt {font-weight: bold; font-size: 28px; margin-top: 10px;}
       .develop_text dd {font-weight:normal; font-size: 24px; margin-top: 10px;} 
 
@@ -144,18 +159,21 @@ padding:75px 220px; box-sizing: border-box; }
 
 #md_box_02 {width: 100%; height: auto; min-height: 800px;
   padding:200px 100px; box-sizing: border-box; 
-  background-color: #eee;}
+  background-color: #fff;}
   
   .smart_box {position: relative; width: 100%; height: 600px;
-    padding:50px 175px 125px; box-sizing: border-box;background-color: #76BEA1;}
+    padding:50px 175px 125px; box-sizing: border-box;background-color: #E8EFEE;}
 
-    .smart_card {width: 100%; height: 350px; background-color:#53DDCE;}
-      .img_box3 {float:left; width: 350px; height: 350px; background-color: #eee;}
+    .smart_box h2 {margin-bottom: 50px;}
+
+    .smart_card {float:left; width: 900px; height: 350px; background-color:#E8EFEE;}
+      .img_box3 {float:left; width: 350px; height: 350px; background-color: #333;}
       .text_box3 {float:right; width: 350px; height: 300px; margin-top: 25px; background-color: #eee;}
         .text_box3 dt {font-weight: bold; font-size: 28px; margin-top: 30px;}
         .text_box3 dd {font-weight:normal; font-size: 24px; margin-top: 30px;}
 
 /**버튼은 최상단 common work에 위치 함**/
+/*** 커버와 랩관련 코드는 최상단 common work에 위치함 ***/  
 
 /*-----------------------------------------------------------*/
 
