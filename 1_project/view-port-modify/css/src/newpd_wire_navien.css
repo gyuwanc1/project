@@ -3,12 +3,31 @@
 
 /*work palace*/
 
-/* head Box*/
 
+ /** common work **/
 #wrap {
   width: 1440px; height: auto; min-height:31.25rem;
   margin: auto; 
   background-color: #fff; padding-top: 5rem;}
+
+  h2 {text-align: center; font-size: 32px; font-weight: bold;}
+
+  h3 { margin-bottom: 40px; font-size: 28px; text-align: center;}
+
+  .btn_i {position: absolute; top:50%; left:0; right: 0; z-index: 100;width:100%; height: 0; margin: auto; background-color: #333; 
+  }
+  .btn_i button {
+    width: 2.5rem; height: 2.5rem; background-color: #fff;border-radius: 100%;
+  }
+  .btn_i .next {float:right;}
+  .btn_i .prev {float:left;} 
+  
+  .next:hover {background-color: #fda;}
+  .prev:hover {background-color: #fda;}
+
+/*---------------------------------------------------------------------*/
+
+/* head Box*/
 
 #headBox {position:fixed; left: 0; top: 0; z-index: 1000;
   width: 100%; height: 5rem;background-color: #fff;
@@ -58,8 +77,7 @@
 .com_video {  
   position: absolute; z-index: 1;
   top: 50%; left:50%;
-  width: auto; height: auto;
-  width:auto;  height:auto;
+  width: 101%; height: auto;  
   min-width:100%; min-height:100%;
   max-width:200%; max-height:200%;
   transform:translate(-50%, -50%);  
@@ -80,23 +98,28 @@ padding:75px 220px; box-sizing: border-box; }
 #md_box_01 {width: 100%; height: auto; min-height: 1600px;padding:100px 100px 100px; box-sizing: border-box;
   background-color:#eee;}
 
-  .boiler_box{width: 100%; height: 600px;
-    padding:125px 175px; margin-top: 100px; margin-bottom: 100px;
-    background-color: #8559D6;}
 
-    .boiler_card {width: 100%; height: 350px; background-color:#BAC58E;} 
+  .boiler_box{position:relative; width: 100%; height: 600px;
+    padding:50px 175px  ; margin-top: 100px; margin-bottom: 100px;
+    background-color: #8559D6;}    
+
+    .boiler_card { width: 100%; height: 350px; background-color:#BAC58E;} 
       .img_box {float:left; width: 350px; height: 350px; background-color: #eee;}
-      .text_box {float:right; width: 400px; height: 300px; margin-top: 25px; background-color: #eee;}
+      .text_box {float:right; width: 350px; height: 300px; margin-top: 25px; background-color: #eee;}
+        .text_box dt {font-weight: bold; font-size: 28px; margin-top: 30px;}
+        .text_box dd {font-weight:normal; font-size: 24px; margin-top: 30px;}
 
-  .hotmat_box {width: 100%; height: 600px;
-    padding:125px 175px; box-sizing: border-box; margin-bottom: 100px;
+  .hotmat_box {position:relative; width: 100%; height: 600px;
+    padding:50px 175px; box-sizing: border-box; margin-bottom: 100px;
     background-color: #8559D6;} 
 
   .hotmat_card { width: 100%; height: 350px; background-color: #949D54;} 
     .img_box2 {float:left; width: 350px; height: 350px; background-color: #eee;}
-    .text_box2 {float:right; width: 400px; height: 300px; margin-top: 25px; background-color: #eee;}
+    .text_box2 {float:right; width: 350px; height: 300px; margin-top: 25px; background-color: #eee;}
+      .text_box2 dt {font-weight: bold; font-size: 28px; margin-top: 30px;}
+      .text_box2 dd {font-weight:normal; font-size: 24px; margin-top: 30px;}
 
-
+/**버튼은 최상단 common work에 위치 함**/
   
 
 /*-----------------------------------------------------------*/
@@ -112,21 +135,27 @@ padding:75px 220px; box-sizing: border-box; }
 
     .develop_text { float:right; width:400px; height: 200px;
       margin-right:200px ; background-color: #72C2E2;}
+      .develop_text dt {font-weight: bold; font-size: 28px; margin-top: 10px;}
+      .develop_text dd {font-weight:normal; font-size: 24px; margin-top: 10px;} 
 
 /*-----------------------------------------------------------*/
 
 /*md_box_02 */
 
 #md_box_02 {width: 100%; height: auto; min-height: 800px;
-  padding:100px; box-sizing: border-box; 
+  padding:200px 100px; box-sizing: border-box; 
   background-color: #eee;}
   
-  .smart_box {width: 100%; height: 600px;
-    padding:125px 175px; box-sizing: border-box; margin-bottom: 100px;background-color: #76BEA1;}
+  .smart_box {position: relative; width: 100%; height: 600px;
+    padding:50px 175px 125px; box-sizing: border-box;background-color: #76BEA1;}
 
     .smart_card {width: 100%; height: 350px; background-color:#53DDCE;}
-      .img_box2 {float:left; width: 350px; height: 350px; background-color: #eee;}
-      .text_box2 {float:right; width: 400px; height: 300px; margin-top: 25px; background-color: #eee;}
+      .img_box3 {float:left; width: 350px; height: 350px; background-color: #eee;}
+      .text_box3 {float:right; width: 350px; height: 300px; margin-top: 25px; background-color: #eee;}
+        .text_box3 dt {font-weight: bold; font-size: 28px; margin-top: 30px;}
+        .text_box3 dd {font-weight:normal; font-size: 24px; margin-top: 30px;}
+
+/**버튼은 최상단 common work에 위치 함**/
 
 /*-----------------------------------------------------------*/
 
