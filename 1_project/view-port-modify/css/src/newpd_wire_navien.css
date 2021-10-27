@@ -42,47 +42,58 @@
   width: 100%; height: 80px;background-color: #fff;
   margin:auto; padding:25px; box-sizing: border-box; box-shadow: 0px 3px  2px #333;}
 
-  .main_box{  position: relative; width: 100%; max-width: 1440px; margin: auto;}
+  .main_box{  position: relative; width: 100%; height:100%; min-height: 30px; max-width: 1440px; margin: auto;}
 
   h1 {float:left; width: 220px; height: 32px; margin: auto; margin-left: 100px;}
 
   h1 img {width: 220px ; height: 28px;}
 
-  .menu button {width: 100%; height: 100%;}
 
-  .menu{  position:absolute; top:0; left:0;
-  width: 32px; height: 32px;  margin-left:20px;}
 
-  .navigation{float:right; width:auto; height: 30px; margin-top: 16px; }  
+  .navigation{float:right; width:auto; height: 30px; line-height: 30px;}  
 
-  .gnb {float:left; width: auto; height: 100%}  
+  .gnb {float:left;  width: auto; height: auto;background-color: #fff;} 
+  
+  .gnb div {text-indent: 10px;}
 
-  .navigation li {float:left; width: 100px; height: 100%; text-align:center;
-    padding-right: 10px;margin-right: 40px; background-color:#fff;} 
+  .gnb li {float:left; width: 100px; height: auto; min-height: 30px; text-align:center;
+    padding-right: 10px;  margin-right: 40px; background-color:#fff;} 
+    .gnb li:last-child {margin-right: 0;}
+    .nav_list a {display: block;
+      margin-top: 10px; text-align: center;
+    width: 100px; height: auto;}
 
-  .nav_list {display: none;}
-  .nav_list li
-  {width: 100px; height: auto; border-bottom: 1px solid #333;    
-  }  
+  .nav_list {display:none; height:auto; background-color: #fff;}
+  .nav_list li  {width: 100px; margin-top: 30px; height: auto;}
+  
+  .gnb:hover .nav_list {display: block;}
 
-  .nav_list a {display: block;
-    margin-top: 10px; text-align: center;
-  width: 100px; height: auto; background-color: #C5D3D9;}
+  .nav_list li:hover {background-color: #C5D3D9;}
+  
 
-  .navigation:hover .nav_list {display: block;}
+  .unb {float:left; width: auto; height: 24px; }
+  .unb > div { float:left; width: 90px; height: 100%; padding: 0 5px; box-sizing: border-box; }
+  .unb a {display: block; width:100%; height: 30px; text-align: center;}
 
-  .unb {float:right; width: 400px; height: 24px; }
+  .search {float:right;  width: 40px; height: 40px; margin-top: -5px;}
 
-  .unb a {display: block; float: left; width: 70%; height: 30px; margin-top: 16px;
-  text-align: center;}
+  .search button {width: 100%; height: 100%; }
 
-  .sign_up {float:right; width: 100px; height: 100%; padding-right:5px;}
-  .log_in {float:right; width: 100px; height: 100%;}
-  .customer {float:right; width: 100px; height: 100%;}
+  .search_area {display: none; width: 100%; height: 100%;}  
 
-  .search {position:absolute; top:10%; right:0;  width: 40px; height: 40px; }
+  .search_area fieldset {position:absolute; top: 40px; right: 0; width: auto; height: 80px; background-color: #eee;
+    padding:10px; border: 1px solid #333; font-weight:bold;}
+  .search_area input {width: 150px; height: 30px;}
+  .search_area button {width: 50px; height: 30px; border: 1px solid #333;}
 
-  .search button {width: 100%; height: 100%; text-align: center; line-height: 50px;}  
+  .search_area  button:hover { 
+    transform:translateY(-5px); box-shadow:0 9px 4px rgba(120, 133, 180, 0.616); 
+    background-color: #171717; color:#fff;}
+
+    .search_area button:focus { background-color:#fda; font-size: 20px;}
+    .search_area  button:active{ background-color:#C5D3D9; color: #171717;}  
+
+    
 /*-----------------------------------------------------------*/
 
 /*video commercial*/

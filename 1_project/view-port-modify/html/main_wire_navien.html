@@ -20,31 +20,62 @@
 <body>
   <!-- layout -->
   <div id="wrap">
-    <header id="headBox">
-      <div class="header">        
-        <h1><a href="#"><img src="../multi/img/Home_Logo.svg" alt="Main_Home"></a></h1> 
-        <div class="menu">
-          <button type="button">menu</button>
-        </div>     
-        <nav class="navigation">
-          <h2 class="blind">navigation</h2>
-          <ul class="gnb">
-            <li><a href="#">product</a></li>
-            <li><a href="#">magazine</a></li>
-            <li><a href="#">eco</a></li>
-          </ul>
-          <ul class="unb">
-            <li><a href="#">sign up</a></li>
-            <li><a href="#">log in</a></li>
-            <li><a href="#">c/s</a></li>
-          </ul>
-
+    <header id="mainBox">
+      <div class="main_box">        
+        <h1><a href="main_wire_navien.html"><img src="../multi/img/Home_Logo.svg" alt="navien" /></a></h1>        
+          <nav class="navigation">
+            <h2 class="blind">navigation</h2>
+            <ul class="gnb">
+              <li>
+                <div><a href="#">product</a></div>
+                <ul class="nav_list">
+                  <li><a href="#">boiler</a></li>
+                  <li><a href="#">water mat</a></li>
+                  <li><a href="#">smart system</a></li>
+                </ul>
+              </li>
+              <li>
+                <div><a href="#">magazine</a></div>
+                <ul class="nav_list">
+                  <li><a href="#">magazine01</a></li>
+                  <li><a href="#">magazine02</a></li>
+                  <li><a href="#">magazine03</a></li>
+                </ul>
+              <li>
+                <div><a href="#">eco</a></div>
+                <ul class="nav_list">
+                  <li><a href="#">eco summary01</a></li>
+                  <li><a href="#">eco summary02</a></li>
+                  <li><a href="#">eco news</a></li>
+                </ul>
+              </li>
+            </ul>         
+          <div class="unb">
+            <div class="log_in"><a href="#">log in</a></div>
+            <div class="sign_up"><a href="#">sign up</a></div>
+            <div class="customer"><a href="#">c/s</a></div>
+          </div>
           <div class="search">
-            <button type="button"><i class="fas fa-search"></i></button>
-          </div> 
-      
-        </nav>
-    </div>
+            <div class="search_btn">
+              <button type="button">
+                <i class="fas fa-search"></i>
+                <span class="blind">검색창 입니다.</span>
+              </button>
+            </div>
+            <div class="search_area">
+              <form action="#" method="get">
+                <fieldset>
+                  <legend>검색</legend>
+                  <label for="search_inner"> <span class="blind">검색어를 입력해 주세요.</span></label>
+                  <input type="text" id="search_inner" name="" value=""
+                  placeholder="검색어를 입력해주세요."></input>
+                  <button type="submit">검색</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>         
+        </nav>  
+      </div>
     </header>
 
     <section id="commercial">
