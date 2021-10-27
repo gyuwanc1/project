@@ -24,11 +24,15 @@
   
   .next:hover {background-color: #fda;}
   .prev:hover {background-color: #fda;}
+  .btn_i button:focus { background-color:#fda; font-size: 20px;}
+  .btn_i button:active{ background-color:#C5D3D9; color: #171717;}  
   /* button*/
 
   dd > a {display:block; width: 150px; height: 30px; margin-top: 15px;
     border: 1px solid #171717;
-    background-color: #eee; font-weight: bold; text-align: center;}
+    background-color: #fff; font-weight: bold; text-align: center;}
+
+    dd:hover a {background-color: #fda;}
   /*see more*/  
 
   .md_wrap { overflow:hidden; width: 900px; height: 350px;}
@@ -79,7 +83,8 @@
 
   .search button {width: 100%; height: 100%; }
 
-  .search_area {display: none; width: 100%; height: 100%;}  
+  .search_area { width: 100%; height: 100%;} 
+  /*display:none 으로 감추고 JS로 실현 할 것 */ 
 
   .search_area fieldset {position:absolute; top: 40px; right: 0; width: auto; height: 80px; background-color: #eee;
     padding:10px; border: 1px solid #333; font-weight:bold;}
