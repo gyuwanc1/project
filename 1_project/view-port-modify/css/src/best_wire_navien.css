@@ -7,6 +7,8 @@
   /*common wirk place */
   header, section, article, footer { margin-bottom: 100px; }
 
+  
+
 
   /* work_place */
 
@@ -69,6 +71,19 @@
   }
   #bestofbest h2 {width: 215px; height: 50px; margin-bottom: 50px; background-color: #D4D0B8;}
   .best_box {width: 1000px; height: 400px; background-color: #393DE0;}
+  .btn_i {position: absolute; top:50%; left:0; right: 0; z-index: 100;width:100%; height: 0; margin: auto; background-color: #333; 
+  }
+  .btn_i button {
+    width: 40px; height: 40px; background-color: #fff;border-radius: 100%;
+  }
+  .btn_i .next {float:right;}
+  .btn_i .prev {float:left;} 
+  
+  .next:hover {background-color: #fda;}
+  .prev:hover {background-color: #fda;}
+  .btn_i button:focus { background-color:#fda; font-size: 20px;}
+  .btn_i button:active{ background-color:#C5D3D9; color: #171717;}  
+ 
 
 
 
