@@ -19,84 +19,152 @@
   <!-- layout -->
   <div id="wrap">
     <header id="header">
-      <h1><span class="blind">navienhosue</span></h1>
-      <nav class="navigation">
-        <h2 class="blind">navigation</h2>
-        <ul class="gnb">
-          <li>
-            <div><a href="#">product</a></div>
-            <ul class="nav_list">
-              <li><a href="#">boiler</a></li>
-              <li><a href="#">water mat</a></li>
-              <li><a href="#">smart system</a></li>
+      <div class="main_box">
+        <h1><a href="../html/main_wire_navien.html"><img src="../multi/img/Home_Logo.svg" alt="navien" /></a></h1>
+        <nav class="navigation">
+            <h2 class="blind">navigation</h2>
+            <ul class="gnb">
+              <li>
+                <div><a href="#">product</a></div>
+                <ul class="nav_list">
+                  <li><a href="#">boiler</a></li>
+                  <li><a href="#">water mat</a></li>
+                  <li><a href="#">smart system</a></li>
+                </ul>
+              </li>
+              <li>
+                <div><a href="#">magazine</a></div>
+                <ul class="nav_list">
+                  <li><a href="#">magazine01</a></li>
+                  <li><a href="#">magazine02</a></li>
+                  <li><a href="#">magazine03</a></li>
+                </ul>
+              <li>
+                <div><a href="#">eco</a></div>
+                <ul class="nav_list">
+                  <li><a href="#">eco summary01</a></li>
+                  <li><a href="#">eco summary02</a></li>
+                  <li><a href="#">eco news</a></li>
+                </ul>
+              </li>
             </ul>
-          </li>
-          <li>
-            <div><a href="#">magazine</a></div>
-            <ul class="nav_list">
-              <li><a href="#">magazine01</a></li>
-              <li><a href="#">magazine02</a></li>
-              <li><a href="#">magazine03</a></li>
-            </ul>
-          <li>
-            <div><a href="#">eco</a></div>
-            <ul class="nav_list">
-              <li><a href="#">eco summary01</a></li>
-              <li><a href="#">eco summary02</a></li>
-              <li><a href="#">eco news</a></li>
-            </ul>
-          </li>
-        </ul>         
-      <div class="unb">
-        <div class="log_in"><a href="#">log in</a></div>
-        <div class="sign_up"><a href="#">sign up</a></div>
-        <div class="customer"><a href="#">c/s</a></div>
+          <div class="unb">
+            <div class="log_in"><a href="#">log in</a></div>
+            <div class="sign_up"><a href="#">sign up</a></div>
+            <div class="customer"><a href="#">c/s</a></div>
+          </div>
+          <div class="search">
+            <div class="search_btn">
+              <button type="button">
+                <i class="fas fa-search"></i>
+                <span class="blind">검색버튼 입니다.</span>
+              </button>
+            </div>
+            <div class="search_area">
+              <form action="#" method="get">
+                <fieldset>
+                  <legend>검색</legend>
+                  <label for="search_inner"> <span class="blind">검색어를 입력해 주세요.</span></label>
+                  <input type="text" id="search_inner" name="" value=""
+                  placeholder="검색어를 입력해주세요."></input>
+                  <button type="submit">검색</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>         
+        </nav>
       </div>
-      <div class="search">
-        <div class="search_btn">
-          <button type="button">
-            <i class="fas fa-search"></i>
-            <span class="blind">검색버튼 입니다.</span>
-          </button>
-        </div>
-        <div class="search_area">
-          <form action="#" method="get">
-            <fieldset>
-              <legend>검색</legend>
-              <label for="search_inner"> <span class="blind">검색어를 입력해 주세요.</span></label>
-              <input type="text" id="search_inner" name="" value=""
-              placeholder="검색어를 입력해주세요."></input>
-              <button type="submit">검색</button>
-            </fieldset>
-          </form>
-        </div>
-      </div>         
-    </nav>
     </header>
 
     <section id="bestofbest">
       <h2>best of best</h2>      
       <ul class="best_box">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <div class="btn_i">
-          <button type="button" class="next">next</button>
-          <button type="button" class="prev">prev</button>
-        </div>
+        <li class="boiler_card">
+          <div class="img_box"></div>
+          <dl class="text_box">
+            <dt>Lorem</dt>
+            <dd>Lorem ipsum dolor sit ametconsectetur adipisicing elit.Eaut itaque. 
+              Quisquam architecto ut rerum accusantium
+                tenetur accusamus fugit corrupti.
+                <a href="#" tabindex="0"><span class="blind" >about product</span>see more</a>
+            </dd>
+          </dl>
+        </li>              
       </ul>
-     
-      
+      <div class="btn_i">
+        <button type="button" class="next">next</button>
+        <button type="button" class="prev">prev</button>
+      </div>      
     </section>
 
     <article id="boiler_box">
- 
+      <h2>boiler</h2>
+      <ul class="boiler_card_box">
+        <li>
+          <div class="md_img_box"></div>
+          <dl>
+            <dt></dt>
+            <dd></dd>
+          </dl>
+        </li>
+        <li>
+          <div class="md_img_box2"></div>
+          <dl>
+            <dt></dt>
+            <dd></dd>
+          </dl>
+        </li>
+        <li>
+          <div class="md_img_box3"></div>
+          <dl>
+            <dt></dt>
+            <dd></dd>
+          </dl>
+        </li>
+        <li>
+          <div class="md_img_box4"></div>
+          <dl>
+            <dt></dt>
+            <dd></dd>
+          </dl>
+        </li>
+      </ul> 
     </article>
-    <article id="mat_box"></article>
-    <article id="smart_box"></article>
-    <footer id="foot_box"></footer>
-    
+
+    <article id="mat_box">
+      <h2>hot water mat</h2>
+      <ul class="hot_water_mat_box">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </article>
+
+    <article id="smart_box">
+      <h2>smart system</h2>
+      <ul class="smart_system_card_box">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+    </article>
+
+    <footer id="footbox">
+      <h2 class="blind">company info</h2>
+      <div class="use_info">
+        <ul class="temp">
+          <li><a href="#">terms</a></li>
+          <li><a href="#">privacy</a></li>
+          <li><a href="#">cookies</a></li>
+          <li><a href="#">certificate</a></li>
+        </ul>
+      </div>
+      <div class="com_info"></div>
+    </footer>
+
 
   </div>
 
