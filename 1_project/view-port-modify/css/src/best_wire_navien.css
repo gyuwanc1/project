@@ -12,9 +12,11 @@
 
   /* work_place */
 
-  #header {
+  #header {position:fixed; left: 0; top: 0; z-index: 1000;
     width: 100%; height: 80px; background-color: #fff;
   }
+  .main_box{width: 100%; height:100%; min-height: 30px; max-width: 1440px; margin: auto;}
+
     h1{ float:left; width: 220px; height: 32px; margin: auto; margin-top: 20px; margin-left: 100px;
     background-image: url(../../multi/img/Home_Logo.svg); 
     background-repeat: no-repeat;
@@ -66,11 +68,16 @@
   .search_area  button:active{ background-color:#C5D3D9; color: #171717;}  
 
 /*best of best*/
-  #bestofbest {width: 100%; height: 580px; 
+  #bestofbest { position: relative; width: 100%; height: 580px; margin-top:80px;
     padding:0px 220px 50px; background-color: #FFDB66;
   }
   #bestofbest h2 {width: 215px; height: 50px; margin-bottom: 50px; background-color: #D4D0B8;}
   .best_box {width: 1000px; height: 400px; background-color: #393DE0;}
+    .boiler_card {float:left; width: 1000px; height: 400px; background-color:#C5D3D9;}     
+    .img_box {float:left; width: 400px; height: 400px; background-color: #333;}
+    .text_box {float:right; width: 350px; height: 300px; margin-top: 25px; background-color:#C5D3D9;}
+      .text_box dt {margin-left:10px; font-weight: bold; font-size: 28px; margin-top: 30px;}
+      .text_box dd {margin-left:10px; font-weight:normal; font-size: 24px; margin-top: 30px;}
   .btn_i {position: absolute; top:50%; left:0; right: 0; z-index: 100;width:100%; height: 0; margin: auto; background-color: #333; 
   }
   .btn_i button {
@@ -85,21 +92,53 @@
   .btn_i button:active{ background-color:#C5D3D9; color: #171717;}  
  
 
-
-
+/*  boilerbox */
   #boiler_box {
     width: 100%; height: 580px; background-color: #777;
+    padding:0px 220px 100px;
   }
+    #boiler_box h2 {
+      width: 215px; height: 50px; margin-bottom: 50px; background-color: #D4D0B8;
+    }
+    .boiler_card_box {display:flex; justify-content: space-around;
+      width: 1000px; height: 380px; background-color:#D4D0B8;
+    }
+    .boiler_card_box li {
+      width: 200px; height: 280px; background-color:aqua; margin: auto;
+    }
+
+
+
+
 
   #mat_box {
     width: 100%; height: 580px; background-color: #FB6ABF;
+    padding:0px 220px 100px;
   }
+    #mat_box h2 {
+    width: 215px; height: 50px; margin-bottom: 50px; background-color: #D4D0B8;
+    }
+    .hot_water_mat_box {
+    width: 1000px; height: 380px; background-color:#D4D0B8;
+    }
+
 
   #smart_box {
-    width: 100%; height: 500px; background-color: #FD931A;
+    width: 100%; height: 580px; background-color: #FD931A;
+    padding:0px 220px 100px;
   }
+    #smart_box h2 {
+    width: 215px; height: 50px; margin-bottom: 50px; background-color: #D4D0B8;
+    }
+    .smart_system_card_box {
+    width: 1000px; height: 380px; background-color:#D4D0B8;
+    }
 
-  #foot_box {
-    width: 100%; height: 250px; background-color: #171717;
-  }
+
+  #footbox {width:100%; height: 250px; background-color: #dfdfdf;}
+    .use_info {float:left;width: 100%; height: 60px;}
+    .temp {float: left; width: auto; height: 60px;margin-left: 100px;}
+    .temp li {float:left; width: 70px; height: 100%; margin-right: 30px; 
+    text-align:center; line-height: 60px;}
+    .com_info {float:left;width: 100%; height: 190px; background-color: #333;} 
 

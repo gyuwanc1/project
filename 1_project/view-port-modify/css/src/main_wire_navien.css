@@ -139,9 +139,12 @@ padding-top: 4.6875rem; box-sizing: border-box;}
   .best_box   li:last-child {margin-right: 0; }
   
   .b_button {clear:both; width: 100%; height: 1.875rem; text-align: center; }
-    .best_md {width: 18.125rem; height: 1.875rem;border-radius: 1.875rem; background-color: #eee;}
+  .b_button a {width: 18.125rem; height: 1.875rem; margin: auto;
+    text-align: center; line-height: 1.875rem;
+    border-radius: 1.875rem; background-color: #eee;}
     
-    .best_md:hover {background-color: #fda;}
+  
+    .b_button a:hover {background-color: #fda;}
 
 /*-------------------------------------------------------*/
 
