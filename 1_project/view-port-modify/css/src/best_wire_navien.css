@@ -2,10 +2,11 @@
 /* best_wire_navien.css */
 
 #wrap {width: 1440px; height: auto; min-height: 300px; 
-  margin:auto; background-color: #eee;}
+  margin:auto;}
 
   /*common wirk place */
   header, section, article, footer { margin-bottom: 100px; }
+  h2 {text-align: center; line-height: 50px; font-weight: bold;}  
 
   
 
@@ -13,9 +14,10 @@
   /* work_place */
 
   #header {position:fixed; left: 0; top: 0; z-index: 1000;
-    width: 100%; height: 80px; background-color: #fff;
+    width: 100%; height: 80px; background-color: #fff;box-shadow: 0px 3px  2px #333;
   }
-  .main_box{width: 100%; height:100%; min-height: 30px; max-width: 1440px; margin: auto;}
+  .main_box{position:relative; width: 100%; height:100%; max-width: 1440px; min-height: 30px;  margin: auto;
+    }
 
     h1{ float:left; width: 220px; height: 32px; margin: auto; margin-top: 20px; margin-left: 100px;
     background-image: url(../../multi/img/Home_Logo.svg); 
@@ -23,6 +25,7 @@
     background-position:50% 50%;
     background-size: contain;
 }
+      h1 a {display: block; width: 220px; height: 32px;}
 .navigation{position: relative; float:right; width:auto; height: 30px; line-height: 30px; margin-top: 30px;}  
 
 .gnb {float:left;  width: auto; height: auto;background-color: #fff;} 
@@ -69,13 +72,13 @@
 
 /*best of best*/
   #bestofbest { position: relative; width: 100%; height: 580px; margin-top:80px;
-    padding:0px 220px 50px; background-color: #FFDB66;
+    padding:0px 220px 50px; background-color:#E8EFEE;
   }
-  #bestofbest h2 {width: 215px; height: 50px; margin-bottom: 50px; background-color: #D4D0B8;}
-  .best_box {width: 1000px; height: 400px; background-color: #393DE0;}
-    .boiler_card {float:left; width: 1000px; height: 400px; background-color:#C5D3D9;}     
+  #bestofbest h2 {width: 215px; height: 50px; margin-bottom: 50px; background-color: #E8EFEE;}
+  .best_box {width: 1000px; height: 400px;}
+    .boiler_card {float:left; width: 1000px; height: 400px; background-color:#E8EFEE;;}     
     .img_box {float:left; width: 400px; height: 400px; background-color: #333;}
-    .text_box {float:right; width: 350px; height: 300px; margin-top: 25px; background-color:#C5D3D9;}
+    .text_box {float:right; width: 350px; height: 300px; margin-top: 50px; background-color:#E8EFEE;}
       .text_box dt {margin-left:10px; font-weight: bold; font-size: 28px; margin-top: 30px;}
       .text_box dd {margin-left:10px; font-weight:normal; font-size: 24px; margin-top: 30px;}
   .btn_i {position: absolute; top:50%; left:0; right: 0; z-index: 100;width:100%; height: 0; margin: auto; background-color: #333; 
@@ -94,45 +97,83 @@
 
 /*  boilerbox */
   #boiler_box {
-    width: 100%; height: 580px; background-color: #777;
+    width: 100%; height: 580px; background-color: #fff; margin-top: 100px;
     padding:0px 220px 100px;
   }
+    #boiler_box a {display: block; width: 190px; height: 160px; }
+
+    .boiler_card_box li div a {
+      width: 190px; height: 160px;
+    }
+
     #boiler_box h2 {
-      width: 215px; height: 50px; margin-bottom: 50px; background-color: #D4D0B8;
+      width: 215px; height: 50px; margin-bottom: 50px; background-color: #E8EFEE;
     }
     .boiler_card_box {display:flex; justify-content: space-around;
-      width: 1000px; height: 380px; background-color:#D4D0B8;
+      width: 1000px; height: 380px; background-color:#E8EFEE;
     }
     .boiler_card_box li {
-      width: 200px; height: 280px; background-color:aqua; margin: auto;
+      width: 200px; height: 280px; border:1px solid #171717; margin: auto; padding:5px;
     }
+    .boiler_card_box li div {width: 190px; height: 160px; background-color:#eee; margin: auto;}
+    .boiler_card_box li dl {width: 190px; height: 100px; background-color: #fff; margin-top: 10px;;}
+    
+
+    .boiler_card_box dt {width: 100%; height: 24px;  margin-bottom: 20px; }
+    .boiler_card_box dd {width: 100% ; height: 56px; }
 
 
 
 
 
   #mat_box {
-    width: 100%; height: 580px; background-color: #FB6ABF;
+    width: 100%; height: 580px; background-color: #E8EFEE;
     padding:0px 220px 100px;
   }
+    
     #mat_box h2 {
-    width: 215px; height: 50px; margin-bottom: 50px; background-color: #D4D0B8;
+    width: 215px; height: 50px; margin-bottom: 50px; background-color: #E8EFEE;
     }
-    .hot_water_mat_box {
-    width: 1000px; height: 380px; background-color:#D4D0B8;
+
+    #mat_box a {display: block; width: 190px; height: 160px; }
+
+    .hot_water_mat_box {display:flex; justify-content: space-around;
+    width: 1000px; height: 380px; background-color:#E8EFEE;
     }
+
+    .hot_water_mat_box li {
+      width: 200px; height: 280px; border:1px solid #171717; margin: auto; padding:5px;
+    }
+    .hot_water_mat_box li div {width: 190px; height: 160px; background-color:#eee; margin: auto;}
+    .hot_water_mat_box li dl {width: 190px; height: 100px; background-color: #fff; margin-top: 10px;;}
+
+    .hot_water_mat_box dt {width: 100%; height: 24px; margin-bottom: 20px; }
+    .hot_water_mat_box dd {width: 100% ; height: 56px;}
 
 
   #smart_box {
-    width: 100%; height: 580px; background-color: #FD931A;
+    width: 100%; height: 580px; background-color: #C5D3D9;
     padding:0px 220px 100px;
   }
     #smart_box h2 {
-    width: 215px; height: 50px; margin-bottom: 50px; background-color: #D4D0B8;
+    width: 215px; height: 50px; margin-bottom: 50px; background-color: #C5D3D9;
     }
-    .smart_system_card_box {
-    width: 1000px; height: 380px; background-color:#D4D0B8;
+
+    #smart_box a {display: block; width: 190px; height: 160px; }
+
+    .smart_system_card_box {display:flex; justify-content: space-around;
+    width: 1000px; height: 380px; background-color:#C5D3D9;
     }
+    .smart_system_card_box li {
+      width: 200px; height: 280px; border:1px solid #171717;
+      margin: auto; padding:5px;
+    }
+    .smart_system_card_box li div {width: 190px; height: 160px; background-color:#eee; margin: auto;}
+    .smart_system_card_box li dl {width: 190px; height: 100px; background-color: #fff; margin-top: 10px;;}
+
+    .smart_system_card_box dt {width: 100%; height: 24px; margin-bottom: 20px; }
+    .smart_system_card_box dd {width: 100% ; height: 56px; }
+
 
 
   #footbox {width:100%; height: 250px; background-color: #dfdfdf;}
