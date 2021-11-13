@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*product_site.css*/
+
+/* smartphone*/
+@media all and (max-width:767px){
+
+}
+
+/* tablet*/
+@media all and (min-width:768px) and (max-width:1279px) {
+
+}
+
+/* laptop*/
+@media all and (min-width:1280px) and (max-width:1439px) {
+
+}
+
+/* pc */
+@media all and (min-width:1440px) {
+  
+}
