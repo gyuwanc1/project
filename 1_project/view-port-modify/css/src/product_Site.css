@@ -4,19 +4,43 @@
 /* smartphone*/
 @media all and (max-width:767px){
 
+  #wrap {min-width:320px; min-height:3826px; background-color: #777;}
+    #headBox {width:100%; height: 80px; background-color: aqua;}
+    #md_Area {width: 100%; height: 1436px; background-color: #17F50A; margin-bottom: 100px;}
+    #recom_box {width: 100%; height: 600px; background-color: #AFE113; margin-bottom: 100px;}
+    #detail_ex {width: 100%; height: 1170px; background-color: #A133D2; margin-bottom: 100px;}
+    #footbox {width: 100%; height: 240px; background-color: #15E2D8;}
 }
 
 /* tablet*/
 @media all and (min-width:768px) and (max-width:1279px) {
 
+  #wrap {min-width:768px; max-width: 1279px; min-height:3536px; background-color: #777;}
+    #headBox {width:100%; height: 80px; background-color: aqua;}
+    #md_Area {width: 100%; height: 1216px; background-color: #17F50A; margin-bottom: 100px;}
+    #recom_box {width: 100%; height: 600px; background-color: #AFE113; margin-bottom: 100px;}
+    #detail_ex {width: 100%; height: 1100px; background-color: #A133D2; margin-bottom: 100px;}
+    #footbox {width: 100%; height: 240px; background-color: #15E2D8;}
 }
 
 /* laptop*/
 @media all and (min-width:1280px) and (max-width:1439px) {
 
+  #wrap {min-width:1280px; max-width: 1439px; min-height:3004px; background-color: #777;}
+    #headBox {width:100%; height: 80px; background-color: aqua;}
+    #md_Area {width: 100%; height: 700px; background-color: #17F50A; margin-bottom: 100px;}
+    #recom_box {width: 100%; height: 600px; background-color: #AFE113; margin-bottom: 100px;}
+    #detail_ex {width: 100%; height: 1100px; background-color: #A133D2; margin-bottom: 100px;}
+    #footbox {width: 100%; height: 224px; background-color: #15E2D8;}
 }
 
 /* pc */
 @media all and (min-width:1440px) {
-  
-}
+
+  #wrap {min-width:1440px; min-height:3004px; background-color: #777;}
+  #headBox {width:100%; height: 80px; background-color: aqua;}
+  #md_Area {width: 100%; height: 700px; background-color: #17F50A; margin-bottom: 100px;}
+  #recom_box {width: 100%; height: 600px; background-color: #AFE113; margin-bottom: 100px;}
+  #detail_ex {width: 100%; height: 1100px; background-color: #A133D2; margin-bottom: 100px;}
+  #footbox {width: 100%; height: 224px; background-color: #15E2D8;}
+  }
