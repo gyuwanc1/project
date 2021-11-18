@@ -17,9 +17,16 @@ body {width: 100%;}
 
   
   #product_area {width: 100%; height: 1216px; background-color:#E8EFEE; padding: 100px 134px; }
+  #product_area ul {width: 100%; height: 1016px; background-color: #C5D3D9;}
+  #product_area li {width: 100%; height: 1016px; background-color: #C5D3D9;}
+   #product_area div{width: 500px; height: 500px; background-color: #555; margin: auto;}
+   #product_area dl {width: 100%; height: 500px; background-color: #C5D3D9; padding:50px 0px;}
+   #product_area dt {width: 100%; height: 30px; background-color: #E8EFEE; margin-bottom:40px ;}
+   #product_area dd {width: 100%; height: 200px; background-color: #E8EFEE;}
 
 
 
+/*================================================================product_area*/
 
 
 
