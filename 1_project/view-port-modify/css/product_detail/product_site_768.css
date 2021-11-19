@@ -19,10 +19,18 @@ body {width: 100%;}
   #product_area {width: 100%; height: 1216px; background-color:#E8EFEE; padding: 100px 134px; }
   #product_area ul {width: 100%; height: 1016px; background-color: #C5D3D9;}
   #product_area li {width: 100%; height: 1016px; background-color: #C5D3D9;}
-   #product_area div{width: 500px; height: 500px; background-color: #555; margin: auto;}
-   #product_area dl {width: 100%; height: 500px; background-color: #C5D3D9; padding:50px 0px;}
+   .md_img {width: 500px; height: 500px; background-color: #555; margin: auto;}
+   #product_area dl {width: 100%; height: 320px; background-color: #C5D3D9; padding:50px 0px;}
    #product_area dt {width: 100%; height: 30px; background-color: #E8EFEE; margin-bottom:40px ;}
    #product_area dd {width: 100%; height: 200px; background-color: #E8EFEE;}
+
+    .input_box {width: 100%; height: 180px; padding:40px 60px;}
+    .btn_area {display:flex; justify-content: space-between; 
+      width: 390px; height: 80px; background-color: #eee;}
+    .btn_area input {width: 150px; height: 80px; padding: 0; border: 0;}
+  
+    .add_cart_btn {width: 200px; height: 80px; background-color: #eee;}
+    .add_cart_btn button {width: 200px; height: 80px; background-color: #fff ;}
 
 
 
