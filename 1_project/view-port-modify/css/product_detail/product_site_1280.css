@@ -105,6 +105,12 @@ body {width: 100%;}
 /*===================================================================md_detail_explain*/
 
 
-      #footBox {width: 100%; height: 224px; background-color: aqua;}
+      #footBox {width: 100%; height: 224px;}
+      .info {width: 100%; height: 60px; background-color: #dfdfdf;}
+      .navien_logo {display: none; }
+      .black_logo {width: 100%; height: 164px; background-color: #171717;}
+
+/*==============================================================================footBox*/      
+      
 
 }
