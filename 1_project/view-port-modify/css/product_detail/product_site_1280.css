@@ -22,12 +22,13 @@ body {width: 100%;}
       .gnb li {float:left; width: 100px; height: auto; min-height: 30px; text-align:center;
         padding-right: 10px;  margin-right: 40px; background-color:#fff;} 
         .gnb li:last-child {margin-right: 0;}
-        .nav_list a {display: block;
-          margin-top: 10px; text-align: center;
-        width: 100px; height: auto;}
-
+      
       .nav_list {display:none; height:auto; background-color: #fff;}
       .nav_list li  {width: 100px; margin-top: 30px; height: auto;}
+      .nav_list a {display: block;
+        margin-top: 10px; text-align: center;
+      width: 100px; height: auto;}
+
 
       .gnb:hover .nav_list {display: block;}
 
