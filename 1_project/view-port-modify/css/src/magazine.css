@@ -397,5 +397,323 @@
     color: #171717;
   }
 }
+@media all and (max-width: 767px) {
+  #magazine_box1 {
+    width: 100%;
+    height: 870px;
+    background-color: #C5D3D9;
+    padding: 100px 0px;
+  }
+
+  .magazine_card01 {
+    width: 100%;
+    height: 670px;
+    background-color: #C5D3D9;
+  }
+  .magazine_card01 > div {
+    width: 298px;
+    height: 300px;
+    margin: auto;
+    background-color: #171717;
+  }
+  .magazine_card01 dl {
+    width: 298px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    padding-top: 30px;
+  }
+  .magazine_card01 dl dt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  .magazine_card01 dl dd {
+    width: 100%;
+    height: 182px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #magazine_box1 {
+    width: 100%;
+    height: 500px;
+    background-color: #C5D3D9;
+    padding: 100px 0;
+  }
+
+  .magazine_card01 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+  }
+  .magazine_card01 > div {
+    width: 300px;
+    height: 300px;
+    background-color: #171717;
+  }
+  .magazine_card01 dl {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+  }
+  .magazine_card01 dl dt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  .magazine_card01 dl dd {
+    width: 100%;
+    height: 182px;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #magazine_box1 {
+    width: 100%;
+    height: 500px;
+    background-color: #C5D3D9;
+  }
+
+  .magazine_card01 {
+    display: flex;
+    justify-content: space-around;
+    width: 1040px;
+    height: 500px;
+    background-color: #C5D3D9;
+    margin: auto;
+  }
+  .magazine_card01 > div {
+    width: 350px;
+    height: 350px;
+    background-color: #171717;
+    margin-top: 75px;
+  }
+  .magazine_card01 dl {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 100px;
+  }
+  .magazine_card01 dl dt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  .magazine_card01 dl dd {
+    width: 100%;
+    height: 182px;
+  }
+}
+@media all and (min-width: 1440px) {
+  #magazine_box1 {
+    width: 100%;
+    height: 500px;
+    background-color: #C5D3D9;
+  }
+
+  .magazine_card01 {
+    display: flex;
+    justify-content: space-around;
+    width: 1040px;
+    height: 500px;
+    background-color: #C5D3D9;
+    margin: auto;
+  }
+  .magazine_card01 > div {
+    width: 350px;
+    height: 350px;
+    background-color: #171717;
+    margin-top: 75px;
+  }
+  .magazine_card01 dl {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 100px;
+  }
+  .magazine_card01 dl dt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  .magazine_card01 dl dd {
+    width: 100%;
+    height: 182px;
+  }
+}
+@media all and (max-width: 767px) {
+  #magazine_box2 {
+    width: 100%;
+    height: 870px;
+    background-color: #C5D3D9;
+    padding: 100px 0px;
+  }
+
+  .magazine_card02 {
+    width: 100%;
+    height: 670px;
+    background-color: #C5D3D9;
+  }
+  .magazine_card02 > div {
+    width: 298px;
+    height: 300px;
+    margin: auto;
+    background-color: #171717;
+  }
+  .magazine_card02 dl {
+    width: 298px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    padding-top: 30px;
+  }
+  .magazine_card02 dl dt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  .magazine_card02 dl dd {
+    width: 100%;
+    height: 182px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #magazine_box2 {
+    width: 100%;
+    height: 500px;
+    background-color: #C5D3D9;
+    padding: 100px 0;
+  }
+
+  .magazine_card02 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+  }
+  .magazine_card02 > div {
+    width: 300px;
+    height: 300px;
+    background-color: #171717;
+  }
+  .magazine_card02 dl {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+  }
+  .magazine_card02 dl dt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  .magazine_card02 dl dd {
+    width: 100%;
+    height: 182px;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #magazine_box2 {
+    width: 100%;
+    height: 500px;
+    background-color: #C5D3D9;
+  }
+
+  .magazine_card02 {
+    display: flex;
+    justify-content: space-around;
+    width: 1040px;
+    height: 500px;
+    background-color: #C5D3D9;
+    margin: auto;
+  }
+  .magazine_card02 > div {
+    width: 350px;
+    height: 350px;
+    background-color: #171717;
+    margin-top: 75px;
+  }
+  .magazine_card02 dl {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 100px;
+  }
+  .magazine_card02 dl dt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  .magazine_card02 dl dd {
+    width: 100%;
+    height: 182px;
+  }
+}
+@media all and (min-width: 1440px) {
+  #magazine_box2 {
+    width: 100%;
+    height: 500px;
+    background-color: #C5D3D9;
+  }
+
+  .magazine_card02 {
+    display: flex;
+    justify-content: space-around;
+    width: 1040px;
+    height: 500px;
+    background-color: #C5D3D9;
+    margin: auto;
+  }
+  .magazine_card02 > div {
+    width: 350px;
+    height: 350px;
+    background-color: #171717;
+    margin-top: 75px;
+  }
+  .magazine_card02 dl {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 100px;
+  }
+  .magazine_card02 dl dt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  .magazine_card02 dl dd {
+    width: 100%;
+    height: 182px;
+  }
+}
+@media all and (max-width: 767px) {
+  #magazine_box3 {
+    width: 100%;
+    height: 1120px;
+    background-color: #C5D3D9;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #magazine_box3 {
+    width: 100%;
+    height: 500px;
+    background-color: #C5D3D9;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #magazine_box3 {
+    width: 100%;
+    height: 500px;
+    background-color: #C5D3D9;
+  }
+}
+@media all and (min-width: 1440px) {
+  #magazine_box3 {
+    width: 100%;
+    height: 500px;
+    background-color: #C5D3D9;
+  }
+}
 
 /*# sourceMappingURL=magazine.css.map */
