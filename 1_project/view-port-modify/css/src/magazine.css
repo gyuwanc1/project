@@ -692,6 +692,44 @@
     width: 100%;
     height: 1120px;
     background-color: #C5D3D9;
+    padding: 50px 0;
+  }
+
+  .magazine_card03 {
+    width: 100%;
+    height: 100%;
+    background-color: #C5D3D9;
+  }
+  .magazine_card03 dl {
+    width: 298px;
+    height: 300px;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 50px;
+  }
+  .magazine_card03 dl dt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  .magazine_card03 dl dd {
+    width: 100%;
+    height: 182px;
+  }
+  .magazine_card03 ul {
+    width: 300px;
+    height: 650px;
+    background-color: #C5D3D9;
+    margin: auto;
+  }
+  .magazine_card03 ul li {
+    width: 300px;
+    height: 300px;
+    background-color: #666;
+    margin-bottom: 50px;
+  }
+  .magazine_card03 ul li:last-child {
+    margin-bottom: 0;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
@@ -699,6 +737,37 @@
     width: 100%;
     height: 500px;
     background-color: #C5D3D9;
+    padding-top: 50px;
+  }
+  #magazine_box3 dl {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 114px;
+    background-color: #fff;
+  }
+  #magazine_box3 dl dt {
+    width: 300px;
+    height: 114px;
+    line-height: 114px;
+  }
+  #magazine_box3 dl dd {
+    width: 300px;
+    height: 114px;
+  }
+  #magazine_box3 ul {
+    display: flex;
+    justify-content: space-around;
+    width: 666px;
+    height: 300px;
+    background-color: #C5D3D9;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #magazine_box3 ul li {
+    width: 300px;
+    height: 300px;
+    background-color: #666;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
@@ -706,6 +775,38 @@
     width: 100%;
     height: 500px;
     background-color: #C5D3D9;
+    padding-top: 50px;
+  }
+  #magazine_box3 dl {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 114px;
+    background-color: #fff;
+    margin: auto;
+  }
+  #magazine_box3 dl dt {
+    width: 300px;
+    height: 114px;
+    line-height: 114px;
+  }
+  #magazine_box3 dl dd {
+    width: 300px;
+    height: 114px;
+  }
+  #magazine_box3 ul {
+    display: flex;
+    justify-content: space-around;
+    width: 666px;
+    height: 300px;
+    background-color: #C5D3D9;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #magazine_box3 ul li {
+    width: 300px;
+    height: 300px;
+    background-color: #666;
   }
 }
 @media all and (min-width: 1440px) {
@@ -713,6 +814,110 @@
     width: 100%;
     height: 500px;
     background-color: #C5D3D9;
+    padding-top: 50px;
+  }
+  #magazine_box3 dl {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 114px;
+    background-color: #fff;
+    margin: auto;
+  }
+  #magazine_box3 dl dt {
+    width: 300px;
+    height: 114px;
+    line-height: 114px;
+  }
+  #magazine_box3 dl dd {
+    width: 300px;
+    height: 114px;
+  }
+  #magazine_box3 ul {
+    display: flex;
+    justify-content: space-around;
+    width: 666px;
+    height: 300px;
+    background-color: #C5D3D9;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #magazine_box3 ul li {
+    width: 300px;
+    height: 300px;
+    background-color: #666;
+  }
+}
+@media all and (max-width: 767px) {
+  .info {
+    width: 100%;
+    height: 100px;
+    background-color: #dfdfdf;
+  }
+
+  .navien_logo {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+  }
+
+  .black_logo {
+    width: 100%;
+    height: 80px;
+    background-color: #171717;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  .info {
+    width: 100%;
+    height: 100px;
+    background-color: #dfdfdf;
+  }
+
+  .navien_logo {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+  }
+
+  .black_logo {
+    width: 100%;
+    height: 80px;
+    background-color: #171717;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  .info {
+    width: 100%;
+    height: 60px;
+    background-color: #dfdfdf;
+  }
+
+  .navien_logo {
+    display: none;
+  }
+
+  .black_logo {
+    width: 100%;
+    height: 164px;
+    background-color: #171717;
+  }
+}
+@media all and (min-width: 1440px) {
+  .info {
+    width: 100%;
+    height: 60px;
+    background-color: #dfdfdf;
+  }
+
+  .navien_logo {
+    display: none;
+  }
+
+  .black_logo {
+    width: 100%;
+    height: 164px;
+    background-color: #171717;
   }
 }
 
