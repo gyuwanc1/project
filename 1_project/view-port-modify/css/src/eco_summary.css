@@ -398,6 +398,58 @@
   }
 }
 @media all and (max-width: 767px) {
+  #eco_summary_01 {
+    width: 100%;
+    height: 950px;
+    background-color: #fda;
+    padding: 100px 0;
+  }
+  #eco_summary_01 ul {
+    width: 100%;
+    height: 500px;
+    background-color: #eee;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #eco_summary_01 {
+    width: 100%;
+    height: 950px;
+    background-color: #fda;
+    padding: 100px 42px;
+  }
+  #eco_summary_01 ul {
+    width: 100%;
+    height: 500px;
+    background-color: #eee;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #eco_summary_01 {
+    width: 100%;
+    height: 950px;
+    background-color: #fda;
+    padding: 100px 140px;
+  }
+  #eco_summary_01 ul {
+    width: 1000px;
+    height: 600px;
+    background-color: #eee;
+  }
+}
+@media all and (min-width: 1440px) {
+  #eco_summary_01 {
+    width: 100%;
+    height: 950px;
+    background-color: #fda;
+    padding: 100px 220px;
+  }
+  #eco_summary_01 ul {
+    width: 1000px;
+    height: 600px;
+    background-color: #eee;
+  }
+}
+@media all and (max-width: 767px) {
   .info {
     width: 100%;
     height: 100px;
