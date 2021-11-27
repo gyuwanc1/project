@@ -233,7 +233,7 @@
 }
 @media all and (min-width: 1440px) {
   #wrap {
-    width: 1280px;
+    width: 1440px;
     height: auto;
     min-height: 100px;
   }
