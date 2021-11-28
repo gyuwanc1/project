@@ -1,12 +1,26 @@
 @charset "UTF-8";
 
-@media all and (max-width:767px){}// 디자인기준 320px
+section {margin-bottom: 0;}
+
+@media all and (max-width:767px){
+  #eco_summary_02 {width: 100%; height: 850px; background-color: #fad; padding-top:100px;}
+  h2 {width: 300px; height: 50px; margin: auto; text-align: center; line-height: 50px;}
+}// 디자인기준 320px
 
 
-@media all and (min-width:768px) and (max-width:1279px) {}// 디자인 기준 768px
+@media all and (min-width:768px) and (max-width:1279px) {
+  #eco_summary_02 {width: 100%; height: 850px; background-color: #fad; padding-top: 100px;}
+  h2 {width: 300px; height: 50px; margin: auto; text-align: center; line-height: 50px;}
+}// 디자인 기준 768px
 
 
-@media all and (min-width:1280px) and (max-width:1439px) {}// 디자인 기준 1280px
+@media all and (min-width:1280px) and (max-width:1439px) {
+  #eco_summary_02 {width: 100%; height: 800px; background-color: #fad; padding: 100px 140px;}
+  h2 {width: 300px; height: 50px; margin: auto;  text-align: center; line-height: 50px;}
+}// 디자인 기준 1280px
 
 
-@media all and (min-width:1440px) {}//디자인 기준 1440px
+@media all and (min-width:1440px) {
+  #eco_summary_02 {width: 100%; height: 850px; background-color: #fad; padding: 100px 220px;}
+  h2 {width: 300px; height: 50px; margin: auto; text-align: center; line-height: 50px;}
+}//디자인 기준 1440px
