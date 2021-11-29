@@ -4,23 +4,57 @@ section {margin-bottom: 0;}
 
 @media all and (max-width:767px){
   #eco_summary_02 {width: 100%; height: 850px; background-color: #fad; padding-top:100px;}
-  h2 {width: 300px; height: 50px; margin: auto; text-align: center; line-height: 50px;}
+  h2 {width: 300px; height: 50px; margin: auto; text-align: center; line-height: 50px; margin-bottom: 50px;}
+  .summary_wrap {width: 100%; height: 400px; overflow: hidden;}
+  .summary_box {display: flex; justify-content:space-between; width: 300%; height: 400px; background-color: #fad; padding: 60px;
+    & li {width: 200px; height: 280px; background-color: #333; } 
+  }
+  .indicator_02 {display: flex; justify-content: space-around; width: 100%; height: 250px; padding:100px 35px;
+    & li {width: 50px; height: 50px; border-radius: 100%; background-color: #eee;}
+    & li:nth-of-type(2) {background-color: #555;}
+  }
 }// 디자인기준 320px
 
 
 @media all and (min-width:768px) and (max-width:1279px) {
   #eco_summary_02 {width: 100%; height: 850px; background-color: #fad; padding-top: 100px;}
-  h2 {width: 300px; height: 50px; margin: auto; text-align: center; line-height: 50px;}
+  h2 {width: 300px; height: 50px; margin: auto; text-align: center; line-height: 50px; margin-bottom: 50px;}
+  // .summary_wrap{width: 0; height: 0;}
+  .summary_box {display: flex; justify-content: space-around; flex-wrap: wrap; width: 100%; height: 400px; background-color: #fad;
+    & li {width: 200px; height: 280px; background-color: #333;}
+  }
+    .indicator_02 {display: flex; justify-content: space-around; width: 320px; height: 250px; padding:100px 35px; margin: auto;
+    & li {width: 50px; height: 50px; border-radius: 100%; background-color: #eee;}
+    & li:nth-of-type(2) {background-color: #555;}
+  }
 }// 디자인 기준 768px
 
 
 @media all and (min-width:1280px) and (max-width:1439px) {
-  #eco_summary_02 {width: 100%; height: 800px; background-color: #fad; padding: 100px 140px;}
-  h2 {width: 300px; height: 50px; margin: auto;  text-align: center; line-height: 50px;}
+  #eco_summary_02 { position:relative; width: 100%; height: 800px; background-color: #fad; padding: 100px 0;}
+  h2 {width: 300px; height: 50px; margin: auto;  text-align: center; line-height: 50px; margin-bottom: 50px;}
+  //.summary_wrap {width:0; height:0;}
+  .summary_box {display: flex; justify-content: space-around; width: 900px; height: 400px; background-color: #fad; margin: auto;
+    & li {width: 200px; height: 280px; background-color: #333; margin: auto;}
+  }
+  .indicator_02 {position: absolute; top:260px; right:-25px; z-index: 10; display: flex; justify-content: space-around; flex-direction: column; 
+    width: 240px; height: 300px; padding:35px 70px; margin: auto;
+    & li {width: 50px; height: 50px; border-radius: 100%; background-color: #eee; margin: auto;}
+    & li:nth-of-type(2) {background-color: #555;}
+  }
+
 }// 디자인 기준 1280px
 
 
 @media all and (min-width:1440px) {
-  #eco_summary_02 {width: 100%; height: 850px; background-color: #fad; padding: 100px 220px;}
-  h2 {width: 300px; height: 50px; margin: auto; text-align: center; line-height: 50px;}
+  #eco_summary_02 { position:relative; width: 100%; height: 850px; background-color: #fad; padding: 100px 220px;}
+  h2 {width: 300px; height: 50px; margin: auto; text-align: center; line-height: 50px; margin-bottom:50px}
+  .summary_box {display: flex; justify-content: space-around; width: 900px; height: 400px; background-color: #fad; margin: auto;
+    & li {width: 200px; height: 280px; background-color: #333; margin: auto;}
+  }
+  .indicator_02 {position: absolute; top:260px; right:40px; z-index: 10; display: flex; justify-content: space-around; flex-direction: column; 
+    width: 240px; height: 300px; padding:35px 70px; margin: auto;
+    & li {width: 50px; height: 50px; border-radius: 100%; background-color: #eee; margin: auto;}
+    & li:nth-of-type(2) {background-color: #555;}
+  }
 }//디자인 기준 1440px
