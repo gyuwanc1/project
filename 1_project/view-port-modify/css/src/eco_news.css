@@ -605,6 +605,7 @@
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
   #news_02 {
+    float: left;
     width: 500px;
     height: 700px;
     background-color: #666;
@@ -628,6 +629,7 @@
 }
 @media all and (min-width: 1440px) {
   #news_02 {
+    float: left;
     width: 550px;
     height: 700px;
     background-color: #666;
@@ -692,9 +694,6 @@
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
   #news_03 {
-    position: absolute;
-    top: 1768px;
-    right: 0;
     float: right;
     width: 768px;
     height: 700px;
@@ -717,9 +716,6 @@
 }
 @media all and (min-width: 1440px) {
   #news_03 {
-    position: absolute;
-    top: 1768px;
-    right: 0;
     float: right;
     width: 768px;
     height: 700px;
