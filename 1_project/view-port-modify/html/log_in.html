@@ -1,4 +1,4 @@
-/<!DOCTYPE html>
+<!DOCTYPE html>
 <!--log_in.html-->
 <html lang="ko-KR" class="no-js">
 <head>
@@ -19,7 +19,107 @@
 <body>
   <!-- layout -->
   <div id="wrap">
+    <header id="headBox">
+      <div class="menu_btn"><i class="fas fa-bars"></i></div>
+      <h1><span class="blind">navienhouse</span></h1>
+      <nav class="navigation">
+        <h2 class="blind">navigation</h2>
+        <ul class="gnb">
+          <li>
+            <div><a href="#">product</a></div>
+            <ul class="nav_list">
+              <li><a href="#">boiler</a></li>
+              <li><a href="#">water mat</a></li>
+              <li><a href="#">smart system</a></li>
+            </ul>
+          </li>
+          <li>
+            <div><a href="#">magazine</a></div>
+            <ul class="nav_list">
+              <li><a href="#">magazine01</a></li>
+              <li><a href="#">magazine02</a></li>
+              <li><a href="#">magazine03</a></li>
+            </ul>
+          <li>
+            <div><a href="#">eco</a></div>
+            <ul class="nav_list">
+              <li><a href="#">eco summary01</a></li>
+              <li><a href="#">eco summary02</a></li>
+              <li><a href="#">eco news</a></li>
+            </ul>
+          </li>
+        </ul>
+      <div class="unb">
+        <div class="log_in"><a href="#">log in</a></div>
+        <div class="sign_up"><a href="#">sign up</a></div>
+        <div class="customer"><a href="#">c/s</a></div>
+      </div>
+      <div class="search">
+        <div class="search_btn">
+          <button type="button">
+            <i class="fas fa-search"></i>
+            <span class="blind">검색버튼 입니다.</span>
+          </button>
+        </div>
+        <div class="search_area">
+          <form action="#" method="get">
+            <fieldset>
+              <legend>검색</legend>
+              <label for="search_inner"> <span class="blind">검색어를 입력해 주세요.</span></label>
+              <input type="text" id="search_inner" name="" value=""
+              ></input>
+              <button type="submit">검색</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>         
+      </nav>      
+    </header>
 
+    <div class="login_title">
+      <h2>log in</h2>
+      <p>welcome to navienhouse</p>
+    </div><!-- log_in title--> 
+
+    <div class="login_id_password">
+      <form action="#" method="post">
+        <fieldset>
+          <legend><span class="blind">회원로그인 영역</span></legend>
+
+          <div class="login_area">
+            <label for="user_id">회원로그인</label>
+            <input type="text" id="user_id" name="user__id" value="" placeholder="user id"></input>
+          </div>
+
+          <div class="password_area">
+            <label for="user_pass"> <span class="blind">비밀번호를 입력해 주세요.</span></label>
+            <input type="pssword" id="user_pass" name="user__pass" value="" placeholder="password"></input>
+          </div>
+
+        </fieldset>
+
+      </form>
+    </div>
+
+    <div class="new_Btn">
+      <button type="button">sign up</button>
+      <button type="button">find id</button>
+      <button type="button">find pass</button>
+    </div>
+
+    <footer id="footbox">
+      <h2 class="blind">company info</h2>
+      <div class="use_info">
+        <ul class="temp">
+          <li><a href="#">terms</a></li>
+          <li><a href="#">privacy</a></li>
+          <li><a href="#">cookies</a></li>
+          <li><a href="#">certificate</a></li>
+        </ul>
+      </div>
+      <div class="com_info"></div>
+    </footer>
+    
   </div>
 
   <!-- script -->
