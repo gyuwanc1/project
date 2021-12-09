@@ -1,10 +1,38 @@
 @charset "UTF-8";
 
 
-@media all and (max-width:767px){}// 디자인기준 320px
+@media all and (max-width:767px){
+  .title_box {width: 100%; height: 378px;
+    & h2 {width: 100%; height:50px; background-color: #2D3C73;
+      text-align: center; line-height: 50px; font-size: 28px;color: #fff; margin-bottom: 50px;}
+    & p {width: 100%; height: 228px; background-color: #2D3C73;
+    text-align: center; line-height: 70px; font-size: 36px; color:#fff; }
+  }
+}// 디자인기준 320px
 
-@media all and (min-width:768px) and (max-width:1279px) {}// 디자인 기준 768px
+@media all and (min-width:768px) and (max-width:1279px) {
+  .title_box {width: 500px; height: 300px; margin: auto; 
+    & h2 {width: 100%; height: 50px; background-color: #2D3C73;
+      text-align: center; line-height: 50px; font-size: 28px; color:#fff; margin-bottom: 50px;}
+    & p {width: 100%; height: 100px; background-color: #2D3C73;
+    text-align: center; line-height: 50px; font-size: 36px; color:#fff;}
+  }
+}// 디자인 기준 768px
 
-@media all and (min-width:1280px) and (max-width:1439px) {}// 디자인 기준 1280px
+@media all and (min-width:1280px) and (max-width:1439px) {
+  .title_box {width: 500px; height: 300px; margin: auto; margin-top: 100px;
+    & h2 {width: 100%; height: 50px; background-color: #2D3C73;
+      text-align: center; line-height: 50px; font-size: 28px; color:#fff; margin-bottom: 50px;}
+    & p {width: 100%; height: 100px; background-color: #2D3C73;
+    text-align: center; line-height: 50px; font-size: 36px; color:#fff;}
+  }
+}// 디자인 기준 1280px
 
-@media all and (min-width:1440px) {}//디자인 기준 1440px
+@media all and (min-width:1440px) {
+  .title_box {width: 500px; height: 300px; margin: auto; margin-top: 100px;
+    & h2 {width: 100%; height: 50px; background-color: #2D3C73;
+      text-align: center; line-height: 50px; font-size: 28px; color:#fff; margin-bottom: 50px;}
+    & p {width: 100%; height: 100px; background-color: #2D3C73;
+    text-align: center; line-height: 50px; font-size: 36px; color:#fff;}
+  }
+}//디자인 기준 1440px
