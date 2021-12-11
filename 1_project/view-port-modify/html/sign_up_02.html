@@ -84,10 +84,19 @@
       <form action="#" method="post">
         <fieldset>
           <legend class="blind">휴대폰 인증을 해주세요</legend>
-          <div>
-            <label class="blind"></label>
-            <input type="tel" />
-            <button type="button"></button>
+          <div class="num_area">
+            <label for="tel_num" class="blind"></label>
+            <input type="tel" id="tel_num" name="tel__num" value="" placeholder="전화번호 입력" />
+            <button type="button">인증요청</button>
+          </div>
+
+          <div class="certify_area">
+            <label for="cer_num" class="blind"></label>
+            <input type="tel" id="cer_num" name="cer__num" value="" placeholder="인증번호 입력" />            
+          </div>
+
+          <div class="next_btn">
+            <button type="button">다음</button>
           </div>
 
         </fieldset>

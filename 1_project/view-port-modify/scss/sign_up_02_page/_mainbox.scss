@@ -2,37 +2,69 @@
 
 
 @media all and (max-width:767px){
-  .title_box {width: 100%; height: 378px;
-    & h2 {width: 100%; height:50px; background-color: #2D3C73;
-      text-align: center; line-height: 50px; font-size: 28px;color: #fff; margin-bottom: 50px;}
-    & p {width: 100%; height: 228px; background-color: #2D3C73;
-    text-align: center; line-height: 70px; font-size: 36px; color:#fff; }
-  }
+  .main_box {width: 100%; height: 522px;
+    & fieldset {width: 100%; height: 422px;
+      & .num_area {display: flex; justify-content: start; width:320px; height: 100px;margin: auto; margin-bottom: 50px; padding:0 5px; 
+        & input {width: 224px; height: 100px; border:1px solid #171717;  padding:0;}
+        & button {width: 83px; height: 100px; background-color: #2D3C73; color:#fff} 
+      }
+      & .certify_area {display: flex; justify-content: start; width:320px; height: 100px;margin: auto; margin-bottom: 50px; padding:0 5px;
+        & input {width: 100%; height: 100px; border:1px solid #171717;  padding:0;}
+      }
+      & .next_btn {width: 310px; height: 100px; margin: auto;
+        & button {width: 100%; height: 100%; background-color: #2D3C73; color: #fff; text-align: center; line-height: 100px;}
+      }
+    }
+  } 
 }// 디자인기준 320px
 
 @media all and (min-width:768px) and (max-width:1279px) {
-  .title_box {width: 500px; height: 300px; margin: auto; 
-    & h2 {width: 100%; height: 50px; background-color: #2D3C73;
-      text-align: center; line-height: 50px; font-size: 28px; color:#fff; margin-bottom: 50px;}
-    & p {width: 100%; height: 100px; background-color: #2D3C73;
-    text-align: center; line-height: 50px; font-size: 36px; color:#fff;}
+  .main_box {width: 768px; height: 500px; margin: auto;
+    & fieldset {width: 100%; height: 400px; margin: auto;
+      & .num_area {display: flex; justify-content: center; width: 768px; height: 100px;margin: auto; margin-bottom: 50px;  padding:0 5px;
+        & input {width: 580px; height: 100px; border:1px solid #171717;  padding:0;}
+        & button {width: 170px; height: 100px; background-color: #2D3C73; color:#fff}
+      }
+      & .certify_area {width:768px; height: 100px;margin: auto; margin-bottom: 50px;
+        & input {display: block; width: 750px; height: 100px; border:1px solid #171717; padding:0; margin: auto;}
+      }
+      & .next_btn {width: 752px; height: 100px; margin: auto;
+        & button {width: 100%; height: 100%; background-color: #2D3C73; color:#fff; text-align: center; line-height: 100px;}
+      }      
+    } 
   }
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px) {
-  .title_box {width: 500px; height: 300px; margin: auto; margin-top: 100px;
-    & h2 {width: 100%; height: 50px; background-color: #2D3C73;
-      text-align: center; line-height: 50px; font-size: 28px; color:#fff; margin-bottom: 50px;}
-    & p {width: 100%; height: 100px; background-color: #2D3C73;
-    text-align: center; line-height: 50px; font-size: 36px; color:#fff;}
+  .main_box {width: 1040px; height: 500px; margin: auto;
+    & fieldset {width: 100%; height: 400px;
+      & .num_area {display: flex; justify-content: center; width: 1040px; height: 100px;margin: auto; margin-bottom: 50px; padding:0 5px;
+        & input {width: 840px; height: 100px; border:1px solid #171717;  padding:0;}
+        & button {width: 200px; height: 100px; background-color: #2D3C73; color:#fff}
+      }
+      & .certify_area {width:1040px; height: 100px; margin: auto; margin-bottom: 50px;
+        & input {display: block; width: 1028px; height: 100px; border:1px solid #171717; padding:0; margin: auto;}
+      }
+      & .next_btn {width: 1030px; height: 100px; margin: auto; 
+        & button {width: 100%; height: 100%; background-color: #2D3C73; color:#fff; text-align: center; line-height: 100px;}
+      }      
+    }  
   }
 }// 디자인 기준 1280px
 
 @media all and (min-width:1440px) {
-  .title_box {width: 500px; height: 300px; margin: auto; margin-top: 100px;
-    & h2 {width: 100%; height: 50px; background-color: #2D3C73;
-      text-align: center; line-height: 50px; font-size: 28px; color:#fff; margin-bottom: 50px;}
-    & p {width: 100%; height: 100px; background-color: #2D3C73;
-    text-align: center; line-height: 50px; font-size: 36px; color:#fff;}
+  .main_box {width: 1040px; height: 500px; margin: auto;
+    & fieldset {width: 100%; height: 400px;
+      & .num_area {display: flex; justify-content: center; width: 1040px; height: 100px;margin: auto; margin-bottom: 50px; padding:0 5px;
+        & input {width: 840px; height: 100px; border:1px solid #171717;  padding:0;}
+        & button {width: 200px; height: 100px; background-color: #2D3C73; color:#fff}
+      }
+      & .certify_area {width:1040px; height: 100px; margin: auto; margin-bottom: 50px;
+        & input {display: block; width: 1028px; height: 100px; border:1px solid #171717; padding:0; margin: auto}
+      }
+      & .next_btn {width: 1030px; height: 100px; margin: auto; 
+        & button {width: 100%; height: 100%; background-color: #2D3C73; color:#fff; text-align: center; line-height: 100px;}
+      }      
+    }   
   }
 }//디자인 기준 1440px
