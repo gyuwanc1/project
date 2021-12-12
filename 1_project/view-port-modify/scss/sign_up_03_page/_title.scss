@@ -1,10 +1,30 @@
 @charset "UTF-8";
 
 
-@media all and (max-width:767px){}// 디자인기준 320px
+@media all and (max-width:767px){
+  #title_box {width: 310px; height: 350px; margin: auto;
+    & h2 {width: 100%; height: 50px; background-color: #2D3C73; color:#fff; text-align: center; line-height: 50px; margin-bottom: 100px;}
+    & p {width: 100%; height: 200px; background-color: #2D3C73; color:#fff; text-align: center; line-height: 100px; font-size: 36px; }
+  }
+}// 디자인기준 320px
 
-@media all and (min-width:768px) and (max-width:1279px) {}// 디자인 기준 768px
+@media all and (min-width:768px) and (max-width:1279px) {
+  #title_box {width: 748px; height: 350px; margin: auto;
+    & h2 {width:440px; height: 50px; background-color: #2D3C73; color:#fff; text-align: center; line-height: 50px; margin: auto; margin-bottom: 100px;} 
+    & p {width: 748px; height: 100px; background-color: #2D3C73; color:#fff; text-align: center; line-height: 100px; margin: auto;}
+  }
+}// 디자인 기준 768px
 
-@media all and (min-width:1280px) and (max-width:1439px) {}// 디자인 기준 1280px
+@media all and (min-width:1280px) and (max-width:1439px) {
+  #title_box {width: 1040px; height: 350px; margin: auto;
+    & h2 {width:440px; height: 50px; background-color: #2D3C73; color:#fff; text-align: center; line-height: 50px; margin: auto; margin-bottom: 100px;} 
+    & p {width: 100%; height: 100px; background-color: #2D3C73; color:#fff; text-align: center; line-height: 100px; margin: auto;}
+  }
+}// 디자인 기준 1280px
 
-@media all and (min-width:1440px) {}//디자인 기준 1440px
+@media all and (min-width:1440px) {
+  #title_box {width: 1040px; height: 350px; margin: auto;
+    & h2 {width:440px; height: 50px; background-color: #2D3C73; color:#fff; text-align: center; line-height: 50px; margin: auto; margin-bottom: 100px;} 
+    & p {width: 100%; height: 100px; background-color: #2D3C73; color:#fff; text-align: center; line-height: 100px; margin: auto;}
+  }
+}//디자인 기준 1440px

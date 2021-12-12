@@ -1,0 +1,475 @@
+@charset "UTF-8";
+@media all and (max-width: 767px) {
+  #wrap {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+  }
+
+  #headBox {
+    width: 100%;
+    height: 80px;
+    padding: 24px;
+    background-color: aliceblue;
+  }
+
+  .menu_btn {
+    float: left;
+    margin-top: 10px;
+  }
+
+  h1 {
+    width: 220px;
+    height: 32px;
+    margin: auto;
+    background-image: url(../../multi/img/Home_Logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+  .navigation {
+    display: none;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #wrap {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+  }
+
+  #headBox {
+    width: 100%;
+    height: 80px;
+    padding: 24px;
+    background-color: aliceblue;
+  }
+
+  .menu_btn {
+    float: left;
+    margin-top: 10px;
+  }
+
+  h1 {
+    width: 220px;
+    height: 32px;
+    margin: auto;
+    background-image: url(../../multi/img/Home_Logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+  .navigation {
+    display: none;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #wrap {
+    width: 1280px;
+    height: auto;
+    min-height: 100px;
+  }
+
+  #headBox {
+    width: 100%;
+    height: 80px;
+    padding: 24px;
+    background-color: aliceblue;
+  }
+
+  h1 {
+    float: left;
+    width: 220px;
+    height: 32px;
+    background-image: url(../../multi/img/Home_Logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+  .menu_btn {
+    display: none;
+  }
+
+  .navigation {
+    position: relative;
+    float: right;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .gnb {
+    float: left;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+  }
+  .gnb div {
+    text-align: center;
+  }
+  .gnb li {
+    float: left;
+    width: 100px;
+    height: auto;
+    min-height: 30px;
+    text-align: center;
+    padding-right: 10px;
+    margin-right: 40px;
+    background-color: #fff;
+  }
+  .gnb li :last-child {
+    margin-right: 0;
+  }
+
+  .nav_list {
+    display: none;
+    height: auto;
+    background-color: #fff;
+  }
+
+  .nav_list li {
+    width: 100px;
+    margin-top: 30px;
+    height: auto;
+  }
+
+  .nav_list a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: auto;
+  }
+
+  .gnb:hover .nav_list {
+    display: block;
+  }
+
+  .nav_list li:hover {
+    background-color: #C5D3D9;
+  }
+
+  .unb {
+    float: left;
+    width: auto;
+    height: 24px;
+  }
+
+  .unb > div {
+    float: left;
+    width: 90px;
+    height: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+
+  .unb a {
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+  }
+
+  .search {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+  }
+
+  .search button {
+    width: 100%;
+    height: 100%;
+  }
+
+  .search_area {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*display:none 으로 감추고 JS로 실현*/
+  .search_area fieldset {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: 100;
+    width: auto;
+    height: 80px;
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #333;
+    font-weight: bold;
+  }
+
+  .search_area input {
+    width: 150px;
+    height: 30px;
+  }
+
+  .search_area button {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #333;
+  }
+
+  .search_area button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 9px 4px rgba(120, 133, 180, 0.616);
+    background-color: #171717;
+    color: #fff;
+  }
+
+  .search_area button:focus {
+    background-color: #fda;
+    font-size: 20px;
+  }
+
+  .search_area button:active {
+    background-color: #C5D3D9;
+    color: #171717;
+  }
+}
+@media all and (min-width: 1440px) {
+  #wrap {
+    width: 1440px;
+    height: auto;
+    min-height: 100px;
+  }
+
+  #headBox {
+    width: 100%;
+    height: 80px;
+    padding: 24px;
+    background-color: aliceblue;
+  }
+
+  h1 {
+    float: left;
+    width: 220px;
+    height: 32px;
+    background-image: url(../../multi/img/Home_Logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+  .menu_btn {
+    display: none;
+  }
+
+  .navigation {
+    position: relative;
+    float: right;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .gnb {
+    float: left;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+  }
+  .gnb div {
+    text-align: center;
+  }
+  .gnb li {
+    float: left;
+    width: 100px;
+    height: auto;
+    min-height: 30px;
+    text-align: center;
+    padding-right: 10px;
+    margin-right: 40px;
+    background-color: #fff;
+  }
+  .gnb li :last-child {
+    margin-right: 0;
+  }
+
+  .nav_list {
+    display: none;
+    height: auto;
+    background-color: #fff;
+  }
+
+  .nav_list li {
+    width: 100px;
+    margin-top: 30px;
+    height: auto;
+  }
+
+  .nav_list a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: auto;
+  }
+
+  .gnb:hover .nav_list {
+    display: block;
+  }
+
+  .nav_list li:hover {
+    background-color: #C5D3D9;
+  }
+
+  .unb {
+    float: left;
+    width: auto;
+    height: 24px;
+  }
+
+  .unb > div {
+    float: left;
+    width: 90px;
+    height: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+
+  .unb a {
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+  }
+
+  .search {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+  }
+
+  .search button {
+    width: 100%;
+    height: 100%;
+  }
+
+  .search_area {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*display:none 으로 감추고 JS로 실현*/
+  .search_area fieldset {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: 100;
+    width: auto;
+    height: 80px;
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #333;
+    font-weight: bold;
+  }
+
+  .search_area input {
+    width: 150px;
+    height: 30px;
+  }
+
+  .search_area button {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #333;
+  }
+
+  .search_area button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 9px 4px rgba(120, 133, 180, 0.616);
+    background-color: #171717;
+    color: #fff;
+  }
+
+  .search_area button:focus {
+    background-color: #fda;
+    font-size: 20px;
+  }
+
+  .search_area button:active {
+    background-color: #C5D3D9;
+    color: #171717;
+  }
+}
+@media all and (max-width: 767px) {
+  .info {
+    width: 100%;
+    height: 100px;
+    background-color: #dfdfdf;
+  }
+
+  .navien_logo {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+  }
+
+  .black_logo {
+    width: 100%;
+    height: 80px;
+    background-color: #171717;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  .info {
+    width: 100%;
+    height: 100px;
+    background-color: #dfdfdf;
+  }
+
+  .navien_logo {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+  }
+
+  .black_logo {
+    width: 100%;
+    height: 80px;
+    background-color: #171717;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  .info {
+    width: 100%;
+    height: 60px;
+    background-color: #dfdfdf;
+  }
+
+  .navien_logo {
+    display: none;
+  }
+
+  .black_logo {
+    width: 100%;
+    height: 164px;
+    background-color: #171717;
+  }
+}
+@media all and (min-width: 1440px) {
+  .info {
+    width: 100%;
+    height: 60px;
+    background-color: #dfdfdf;
+  }
+
+  .navien_logo {
+    display: none;
+  }
+
+  .black_logo {
+    width: 100%;
+    height: 164px;
+    background-color: #171717;
+  }
+}
+
+/*# sourceMappingURL=customerservice.css.map */
