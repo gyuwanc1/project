@@ -400,6 +400,459 @@
   }
 }
 @media all and (max-width: 767px) {
+  #comBox {
+    width: 100%;
+    height: 437px;
+  }
+  #comBox .commer {
+    width: 100%;
+    height: 437px;
+    background-color: #777;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #comBox {
+    width: 100%;
+    height: 437px;
+  }
+  #comBox .commer {
+    width: 100%;
+    height: 437px;
+    background-color: #777;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #comBox {
+    width: 100%;
+    height: 600px;
+  }
+  #comBox .commer {
+    width: 100%;
+    height: 600px;
+    background-color: #777;
+  }
+}
+@media all and (min-width: 1440px) {
+  #comBox {
+    width: 100%;
+    height: 437px;
+  }
+  #comBox .commer {
+    width: 100%;
+    height: 437px;
+    background-color: #777;
+  }
+}
+@media all and (max-width: 767px) {
+  #productBox {
+    width: 100%;
+    height: 1442px;
+  }
+  #productBox .new_wrap {
+    overflow: hidden;
+    width: 100%;
+    height: 464px;
+    padding-top: 40px;
+  }
+  #productBox .new_wrap h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  #productBox .new_wrap ul {
+    display: flex;
+    justify-content: space-around;
+    width: 400%;
+    height: 280px;
+    margin-top: 50px;
+  }
+  #productBox .new_wrap ul li {
+    width: 200px;
+    height: 280px;
+    background-color: #777;
+  }
+  #productBox .best_on_new {
+    width: 100%;
+    height: 478px;
+    padding-top: 40px;
+  }
+  #productBox .best_on_new h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  #productBox .best_on_new ul {
+    width: 290px;
+    height: 327px;
+    margin: auto;
+  }
+  #productBox .best_on_new ul li {
+    width: 100%;
+    height: 100%;
+  }
+  #productBox .best_on_new ul li > div {
+    width: 290px;
+    height: 173px;
+    background-color: #777;
+    margin-bottom: 16px;
+  }
+  #productBox .best_on_new ul li dl {
+    width: 290px;
+    height: 138px;
+  }
+  #productBox .best_on_new ul li dl dt {
+    width: 100%;
+    height: 24px;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+  #productBox .best_on_new ul li dl dd {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+  }
+  #productBox .best_wrap {
+    overflow: hidden;
+    width: 100%;
+    height: 464px;
+    padding-top: 40px;
+  }
+  #productBox .best_wrap h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  #productBox .best_wrap ul {
+    display: flex;
+    justify-content: space-around;
+    width: 400%;
+    height: 280px;
+    margin-top: 50px;
+  }
+  #productBox .best_wrap ul li {
+    width: 200px;
+    height: 280px;
+    background-color: #777;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #productBox {
+    width: 100%;
+    height: 1430px;
+  }
+  #productBox .new_wrap {
+    overflow: hidden;
+    width: 100%;
+    height: 464px;
+    padding-top: 40px;
+  }
+  #productBox .new_wrap h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  #productBox .new_wrap ul {
+    display: flex;
+    justify-content: space-around;
+    width: 200%;
+    height: 280px;
+    margin-top: 50px;
+  }
+  #productBox .new_wrap ul li {
+    width: 200px;
+    height: 280px;
+    background-color: #777;
+  }
+  #productBox .best_on_new {
+    width: 100%;
+    height: 450px;
+    padding-top: 20px;
+  }
+  #productBox .best_on_new h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #productBox .best_on_new ul {
+    width: 668px;
+    height: 290px;
+    margin: auto;
+  }
+  #productBox .best_on_new ul li {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+  #productBox .best_on_new ul li > div {
+    width: 290px;
+    height: 290px;
+    background-color: #777;
+  }
+  #productBox .best_on_new ul li dl {
+    width: 280px;
+    height: 170px;
+    margin-top: 50px;
+  }
+  #productBox .best_on_new ul li dl dt {
+    width: 100%;
+    height: 24px;
+    margin-bottom: 40px;
+  }
+  #productBox .best_on_new ul li dl dd {
+    width: 100%;
+    height: 100px;
+  }
+  #productBox .best_wrap {
+    overflow: hidden;
+    width: 100%;
+    height: 464px;
+    padding-top: 40px;
+  }
+  #productBox .best_wrap h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  #productBox .best_wrap ul {
+    display: flex;
+    justify-content: space-around;
+    width: 200%;
+    height: 280px;
+    margin-top: 50px;
+  }
+  #productBox .best_wrap ul li {
+    width: 200px;
+    height: 280px;
+    background-color: #777;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #productBox {
+    width: 1280px;
+    height: 1386px;
+  }
+  #productBox .new_wrap {
+    width: 100%;
+    height: 464px;
+    padding-top: 40px;
+  }
+  #productBox .new_wrap h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  #productBox .new_wrap ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 280px;
+    margin-top: 50px;
+  }
+  #productBox .new_wrap ul li {
+    width: 200px;
+    height: 280px;
+    background-color: #777;
+  }
+  #productBox .best_on_new {
+    width: 100%;
+    height: 450px;
+    padding-top: 20px;
+  }
+  #productBox .best_on_new h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #productBox .best_on_new ul {
+    width: 810px;
+    height: 320px;
+    margin: auto;
+  }
+  #productBox .best_on_new ul li {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+  #productBox .best_on_new ul li > div {
+    width: 320px;
+    height: 100%;
+    background-color: #777;
+  }
+  #productBox .best_on_new ul li dl {
+    width: 320px;
+    height: 170px;
+    margin-top: 50px;
+  }
+  #productBox .best_on_new ul li dl dt {
+    width: 100%;
+    height: 24px;
+    margin-bottom: 40px;
+  }
+  #productBox .best_on_new ul li dl dd {
+    width: 100%;
+    height: 100px;
+  }
+  #productBox .best_wrap {
+    width: 100%;
+    height: 464px;
+    padding-top: 40px;
+  }
+  #productBox .best_wrap h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  #productBox .best_wrap ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 280px;
+    margin-top: 50px;
+  }
+  #productBox .best_wrap ul li {
+    width: 200px;
+    height: 280px;
+    background-color: #777;
+  }
+}
+@media all and (min-width: 1440px) {
+  #productBox {
+    width: 1440px;
+    height: 1450px;
+  }
+  #productBox .new_wrap {
+    width: 100%;
+    height: 464px;
+    padding-top: 40px;
+  }
+  #productBox .new_wrap h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  #productBox .new_wrap ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 280px;
+    margin-top: 50px;
+  }
+  #productBox .new_wrap ul li {
+    width: 200px;
+    height: 280px;
+    background-color: #777;
+  }
+  #productBox .best_on_new {
+    width: 100%;
+    height: 450px;
+    padding-top: 20px;
+  }
+  #productBox .best_on_new h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #productBox .best_on_new ul {
+    width: 810px;
+    height: 320px;
+    margin: auto;
+  }
+  #productBox .best_on_new ul li {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+  #productBox .best_on_new ul li > div {
+    width: 320px;
+    height: 100%;
+    background-color: #777;
+  }
+  #productBox .best_on_new ul li dl {
+    width: 320px;
+    height: 170px;
+    margin-top: 50px;
+  }
+  #productBox .best_on_new ul li dl dt {
+    width: 100%;
+    height: 24px;
+    margin-bottom: 40px;
+  }
+  #productBox .best_on_new ul li dl dd {
+    width: 100%;
+    height: 100px;
+  }
+  #productBox .best_wrap {
+    width: 100%;
+    height: 464px;
+    padding-top: 40px;
+  }
+  #productBox .best_wrap h2 {
+    width: 114px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  #productBox .best_wrap ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 280px;
+    margin-top: 50px;
+  }
+  #productBox .best_wrap ul li {
+    width: 200px;
+    height: 280px;
+    background-color: #777;
+  }
+}
+@media all and (max-width: 767px) {
+  #ecoBox {
+    width: 100%;
+    height: 1990px;
+    background-color: #E8EFEE;
+    padding: 100px 0;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #ecoBox {
+    width: 100%;
+    height: 2862px;
+    background-color: #E8EFEE;
+    padding: 100px 64px;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #ecoBox {
+    width: 100%;
+    height: 1780px;
+    background-color: #E8EFEE;
+  }
+}
+@media all and (min-width: 1440px) {
+  #ecoBox {
+    width: 100%;
+    height: 1880px;
+    background-color: #E8EFEE;
+  }
+}
+@media all and (max-width: 767px) {
   .info {
     width: 100%;
     height: 100px;

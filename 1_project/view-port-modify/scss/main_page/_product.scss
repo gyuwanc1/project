@@ -3,11 +3,119 @@
 
 
 
-@media all and (max-width:767px){}// 디자인기준 320px
+@media all and (max-width:767px){
+  #productBox {width: 100%; height: 1442px;
+    .new_wrap {overflow: hidden; width: 100%; height: 464px; padding-top: 40px;
+      & h2 {width: 114px; height: 20px;margin: auto;  text-align: center;}
+      & ul {display: flex; justify-content: space-around; width: 400%; height: 280px; margin-top: 50px;
+        & li {width: 200px; height: 280px; background-color: #777;}
+      }
+    }
+    .best_on_new {width: 100% ; height: 478px; padding-top: 40px;
+      & h2 {width: 114px; height: 20px; margin: auto; text-align: center;}
+      & ul {width: 290px; height: 327px; margin: auto;
+        & li {width: 100%; height: 100%; 
+          & >div {width: 290px; height: 173px; background-color: #777; margin-bottom: 16px;}
+          & dl {width: 290px; height: 138px;
+            & dt {width: 100%; height: 24px; margin-bottom: 14px; text-align: center;}
+            & dd {width: 100%; height: 100px; text-align: center;}
+          }
+        }
+      }
+    }
+    .best_wrap {overflow: hidden; width: 100%; height: 464px; padding-top: 40px;
+      & h2 {width: 114px; height: 20px;margin: auto;  text-align: center;}
+      & ul {display: flex; justify-content: space-around; width: 400%; height: 280px; margin-top: 50px;
+        & li {width: 200px; height: 280px; background-color: #777;}
+      }
+    }
+  }
+}// 디자인기준 320px
 
-@media all and (min-width:768px) and (max-width:1279px) {}// 디자인 기준 768px
+@media all and (min-width:768px) and (max-width:1279px) {
+  #productBox {width: 100%; height: 1430px;
+    .new_wrap {overflow: hidden; width: 100%; height: 464px; padding-top: 40px;
+      & h2 {width: 114px; height: 20px;margin: auto;  text-align: center;}
+      & ul {display: flex; justify-content: space-around; width: 200%; height: 280px; margin-top: 50px;
+        & li {width: 200px; height: 280px; background-color: #777;}
+      }
+    }
+    .best_on_new {width: 100%; height: 450px; padding-top:20px;
+      & h2  {width: 114px; height: 20px;margin: auto;  text-align: center; margin-bottom: 50px;}
+      & ul {width: 668px; height: 290px; margin: auto;
+        & li {display: flex; justify-content: space-around; width: 100%; height: 100%;
+          & >div {width: 290px; height: 290px; background-color: #777;}
+          & dl {width: 280px; height: 170px; margin-top: 50px;
+            & dt {width: 100%; height: 24px; margin-bottom: 40px;}
+            & dd {width: 100%; height: 100px;}
+          }
+        }
+      }
+    }
+    .best_wrap {overflow: hidden; width: 100%; height: 464px; padding-top: 40px;
+      & h2 {width: 114px; height: 20px;margin: auto;  text-align: center;}
+      & ul {display: flex; justify-content: space-around; width: 200%; height: 280px; margin-top: 50px;
+        & li {width: 200px; height: 280px; background-color: #777;}
+      }
+    }
+  }
+}// 디자인 기준 768px
 
-@media all and (min-width:1280px) and (max-width:1439px) {}// 디자인 기준 1280px
+@media all and (min-width:1280px) and (max-width:1439px) {
+  #productBox {width: 1280px; height: 1386px;
+    .new_wrap {width: 100%; height: 464px; padding-top: 40px;
+      & h2 {width: 114px; height: 20px;margin: auto;  text-align: center;}
+      & ul {display: flex; justify-content: space-around; width: 100%; height: 280px; margin-top: 50px;
+        & li {width: 200px; height: 280px; background-color: #777;}
+      }
+    }
+    .best_on_new {width: 100%; height: 450px; padding-top:20px;
+      & h2  {width: 114px; height: 20px;margin: auto;  text-align: center; margin-bottom: 50px;}
+      & ul {width: 810px; height: 320px; margin: auto;
+        & li {display: flex; justify-content: space-around; width: 100%; height: 100%;
+          & >div {width: 320px; height: 100%; background-color: #777;}
+          & dl {width: 320px; height: 170px; margin-top: 50px;
+            & dt {width: 100%; height: 24px; margin-bottom: 40px;}
+            & dd {width: 100%; height: 100px;}
+          }
+        }
+      }
+    }
+    .best_wrap {width: 100%; height: 464px; padding-top: 40px;
+      & h2 {width: 114px; height: 20px;margin: auto;  text-align: center;}
+      & ul {display: flex; justify-content: space-around; width: 100%; height: 280px; margin-top: 50px;
+        & li {width: 200px; height: 280px; background-color: #777;}
+      }
+    }
+  }
+}// 디자인 기준 1280px
 
 
-@media all and (min-width:1440px) {}//디자인 기준 1440px
+@media all and (min-width:1440px) {
+  #productBox {width: 1440px; height: 1450px;
+    .new_wrap {width: 100%; height: 464px; padding-top: 40px;
+      & h2 {width: 114px; height: 20px;margin: auto;  text-align: center;}
+      & ul {display: flex; justify-content: space-around; width: 100%; height: 280px; margin-top: 50px;
+        & li {width: 200px; height: 280px; background-color: #777;}
+      }
+    }
+    .best_on_new {width: 100%; height: 450px; padding-top:20px;
+      & h2  {width: 114px; height: 20px;margin: auto;  text-align: center; margin-bottom: 50px;}
+      & ul {width: 810px; height: 320px; margin: auto;
+        & li {display: flex; justify-content: space-around; width: 100%; height: 100%;
+          & >div {width: 320px; height: 100%; background-color: #777;}
+          & dl {width: 320px; height: 170px; margin-top: 50px;
+            & dt {width: 100%; height: 24px; margin-bottom: 40px;}
+            & dd {width: 100%; height: 100px;}
+          }
+        }
+      }
+    }
+    .best_wrap {width: 100%; height: 464px; padding-top: 40px;
+      & h2 {width: 114px; height: 20px;margin: auto;  text-align: center;}
+      & ul {display: flex; justify-content: space-around; width: 100%; height: 280px; margin-top: 50px;
+        & li {width: 200px; height: 280px; background-color: #777;}
+      }
+    }
+  }
+}//디자인 기준 1440px
