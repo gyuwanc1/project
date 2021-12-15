@@ -1,10 +1,13 @@
 @charset "UTF-8";
 //customerservice.scss
+@import "../common/variable";
 
-@import "../common/headBox";
+
+//css.area
+@import "../base/headBox";
 
 @import "../customerservice_page/bg_box";
 @import "../customerservice_page/title_box";
 @import "../customerservice_page/main_form";
 
-@import "../common/footBox";
+@import "../base/footBox";

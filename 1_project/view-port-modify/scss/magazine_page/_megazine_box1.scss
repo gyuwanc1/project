@@ -2,10 +2,10 @@
 
 
 @media all and (max-width:767px){
-  #magazine_box1 {width: 100%; height: 870px; background-color: #C5D3D9; padding:100px 0px;}
-    .magazine_card01 {width: 100%; height: 670px; background-color: #C5D3D9;
-      & > div {width: 298px; height: 300px; margin: auto; background-color: #171717;}
-      & dl {width: 298px; height: 300px;  margin: auto; margin-top:50px; background-color: #fff; padding-top: 30px;
+  #magazine_box1 {width: 100%; height: 870px; background-color: $color__sky; padding:100px 0px;}
+    .magazine_card01 {width: 100%; height: 670px; background-color: $color__sky;
+      & > div {width: 298px; height: 300px; margin: auto; background-color: $color__black;}
+      & dl {width: 298px; height: 300px;  margin: auto; margin-top:50px; background-color: $color__white; padding-top: 30px;
         & dt {width: 100%; height: 40px; line-height: 40px;  }
         & dd {width: 100%; height: 182px;}
       }
@@ -13,10 +13,10 @@
   }// 디자인기준 320px
 
 @media all and (min-width:768px) and (max-width:1279px) {
-  #magazine_box1 {width: 100%; height: 500px; background-color: #C5D3D9; padding: 100px 0;}
+  #magazine_box1 {width: 100%; height: 500px; background-color: $color__sky; padding: 100px 0;}
     .magazine_card01 {display:flex; justify-content: space-around; width: 100%; height: 300px; 
-      & > div {width: 300px; height: 300px; background-color: #171717;}
-      & dl {width: 300px; height: 300px; background-color: #fff;
+      & > div {width: 300px; height: 300px; background-color: $color__black;}
+      & dl {width: 300px; height: 300px; background-color: $color__white;
         & dt {width: 100%; height: 40px; line-height: 40px;  }
         & dd {width: 100%; height: 182px;}
       }
@@ -25,11 +25,11 @@
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px) {
-  #magazine_box1 {width: 100%; height: 500px; background-color: #C5D3D9;}
+  #magazine_box1 {width: 100%; height: 500px; background-color: $color__sky;}
     .magazine_card01 {display: flex; justify-content: space-around; width:1040px; height: 500px; 
-      background-color: #C5D3D9; margin: auto; 
-      & > div {width: 350px; height: 350px; background-color: #171717; margin-top: 75px;}
-      & dl {width: 400px; height: 300px; background-color: #fff; margin-top: 100px;
+      background-color: $color__sky; margin: auto; 
+      & > div {width: 350px; height: 350px; background-color: $color__black; margin-top: 75px;}
+      & dl {width: 400px; height: 300px; background-color: $color__white; margin-top: 100px;
         & dt {width: 100%; height: 40px; line-height: 40px;  }
         & dd {width: 100%; height: 182px;}
       }
@@ -39,11 +39,11 @@
 
 
 @media all and (min-width:1440px) {
-  #magazine_box1 {width: 100%; height: 500px; background-color: #C5D3D9;}
+  #magazine_box1 {width: 100%; height: 500px; background-color: $color__sky;}
   .magazine_card01 {display: flex; justify-content: space-around; width:1040px; height: 500px; 
-    background-color: #C5D3D9; margin: auto; 
-    & > div {width: 350px; height: 350px; background-color: #171717; margin-top: 75px;}
-    & dl {width: 400px; height: 300px; background-color: #fff; margin-top: 100px;
+    background-color: $color__sky; margin: auto; 
+    & > div {width: 350px; height: 350px; background-color: $color__black; margin-top: 75px;}
+    & dl {width: 400px; height: 300px; background-color: $color__white; margin-top: 100px;
       & dt {width: 100%; height: 40px; line-height: 40px;  }
       & dd {width: 100%; height: 182px;}
     }

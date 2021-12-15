@@ -2,52 +2,52 @@
 
 
 @media all and (max-width:767px){
-  #title_box {width: 320px; height: 1510px; margin: auto; margin-bottom: 100px; border-bottom: 2px solid #171717; 
+  #title_box {width: 320px; height: 1510px; margin: auto; margin-bottom: 100px; border-bottom: 2px solid $color__black; 
     & > ul {display: flex; justify-content: space-around; width: 100%; height: 100px; 
-      & li {width: 100px; height: 100px; background-color: #fff; text-align: center; line-height: 100px;
+      & li {width: 100px; height: 100px; background-color: $color__white; text-align: center; line-height: 100px;
         & a {display:block; width: 100%; height: 100%;}
       }
-      & li:nth-child(2) {background-color: #171717; color: #fff;}
-      & li:nth-child(3) {background-color: #171717; color: #fff;}
+      & li:nth-child(2) {background-color: $color__black; color: $color__white;}
+      & li:nth-child(3) {background-color: $color__black; color: $color__white;}
     }
     p {width: 310px; height: 1060px; text-align: center; line-height: 30px;} 
 
     .notice_box {width: 320px; height: 100px; padding: 0 10px;
-      & p {width: 100%; height: 100px; text-align: center; line-height: 100px; background-color: #C5D3D9;}
+      & p {width: 100%; height: 100px; text-align: center; line-height: 100px; background-color: $color__sky;}
     }
   }
 }// 디자인기준 320px
 
 
 @media all and (min-width:768px) and (max-width:1279px) {
-  #title_box {width: 768px; height: 1120px; margin: auto; margin-bottom: 100px; border-bottom: 2px solid #171717;
+  #title_box {width: 768px; height: 1120px; margin: auto; margin-bottom: 100px; border-bottom: 2px solid $color__black;
     & > ul {display: flex; justify-content: space-around; width: 100%; height: 100px; 
-      & li {width: 256px; height: 100px; background-color: #fff; text-align: center; line-height: 100px;
+      & li {width: 256px; height: 100px; background-color: $color__white; text-align: center; line-height: 100px;
         & a {display:block; width: 100%; height: 100%;}
       }
-      & li:nth-child(2) {background-color: #171717; color: #fff;}
-      & li:nth-child(3) {background-color: #171717; color: #fff;}
+      & li:nth-child(2) {background-color: $color__black; color: $color__white;}
+      & li:nth-child(3) {background-color: $color__black; color: $color__white;}
     }
     p {width: 730px; height: 720px; text-align: center; line-height: 50px; margin: auto;}
 
-    .notice_box {width: 100%; height: 100px; padding: 0 10px; background-color: #C5D3D9;
+    .notice_box {width: 100%; height: 100px; padding: 0 10px; background-color: $color__sky;
       & p {width: 400px; height: 100px; text-align: center; line-height: 100px; }
     }
   }
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px) {
-  #title_box {width: 1280px; height: 1000px; border-bottom: 2px solid #171717;
+  #title_box {width: 1280px; height: 1000px; border-bottom: 2px solid $color__black;
     & > ul {display: flex; justify-content: space-around; width: 100%; height: 100px; 
-      & li {width: 400px; height: 100px; background-color: #fff; text-align: center; line-height: 100px;
+      & li {width: 400px; height: 100px; background-color: $color__white; text-align: center; line-height: 100px;
         & a {display:block; width: 100%; height: 100%;}
       }
-      & li:nth-child(2) {background-color: #171717; color: #fff;}
-      & li:nth-child(3) {background-color: #171717; color: #fff;}
+      & li:nth-child(2) {background-color: $color__black; color: $color__white;}
+      & li:nth-child(3) {background-color: $color__black; color: $color__white;}
     }
     p {width: 1240px; height: 600px; text-align: center; line-height: 70px; margin: auto;}
     
-    .notice_box {width: 100%; height: 100px; padding: 0 10px; background-color: #C5D3D9;
+    .notice_box {width: 100%; height: 100px; padding: 0 10px; background-color: $color__sky;
       & p {width: 400px; height: 100px; text-align: center; line-height: 100px; }
     }
   }
@@ -55,17 +55,17 @@
 
 
 @media all and (min-width:1440px) {
-  #title_box {width: 1440px; height: 1000px; border-bottom: 2px solid #171717;
+  #title_box {width: 1440px; height: 1000px; border-bottom: 2px solid $color__black;
     & > ul {display: flex; justify-content: space-around; width: 100%; height: 100px; 
-      & li {width: 480px; height: 100px; background-color: #fff; text-align: center; line-height: 100px;
+      & li {width: 480px; height: 100px; background-color: $color__white; text-align: center; line-height: 100px;
         & a {display:block; width: 100%; height: 100%;}
       }
-      & li:nth-child(2) {background-color: #171717; color: #fff;}
-      & li:nth-child(3) {background-color: #171717; color: #fff;}
+      & li:nth-child(2) {background-color: $color__black; color: $color__white;}
+      & li:nth-child(3) {background-color: $color__black; color: $color__white;}
     }
     p {width: 1240px; height: 600px; text-align: center; line-height: 70px; margin: auto;}
 
-    .notice_box {width: 100%; height: 100px; padding: 0 10px; background-color: #C5D3D9;
+    .notice_box {width: 100%; height: 100px; padding: 0 10px; background-color: $color__sky;
       & p {width: 400px; height: 100px; text-align: center; line-height: 100px; }
     }    
   }

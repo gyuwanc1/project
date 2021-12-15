@@ -3,11 +3,11 @@
 
 
 @media all and (max-width:767px){
-  .new_Btn {width: 100%; height: 260px; background-color:#C5D3D9; padding: 30px 60px;
+  .new_Btn {width: 100%; height: 260px; background-color:$color__sky; padding: 30px 60px;
   margin-bottom: 50px;
     & > ul {width: 200px; height: 200px; margin: auto;
-      & li {width: 200px; height: 50px; background-color: #2D3C73; margin-bottom: 25px;
-        & button{width: 100%; height: 50px; font-size: 32px; color:#fff;}
+      & li {width: 200px; height: 50px; background-color: $color__navy; margin-bottom: 25px;
+        & button{width: 100%; height: 50px; font-size: 32px; color:$color__white;}
       }
       & li:nth-of-type(3) {margin-bottom: 0;}
     }
@@ -15,33 +15,33 @@
 }// 디자인기준 320px
 
 @media all and (min-width:768px) and (max-width:1279px) {
-  .new_Btn {width: 100%; height: 100px; background-color: #C5D3D9; padding: 25px 50px;
+  .new_Btn {width: 100%; height: 100px; background-color: $color__sky; padding: 25px 50px;
     margin-bottom: 50px;
     & > ul {display: flex; justify-content:space-between; width: 668px; height: 50px;
-      & li {width: 200px; height: 50px; background-color: #2D3C73; 
-        & button {width: 100%;  height: 50px; font-size: 32px; color:#fff;}
+      & li {width: 200px; height: 50px; background-color: $color__navy; 
+        & button {width: 100%;  height: 50px; font-size: 32px; color:$color__white;}
       }
     }
   }
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px) {
-  .new_Btn {width: 1000px; height: 100px; background-color: #C5D3D9; padding: 25px 50px; margin: auto;
+  .new_Btn {width: 1000px; height: 100px; background-color: $color__sky; padding: 25px 50px; margin: auto;
     margin-bottom: 50px;
     & > ul {display: flex; justify-content:space-between; width: 900px; height: 50px;
-      & li {width: 250px; height: 50px; background-color: #2D3C73; 
-        & button {width: 100%;  height: 50px; font-size: 32px; color:#fff;}
+      & li {width: 250px; height: 50px; background-color: $color__navy; 
+        & button {width: 100%;  height: 50px; font-size: 32px; color:$color__white;}
       }
     }
   }
 }// 디자인 기준 1280px
 
 @media all and (min-width:1440px) {
-  .new_Btn {width: 1000px; height: 100px; background-color: #C5D3D9; padding: 25px 50px; margin: auto;
+  .new_Btn {width: 1000px; height: 100px; background-color: $color__sky; padding: 25px 50px; margin: auto;
     margin-bottom: 50px;
     & > ul {display: flex; justify-content:space-between; width: 900px; height: 50px;
-      & li {width: 250px; height: 50px; background-color: #2D3C73; 
-        & button {width: 100%;  height: 50px; font-size: 32px; color:#fff;}
+      & li {width: 250px; height: 50px; background-color: $color__navy; 
+        & button {width: 100%;  height: 50px; font-size: 32px; color:$color__white;}
       }
     }
   }

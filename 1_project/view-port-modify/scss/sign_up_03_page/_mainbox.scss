@@ -2,35 +2,35 @@
 
 
 @media all and (max-width:767px){
-  #main_box {width: 310px; height: 1870px; margin: auto; margin-top: 100px; background-color: #C5D3D9;
+  #main_box {width: 310px; height: 1870px; margin: auto; margin-top: 100px; background-color: $color__sky;
     & fieldset {width: 100%; height: 100%;
       .id_area {display: flex; justify-content:space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 80px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 138px; height: 98px; padding: 0; border:1px solid #171717}
-        & > button {width: 70px; height: 100px; border: 1px solid #171717; background-color: #fff;}
+        & > input {width: 138px; height: 98px; padding: 0; border:1px solid $color__black}
+        & > button {width: 70px; height: 100px; border: 1px solid $color__black; background-color: $color__white;}
       }
       .pw_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 80px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 218px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 218px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
 
       .repw_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 80px; height: 100px; text-align: center; line-height: 50px;}
-        & > input {width: 218px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 218px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
 
       .name_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 80px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 218px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 218px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .mail_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 80px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 218px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 218px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .postal_area {width: 220px; height: 360px; margin: auto; margin-bottom: 30px;
-        & > label {display: block; width: 100%; height: 100px; text-align: center; line-height: 100px; margin-bottom: 30px; background-color: #fff; }
+        & > label {display: block; width: 100%; height: 100px; text-align: center; line-height: 100px; margin-bottom: 30px; background-color: $color__white; }
         & > input {width: 100%; height: 100px; box-sizing: border-box; margin-bottom: 30px;}
-        & > button {width: 100%; height: 100px; background-color: #fff;}
+        & > button {width: 100%; height: 100px; background-color: $color__white;}
       }
       .addr_area {width: 100%; height: 100px; margin: auto; margin-bottom: 30px;
         & > input {width: 100%; height: 100px; box-sizing: border-box;}
@@ -40,41 +40,41 @@
       }
       .btn_area {width: 300px; height: 250px; margin: auto;
         & > button {width: 100%; height: 100px; margin-bottom: 50px;}
-        & > button:first-child {background-color: #fff;}
-        & > button:last-child {margin-bottom: 0; background-color: #2D3C73;}
+        & > button:first-child {background-color: $color__white;}
+        & > button:last-child {margin-bottom: 0; background-color: $color__navy;}
       }      
     }    
   }
 }// 디자인기준 320px
 
 @media all and (min-width:768px) and (max-width:1279px) {
-  #main_box {width: 748px; height: 1600px; margin: auto; background-color: #C5D3D9;
+  #main_box {width: 748px; height: 1600px; margin: auto; background-color: $color__sky;
     & fieldset {width: 100%; height: 100%;
       .id_area {display: flex; justify-content:space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 306px; height: 98px; padding: 0;  border: 1px solid #171717;}
-        & > button {width: 200px; height: 100px; border: 1px solid #171717; background-color: #fff;}
+        & > input {width: 306px; height: 98px; padding: 0;  border: 1px solid $color__black;}
+        & > button {width: 200px; height: 100px; border: 1px solid $color__black; background-color: $color__white;}
       }
       .pw_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 508px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 508px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .repw_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 508px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 508px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .name_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 508px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 508px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .mail_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 508px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 508px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .postal_area {display: flex; justify-content: space-around; width: 748px; height: 100px; margin: auto; margin-bottom: 50px;
         & > label {display: block; width: 200px; height: 100px; text-align: center; line-height: 100px; }
         & > input {width: 200px; height: 100px; box-sizing: border-box;}
-        & > button {width: 220px; height: 100px; border: 1px solid #171717;  background-color: #fff;}
+        & > button {width: 220px; height: 100px; border: 1px solid $color__black;  background-color: $color__white;}
       }
       .addr_area {width: 748px; height: 100px; margin-bottom: 30px; 
         & > input {width: 100%; height: 100px; box-sizing: border-box; }
@@ -83,41 +83,41 @@
         & > input {width: 100%; height: 100px; box-sizing: border-box;}
       }
       .btn_area {display: flex; justify-content: space-between; width: 668px; height: 100px; margin: auto;
-        & > button {width: 300px; height: 100px; background-color: #fff;}
-        & > button:last-child {background-color: #2D3C73; color: #fff;}
+        & > button {width: 300px; height: 100px; background-color: $color__white;}
+        & > button:last-child {background-color: $color__navy; color: $color__white;}
       }
     }
   }
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px) {
-  #main_box {width: 1040px; height: 1600px; margin: auto; background-color: #C5D3D9;
+  #main_box {width: 1040px; height: 1600px; margin: auto; background-color: $color__sky;
     & fieldset {width: 100%; height: 100%;
       .id_area {display: flex; justify-content:space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 598px; height: 98px; padding: 0;  border: 1px solid #171717;}
-        & > button {width: 200px; height: 100px; border: 1px solid #171717; background-color: #fff;}
+        & > input {width: 598px; height: 98px; padding: 0;  border: 1px solid $color__black;}
+        & > button {width: 200px; height: 100px; border: 1px solid $color__black; background-color: $color__white;}
       }
       .pw_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .repw_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .name_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .mail_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .postal_area {display: flex; justify-content: space-around; width: 1040px; height: 100px; margin: auto; margin-bottom: 50px;
         & > label {display: block; width: 200px; height: 100px; text-align: center; line-height: 100px; }
         & > input {width: 200px; height: 100px; box-sizing: border-box;}
-        & > button {width: 220px; height: 100px; border: 1px solid #171717; background-color: #fff;}
+        & > button {width: 220px; height: 100px; border: 1px solid $color__black; background-color: $color__white;}
       }
       .addr_area {width: 1040px; height: 100px;  margin-bottom: 30px;
         & > input {width: 100%; height: 100px; box-sizing: border-box; }
@@ -126,41 +126,41 @@
         & > input {width: 100%; height: 100px; box-sizing: border-box;}
       }
       .btn_area {display: flex; justify-content: space-around; width: 1040px; height: 100px; margin: auto;
-        & > button {width: 500px; height: 100px; background-color: #fff;}
-        & > button:last-child {background-color: #2D3C73; color: #fff;}
+        & > button {width: 500px; height: 100px; background-color: $color__white;}
+        & > button:last-child {background-color: $color__navy; color: $color__white;}
       }
     }
   }
 }// 디자인 기준 1280px
 
 @media all and (min-width:1440px) {
-  #main_box {width: 1040px; height: 1600px; margin: auto; background-color: #C5D3D9;
+  #main_box {width: 1040px; height: 1600px; margin: auto; background-color: $color__sky;
     & fieldset {width: 100%; height: 100%;
       .id_area {display: flex; justify-content:space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 598px; height: 98px; padding: 0;  border: 1px solid #171717;}
-        & > button {width: 200px; height: 100px; border: 1px solid #171717; background-color: #fff;}
+        & > input {width: 598px; height: 98px; padding: 0;  border: 1px solid $color__black;}
+        & > button {width: 200px; height: 100px; border: 1px solid $color__black; background-color: $color__white;}
       }
       .pw_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .repw_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .name_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .mail_area {display: flex; justify-content: space-around; width: 100%; height: 100px; margin-bottom: 50px;
         & > label {width: 200px; height: 100px; text-align: center; line-height: 100px;}
-        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid #171717;}
+        & > input {width: 798px; height: 98px; padding: 0; border: 1px solid $color__black;}
       }
       .postal_area {display: flex; justify-content: space-around; width: 1040px; height: 100px; margin: auto; margin-bottom: 50px;
         & > label {display: block; width: 200px; height: 100px; text-align: center; line-height: 100px; }
         & > input {width: 200px; height: 100px; box-sizing: border-box;}
-        & > button {width: 220px; height: 100px; border: 1px solid #171717; background-color: #fff;}
+        & > button {width: 220px; height: 100px; border: 1px solid $color__black; background-color: $color__white;}
       }
       .addr_area {width: 1040px; height: 100px;  margin-bottom: 30px;
         & > input {width: 100%; height: 100px; box-sizing: border-box; }
@@ -169,8 +169,8 @@
         & > input {width: 100%; height: 100px; box-sizing: border-box;}
       }
       .btn_area {display: flex; justify-content: space-around; width: 1040px; height: 100px; margin: auto;
-        & > button {width: 500px; height: 100px; background-color: #fff;}
-        & > button:last-child {background-color: #2D3C73; color: #fff;}
+        & > button {width: 500px; height: 100px; background-color: $color__white;}
+        & > button:last-child {background-color: $color__navy; color: $color__white;}
       }
     }
   }

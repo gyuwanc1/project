@@ -1,8 +1,11 @@
 @charset "UTF-8";
+//sign_up_03.scss
+@import "../common/variable";
 
-@import "../common/headBox";
+//css.area
+@import "../base/headBox";
 
 @import "../sign_up_03_page/title";
 @import "../sign_up_03_page/mainbox";
 
-@import "../common/footBox";
+@import "../base/footBox";

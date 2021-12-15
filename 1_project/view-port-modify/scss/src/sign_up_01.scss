@@ -1,9 +1,11 @@
 @charset "UTF-8";
-//megazine.scss
+//sigh_up_01.scss
+@import "../common/variable";
 
-@import "../common/headBox";
+//css.area
+@import "../base/headBox";
 
 @import "../sign_up_01_page/title";
 @import "../sign_up_01_page/main_box";
 
-@import "../common/footBox";
+@import "../base/footBox";

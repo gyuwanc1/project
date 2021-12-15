@@ -1,7 +1,10 @@
 @charset "utf-8";
 //eco_news.scss
+@import "../common/variable";
 
-@import "../common/headBox";
+//css.area
+
+@import "../base/headBox";
 
 @import "../eco_news_page/news_main";
 @import "../eco_news_page/eco_news_part_01";
@@ -9,7 +12,7 @@
 @import "../eco_news_page/eco_news_part_03";
 @import "../eco_news_page/eco_news_part_04";
 
-@import "../common/footBox";
+@import "../base/footBox";
 
 
 

@@ -1,12 +1,15 @@
 @charset "utf-8";
 //eco_summary.scss
+@import "../common/variable";
 
-@import "../common/headBox";
+//css.area
+
+@import "../base/headBox";
 
 @import "../eco_summary_page/eco_1";
 @import "../eco_summary_page/eco_2";
 @import "../eco_summary_page/eco_3";
 @import "../eco_summary_page/eco_one_news";
 
-@import "../common/footBox";
+@import "../base/footBox";
 

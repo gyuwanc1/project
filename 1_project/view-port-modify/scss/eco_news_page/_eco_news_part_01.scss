@@ -4,8 +4,8 @@
 
 @media all and (max-width:767px){
 
-  #news_01 {width: 100%; height: 820px; padding: 10px; background-color: #666;
-  & > div {width: 100%; height: 800px; background-color: #777;}
+  #news_01 {width: 100%; height: 820px; padding: 10px; background-color: $color__news;
+  & > div {width: 100%; height: 800px; background-color: $color__aLgray;}
   }
 
 
@@ -13,8 +13,8 @@
 
 @media all and (min-width:768px) and (max-width:1279px) {
 
-  #news_01 {width: 500px; height: 820px; padding: 10px 100px; background-color: #666; margin: auto;  margin-bottom:100px ;
-  & > div {width: 100%; height: 800px; background-color: #777;}
+  #news_01 {width: 500px; height: 820px; padding: 10px 100px; background-color: $color__news; margin: auto;  margin-bottom:100px ;
+  & > div {width: 100%; height: 800px; background-color: $color__aLgray;}
   }
 
 
@@ -22,8 +22,8 @@
 
 @media all and (min-width:1280px) and (max-width:1439px) {
 
-  #news_01 {width: 1280px; height: 500px; padding: 100px 255px; background-color: #666; margin: auto; margin-bottom: 100px;
-  & > div {width: 100%; height: 300px; background-color: #777;}
+  #news_01 {width: 1280px; height: 500px; padding: 100px 255px; background-color: $color__news; margin: auto; margin-bottom: 100px;
+  & > div {width: 100%; height: 300px; background-color: $color__aLgray;}
   }
 
   
@@ -31,8 +31,8 @@
 
 @media all and (min-width:1440px) {
 
-    #news_01 {width: 1280px; height: 500px; padding: 100px 318px; background-color: #666; margin: auto; margin-bottom: 100px;
-    & > div {width: 100%; height: 300px; background-color: #777;}
+    #news_01 {width: 1280px; height: 500px; padding: 100px 318px; background-color: $color__news; margin: auto; margin-bottom: 100px;
+    & > div {width: 100%; height: 300px; background-color: $color__aLgray;}
     }
     
 }//디자인 기준 1440px

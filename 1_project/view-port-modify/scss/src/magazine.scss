@@ -1,10 +1,13 @@
 @charset "UTF-8";
 //megazine.scss
+@import "../common/variable";
 
-@import "../common/headBox";
+//css.area
+
+@import "../base/headBox";
 
 @import "../magazine_page/megazine_box1";
 @import "../magazine_page/megazine_box2";
 @import "../magazine_page/megazine_box3";
 
-@import "../common/footBox";
+@import "../base/footBox";

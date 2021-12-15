@@ -4,26 +4,26 @@
 
 
 @media all and (max-width:767px){
-  #customBox {width: 320px; height: 412px;
-    & .customer_img {width: 100%; height: 412px; background-color: #777;}
+  #customBox {width: 320px; height: 412px; margin: auto;
+    & .customer_img {width: 100%; height: 412px; background-color: $color__aLgray;}
   }
 }// 디자인기준 320px
 
 @media all and (min-width:768px) and (max-width:1279px) {
   #customBox {width: 768px; height: 412px; 
-    & .customer_img {width: 320px; height: 100%; background-color: #777; margin:auto;}
+    & .customer_img {width: 320px; height: 100%; background-color: $color__aLgray; margin:auto;}
   }
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px) {
   #customBox {width: 1280px; height: 412px; 
-    & .customer_img {width: 320px; height: 100%; background-color: #777; margin:auto;}
+    & .customer_img {width: 320px; height: 100%; background-color: $color__aLgray; margin:auto;}
   }
 }// 디자인 기준 1280px
 
 
 @media all and (min-width:1440px) {
   #customBox {width: 1440px; height: 412px; 
-    & .customer_img {width: 320px; height: 100%; background-color: #777; margin:auto;}
+    & .customer_img {width: 320px; height: 100%; background-color: $color__aLgray; margin:auto;}
   }
 }//디자인 기준 1440px

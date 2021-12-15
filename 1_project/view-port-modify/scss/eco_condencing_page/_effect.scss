@@ -4,28 +4,28 @@
 
 @media all and (max-width:767px){
   #effect {width: 100%; height: 1216px;
-    & >div {width: 100%; height: 500px; background-color: #333; margin-bottom: 50px;}
-    & > p {width: 100%; height: 666px; background-color: #eee;}
+    & >div {width: 100%; height: 500px; background-color: $color__gray; margin-bottom: 50px;} 
+    & > p {width: 100%; height: 666px; background-color: $color__gray02;}
   }
 }// 디자인기준 320px
 
 @media all and (min-width:768px) and (max-width:1279px) {
   #effect {width: 100%; height: 1316px; padding: 50px;
-    & >div {width: 100%; height: 500px; background-color: #333; margin-bottom: 50px;}
-    & > p {width: 100%; height: 666px; background-color: #eee;}
+    & >div {width: 100%; height: 500px; background-color: $color__gray; margin-bottom: 50px;}
+    & > p {width: 100%; height: 666px; background-color: $color__gray02;}
   }
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px) {
   #effect {position: relative; width: 100%; height: 600px; padding: 50px;
-    & >div { width: 100%; height: 500px; background-color: #333;}
-    & >p {position: absolute; bottom:50px; left:120px; z-index: 10;  width: 1040px; height: 275px; background-color: #eee;}
+    & >div { width: 100%; height: 500px; background-color: $color__gray;}
+    & >p {position: absolute; bottom:50px; left:120px; z-index: 10;  width: 1040px; height: 275px; background-color: $color__gray02;}
   }
 }// 디자인 기준 1280px
 
 @media all and (min-width:1440px) {
   #effect {position: relative; width: 100%; height: 600px; padding: 50px;
-    & >div { width: 100%; height: 500px; background-color: #333;}
-    & >p {position: absolute; bottom:50px; left:120px; z-index: 10;  width: 1200px; height: 200px; background-color: #eee;}
+    & >div { width: 100%; height: 500px; background-color: $color__gray;}
+    & >p {position: absolute; bottom:50px; left:120px; z-index: 10;  width: 1200px; height: 200px; background-color: $color__gray02;}
   }
 }//디자인 기준 1440px

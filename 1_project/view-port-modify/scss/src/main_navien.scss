@@ -1,10 +1,14 @@
 @charset "utf-8";
+//main_navien
+@import "../common/variable";
 
-@import "../common/headBox";
+//css.area
+
+@import "../base/headBox";
 
 @import "../main_page/commercial";
 @import "../main_page/product";
 @import "../main_page/eco";
 @import "../main_page/custom";
 
-@import "../common/footBox";
+@import "../base/footBox";
