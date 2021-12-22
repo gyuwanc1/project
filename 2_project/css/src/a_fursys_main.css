@@ -55,9 +55,13 @@
     background-color: aqua;
     padding: 13px;
   }
+  #headBox .mobile_menu .close_btn {
+    float: right;
+    width: 22px;
+    height: 32px;
+  }
   #headBox .mobile_menu a {
     display: block;
-    float: right;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
@@ -117,9 +121,13 @@
     background-color: aqua;
     padding: 13px;
   }
+  #headBox .mobile_menu .close_btn {
+    float: right;
+    width: 22px;
+    height: 32px;
+  }
   #headBox .mobile_menu a {
     display: block;
-    float: right;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
@@ -201,6 +209,7 @@
     position: fixed;
     z-index: 1000;
     width: 100%;
+    max-width: 1440px;
     height: 60px;
     padding: 13px 100px;
     background-color: rgba(255, 255, 255, 0.7);
