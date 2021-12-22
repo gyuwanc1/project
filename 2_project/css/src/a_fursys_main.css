@@ -6,6 +6,7 @@
   }
 
   #headBox {
+    position: fixed;
     width: 100%;
     height: 60px;
     padding: 13px;
@@ -41,6 +42,21 @@
     display: block;
     width: 100%;
     height: 100%;
+  }
+
+  #headBox .mobile_menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    padding: 13px;
+  }
+  #headBox .mobile_menu a {
+    display: block;
+    float: right;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
@@ -51,6 +67,7 @@
   }
 
   #headBox {
+    position: fixed;
     width: 100%;
     height: 60px;
     padding: 13px;
@@ -86,6 +103,21 @@
     display: block;
     width: 100%;
     height: 100%;
+  }
+
+  #headBox .mobile_menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    padding: 13px;
+  }
+  #headBox .mobile_menu a {
+    display: block;
+    float: right;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
@@ -150,6 +182,9 @@
   #headBox .menu_wrap .mobile_gnb_btn {
     display: none;
   }
+  #headBox .mobile_menu {
+    display: none;
+  }
 }
 @media all and (min-width: 1440px) {
   #wrap {
@@ -211,6 +246,9 @@
   }
 
   #headBox .menu_wrap .mobile_gnb_btn {
+    display: none;
+  }
+  #headBox .mobile_menu {
     display: none;
   }
 }
