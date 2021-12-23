@@ -548,6 +548,252 @@
   }
 }
 @media all and (max-width: 767px) {
+  .intro {
+    width: 100%;
+    height: 600px;
+    padding: 50px 13px;
+    background-color: whitesmoke;
+  }
+
+  .text_01 {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+  }
+  .text_01 p {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text_01 p > span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .video-area {
+    width: 100%;
+    height: 160px;
+  }
+  .video-area iframe {
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    border: 0;
+  }
+
+  .text_02 {
+    width: 100%;
+    height: 210px;
+    margin-top: 30px;
+  }
+  .text_02 p {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text_02 p > span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  .intro {
+    width: 100%;
+    height: 1050px;
+    padding: 50px 30px;
+    background-color: whitesmoke;
+  }
+
+  .text_01 {
+    width: 100%;
+    height: 300px;
+    padding: 100px 0;
+  }
+  .text_01 p {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text_01 p > span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .video-area {
+    width: 100%;
+    height: 380px;
+  }
+  .video-area iframe {
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    border: 0;
+  }
+
+  .text_02 {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+  }
+  .text_02 p {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text_02 p > span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  .intro {
+    width: 100%;
+    height: 1050px;
+    padding: 50px 100px;
+    background-color: whitesmoke;
+  }
+
+  .text_01 {
+    width: 100%;
+    height: 260px;
+    padding: 100px 0;
+  }
+  .text_01 p {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text_01 p > span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .video-area {
+    width: 725px;
+    height: 410px;
+    margin: auto;
+  }
+  .video-area iframe {
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    border: 0;
+  }
+
+  .text_02 {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+  }
+  .text_02 p {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text_02 p > span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+@media all and (min-width: 1440px) {
+  .intro {
+    width: 100%;
+    height: 1050px;
+    padding: 50px 100px;
+    background-color: whitesmoke;
+  }
+
+  .text_01 {
+    width: 100%;
+    height: 260px;
+    padding: 100px 0;
+  }
+  .text_01 p {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text_01 p > span {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .video-area {
+    width: 725px;
+    height: 410px;
+    margin: auto;
+  }
+  .video-area iframe {
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    border: 0;
+  }
+
+  .text_02 {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+  }
+  .text_02 p {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .text_02 p > span {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+@media all and (max-width: 767px) {
+  .ex_booth {
+    width: 100%;
+    height: 710px;
+    background-color: white;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  .ex_booth {
+    width: 100%;
+    height: 1200px;
+    background-color: white;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  .ex_booth {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+  }
+}
+@media all and (min-width: 1440px) {
+  .ex_booth {
+    width: 100%;
+    height: 850px;
+    background-color: white;
+  }
+}
+@media all and (max-width: 767px) {
   #footBox {
     width: 100%;
     height: 65px;
