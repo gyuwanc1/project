@@ -166,7 +166,40 @@
       
     </article>
 
-    <section class="advice_area">
+    <section class="advice_area ">
+      <h2>상담신청작성</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend class="blind">상담사항을 입력</legend>
+
+          <div class="clearfix">
+            <div class="nom_area basic_form">
+              <label for="nom_text">성함</label>
+              <input type="text" id="nom_text" name="nom__text" value="" placeholder="성함을 입력해주세요."/>
+            </div>
+            <div class="office_area basic_form">
+              <label for="office_text">화사/소속</label>
+              <input type="text" id="office_text" name="office__text" value="" placeholder="ex)퍼시스/인사팀"/>
+            </div>
+          </div>
+
+          <div class="office_addre basic_form">
+            <label for="offi_addr_text">화사 주소</label>
+            <input type="text" id="offi_addr_text" name="offi__addr__text" value="" placeholder="ex)서울 송파구 오금동 311"/>            
+          </div>
+
+          <div class="advice_box">
+            <p>상담내용을 자유롭게 써주세요.</p>
+            <textarea name="inner_box" placeholder="ex)자율좌석제를 도입하는게 맞는지 고민입니다."></textarea>
+          </div>
+
+          <div class="tel_box">
+            <label for="tel_text">연락처</label>
+            <input type="tel" id="tel_text" name="tel__text" value="" placeholder="번호만 입력해 주세요."/>
+          </div>
+
+        </fieldset>
+      </form>
 
     </section>
 

@@ -1159,6 +1159,317 @@
   }
 }
 @media all and (max-width: 767px) {
+  .advice_area {
+    width: 100%;
+    height: 1500px;
+    padding: 50px 16px;
+    background-color: whitesmoke;
+  }
+  .advice_area h2 {
+    width: 100%;
+    height: 32px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+  .advice_area fieldset {
+    width: 100%;
+    height: auto;
+  }
+  .advice_area .basic_form {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .basic_form > label {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .basic_form input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #171717;
+  }
+  .advice_area .advice_box {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+  }
+  .advice_area .advice_box p {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .advice_box textarea {
+    width: 100%;
+    height: 176px;
+    border: 1px solid #171717;
+  }
+  .advice_area .tel_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .tel_box > label {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .tel_box input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #171717;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  .advice_area {
+    width: 100%;
+    height: 1500px;
+    padding: 150px 40px;
+    background-color: whitesmoke;
+  }
+  .advice_area h2 {
+    width: 100%;
+    height: 32px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 50px;
+  }
+  .advice_area fieldset {
+    width: 100%;
+    height: auto;
+  }
+  .advice_area .basic_form {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .basic_form > label {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .basic_form input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #171717;
+  }
+  .advice_area .advice_box {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+  }
+  .advice_area .advice_box p {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .advice_box textarea {
+    width: 100%;
+    height: 176px;
+    border: 1px solid #171717;
+  }
+  .advice_area .tel_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .tel_box > label {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .tel_box input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #171717;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  .advice_area {
+    width: 100%;
+    height: 1300px;
+    padding: 40px 0;
+    background-color: whitesmoke;
+  }
+  .advice_area h2 {
+    width: 100%;
+    height: 32px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 50px;
+  }
+  .advice_area fieldset {
+    width: 600px;
+    height: auto;
+    margin: auto;
+  }
+  .advice_area .nom_area {
+    float: left;
+    width: 45%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .nom_area > label {
+    width: 100%;
+    height: 17px;
+  }
+  .advice_area .nom_area input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #171717;
+  }
+  .advice_area .office_area {
+    float: right;
+    width: 45%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .office_area > label {
+    width: 100%;
+    height: 17px;
+  }
+  .advice_area .office_area input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #171717;
+  }
+  .advice_area .office_addre {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .office_addre > label {
+    width: 100%;
+    height: 17px;
+  }
+  .advice_area .office_addre input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #171717;
+  }
+  .advice_area .advice_box {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+  }
+  .advice_area .advice_box p {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .advice_box textarea {
+    width: 100%;
+    height: 126px;
+    border: 1px solid #171717;
+  }
+  .advice_area .tel_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .tel_box > label {
+    width: 100%;
+    height: 17px;
+  }
+  .advice_area .tel_box input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #171717;
+  }
+}
+@media all and (min-width: 1440px) {
+  .advice_area {
+    width: 100%;
+    height: 1400px;
+    padding: 45px;
+    background-color: whitesmoke;
+  }
+  .advice_area h2 {
+    width: 100%;
+    height: 32px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 50px;
+  }
+  .advice_area fieldset {
+    width: 645px;
+    height: auto;
+    margin: auto;
+    clear: both;
+  }
+  .advice_area .nom_area {
+    float: left;
+    width: 45%;
+    height: 64px;
+    margin-top: 10px;
+  }
+  .advice_area .nom_area > label {
+    width: 100%;
+    height: 22px;
+  }
+  .advice_area .nom_area input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #171717;
+  }
+  .advice_area .office_area {
+    float: right;
+    width: 45%;
+    height: 64px;
+    margin-top: 10px;
+  }
+  .advice_area .office_area > label {
+    width: 100%;
+    height: 22px;
+  }
+  .advice_area .office_area input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #171717;
+  }
+  .advice_area .office_addre {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .office_addre > label {
+    width: 100%;
+    height: 17px;
+  }
+  .advice_area .office_addre input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #171717;
+  }
+  .advice_area .advice_box {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+  }
+  .advice_area .advice_box p {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .advice_box textarea {
+    width: 100%;
+    height: 126px;
+    border: 1px solid #171717;
+  }
+  .advice_area .tel_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .tel_box > label {
+    width: 100%;
+    height: 17px;
+  }
+  .advice_area .tel_box input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #171717;
+  }
+}
+@media all and (max-width: 767px) {
   #footBox {
     width: 100%;
     height: 65px;
