@@ -63,6 +63,9 @@
   #headBox .mobile_menu a {
     display: block;
   }
+  #headBox .mobile_menu.on {
+    display: block;
+  }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
   #wrap {
@@ -127,6 +130,9 @@
     height: 32px;
   }
   #headBox .mobile_menu a {
+    display: block;
+  }
+  #headBox .mobile_menu.on {
     display: block;
   }
 }
@@ -306,35 +312,22 @@
     background-size: cover;
   }
 
-  .indi_box {
+  .button_box {
     position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 50px;
+    justify-content: space-between;
+    top: 40%;
+    left: 0;
     width: 100%;
+    height: 0;
+    padding: 0 10px;
+  }
+  .button_box button {
+    width: auto;
     height: auto;
   }
-  .indi_box .indicator {
-    display: flex;
-    justify-content: space-around;
-    width: 150px;
-    height: 15px;
-  }
-  .indi_box .indicator li {
-    width: 9px;
-    height: 9px;
-    border-radius: 100%;
-  }
-  .indi_box .indicator li a {
-    display: block;
-    width: 9px;
-    height: 9px;
-    border-radius: 100%;
-    background-color: #fff;
-  }
-  .indi_box .indicator li a:hover {
-    transform: scale(150%);
+  .button_box button i {
+    color: #fff;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
@@ -376,35 +369,22 @@
     background-size: cover;
   }
 
-  .indi_box {
+  .button_box {
     position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 50px;
+    justify-content: space-between;
+    top: 50%;
+    left: 0;
     width: 100%;
     height: auto;
+    padding: 0 10px;
   }
-  .indi_box .indicator {
-    display: flex;
-    justify-content: space-around;
-    width: 150px;
-    height: 15px;
+  .button_box button {
+    width: auto;
+    height: auto;
   }
-  .indi_box .indicator li {
-    width: 9px;
-    height: 9px;
-    border-radius: 100%;
-  }
-  .indi_box .indicator li a {
-    display: block;
-    width: 9px;
-    height: 9px;
-    border-radius: 100%;
-    background-color: #fff;
-  }
-  .indi_box .indicator li a:hover {
-    transform: scale(150%);
+  .button_box button i {
+    color: #fff;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
@@ -422,6 +402,7 @@
     height: 650px;
   }
   .view_box li:nth-of-type(1) {
+    float: left;
     width: 100%;
     height: 650px;
     background-image: url(../../../multi/img/section01_img01.jpg);
@@ -430,6 +411,7 @@
     background-size: cover;
   }
   .view_box li:nth-of-type(2) {
+    float: left;
     width: 100%;
     height: 650px;
     background-image: url(../../../multi/img/section01_img02.jpg);
@@ -438,6 +420,7 @@
     background-size: cover;
   }
   .view_box li:nth-of-type(3) {
+    float: left;
     width: 100%;
     height: 650px;
     background-image: url(../../../multi/img/section01_img03.jpg);
@@ -446,35 +429,22 @@
     background-size: cover;
   }
 
-  .indi_box {
+  .button_box {
     position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 50px;
+    justify-content: space-between;
+    top: 50%;
+    left: 0;
     width: 100%;
+    height: 0;
+    padding: 0 40px;
+  }
+  .button_box button {
+    width: auto;
     height: auto;
   }
-  .indi_box .indicator {
-    display: flex;
-    justify-content: space-around;
-    width: 150px;
-    height: 15px;
-  }
-  .indi_box .indicator li {
-    width: 9px;
-    height: 9px;
-    border-radius: 100%;
-  }
-  .indi_box .indicator li a {
-    display: block;
-    width: 9px;
-    height: 9px;
-    border-radius: 100%;
-    background-color: #fff;
-  }
-  .indi_box .indicator li a:hover {
-    transform: scale(150%);
+  .button_box button i {
+    color: #fff;
   }
 }
 @media all and (min-width: 1440px) {
@@ -516,35 +486,22 @@
     background-size: cover;
   }
 
-  .indi_box {
+  .button_box {
     position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 50px;
+    justify-content: space-between;
+    top: 50%;
+    left: 0;
     width: 100%;
+    height: 0;
+    padding: 0 50px;
+  }
+  .button_box button {
+    width: auto;
     height: auto;
   }
-  .indi_box .indicator {
-    display: flex;
-    justify-content: space-around;
-    width: 150px;
-    height: 15px;
-  }
-  .indi_box .indicator li {
-    width: 9px;
-    height: 9px;
-    border-radius: 100%;
-  }
-  .indi_box .indicator li a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    background-color: #fff;
-  }
-  .indi_box .indicator li a:hover {
-    transform: scale(150%);
+  .button_box button i {
+    color: #fff;
   }
 }
 @media all and (max-width: 767px) {

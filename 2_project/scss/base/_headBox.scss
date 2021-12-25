@@ -19,13 +19,14 @@
     }
     & .gnb {display: none;}
     @at-root .mobile_gnb_btn {width: 34px; height: 34px;
-      & > a{display: block; width: 100%; height: 100%;}      
+      & > a{display: block; width: 100%; height: 100%;}          
     }
   }
   & .mobile_menu {display: none; position: fixed; top:0; left:50%;
     width: 50%; height: 100%; background-color: aqua; padding:13px;
     & .close_btn {float: right; width: 22px; height: 32px;}
-    & a {display: block; }  
+    & a {display: block; }
+    &.on {display: block;}    
   }
 } 
 
@@ -55,7 +56,8 @@
     & .mobile_menu {display: none; position: fixed; top:0; left:50%;
       width: 50%; height: 100%; background-color: aqua; padding:13px;
       & .close_btn {float: right; width: 22px; height: 32px;}
-      & a {display: block; }  
+      & a {display: block; }
+      &.on {display: block;}  
     }
   } 
 }// 디자인 기준 768px
