@@ -6,6 +6,31 @@
 
 #wrap {width: 100%; height:auto; min-height:100px;}
 
+#headBox {position: fixed; z-index: 1000; width: 100%; height: 60px; padding:13px; background-color: rgba(255,255,255,0.5);
+  & .menu_wrap {display: flex; justify-content: space-between; width: 100%; height: 100%;
+    & h1 {width: 100px; height: 34px;
+    background: {
+      image:url(../../multi/img/logo.png);
+      repeat:no-repeat;
+      position:0 0 ;
+      size:contain;
+      }
+      & > a{display: block; width: 100%; height: 100%;}
+    }
+    & .gnb {display: none;}
+    @at-root .mobile_gnb_btn {width: 34px; height: 34px;
+      & > a{display: block; width: 100%; height: 100%;}      
+    }
+  }
+  & .mobile_menu {display: none; position: fixed; top:0; left:0;
+    width: 100%; height: 570px; background-color:#171717; padding:13px;
+    & .close_btn {float: right; width: 22px; height: 32px;}
+    & a {display: block; 
+      & i {color:#fff;}
+    }  
+  }
+} 
+
 
 }// 디자인기준 320px
 
@@ -13,17 +38,86 @@
 @media all and (min-width:768px) and (max-width:1279px) {
   #wrap {width: 100%; height:auto; min-height:100px;}
 
-  
+  #headBox {position: fixed; z-index: 1000; width: 100%; height: 60px; padding:13px; background-color: rgba(255,255,255,0.7);
+    & .menu_wrap {display: flex; justify-content: space-between; width: 100%; height: 100%;
+      & h1 {width: 100px; height: 34px;
+      background: {
+        image:url(../../multi/img/logo.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:contain;
+        }
+        & > a{display: block; width: 100%; height: 100%;}
+      }
+      & .gnb {display: none;}
+      @at-root .mobile_gnb_btn {width: 34px; height: 34px;
+        & > a{display: block; width: 100%; height: 100%;}      
+      }
+    }
+    & .mobile_menu {display: none; position: fixed; top:0; left:0;
+      width: 100%; height: 570px; background-color: #171717; padding:13px;
+      & .close_btn {float: right; width: 22px; height: 32px;}
+      & a {display: block; 
+      & i {color:#fff}
+      }  
+    }
+  } 
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px) {
   #wrap {width: 100%; height: auto;min-height:100px;}
   
-  
+  #headBox {position: fixed; z-index: 1000; width: 100%; height: 60px; padding:13px 100px; background-color: rgba(255,255,255,0.7);
+    & .menu_wrap {display: flex; justify-content: space-between; width: 100%; height: 100%;
+      & h1 {width: 100px; height: 34px;
+        background: {
+          image:url(../../multi/img/logo.png);
+          repeat:no-repeat;
+          position:0 0 ;
+          size:contain;
+          }
+          & > a{display: block; width: 100%; height: 100%;}
+      }
+      @at-root .gnb { width: 700px; height: 100%;
+        & > ul {display: flex; justify-content: space-around; width: 100%; height: 100%;
+          & li { width: auto; height: 100%;line-height: 34px; text-align: center; font-weight: bold;
+            &a {width: 100%; height: 100%;}
+          }
+          & li:last-of-type {width: 250px; border-radius: 10px; background:linear-gradient(270deg, #ab67f7, #3438f2); color:#fff }
+        }
+      }
+      & .mobile_gnb_btn {display: none;}
+    }
+    & .mobile_menu{display: none;}
+  }
+
 }// 디자인 기준 1280px
 
 
 @media all and (min-width:1440px) {
   #wrap {width: 1440px; height: auto;min-height:100px;}
-  
+  #headBox {position: fixed; z-index: 1000; width: 100%; max-width: 1440px; height: 60px; padding:13px 100px; background-color: rgba(255,255,255,0.7);
+    & .menu_wrap {display: flex; justify-content: space-between; width: 100%; height: 100%;
+      & h1 {width: 100px; height: 34px;
+        background: {
+          image:url(../../multi/img/logo.png);
+          repeat:no-repeat;
+          position:0 0 ;
+          size:contain;
+          }
+          & > a{display: block; width: 100%; height: 100%;}
+      }
+      @at-root .gnb { width: 700px; height: 100%;
+        & > ul {display: flex; justify-content: space-around; width: 100%; height: 100%;
+          & li { width: auto; height: 100%;line-height: 34px; text-align: center;font-weight: bold;
+            &a {width: 100%; height: 100%;}
+          }
+          & li:last-of-type {width: 250px; border-radius: 10px; background:linear-gradient(270deg, #ab67f7, #3438f2); color:#fff }
+        }
+      }
+      & .mobile_gnb_btn {display: none;}
+    }
+    & .mobile_menu{display: none;}
+  }
+
 }//디자인 기준 1440px
