@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../fonts/fontAwesome/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../fonts/fontAwesome/css/all.min.css">    
   <link rel="stylesheet" href="../css/common/reset.css">
   <link rel="stylesheet" href="../css/common/common.css">
   <!-- <link rel="stylesheet" href="../css/src/"> -->
@@ -194,9 +196,63 @@
           </div>
 
           <div class="tel_box">
-            <label for="tel_text">연락처</label>
+            <label for="tel_text">연락처를 입력해주세요.</label>
             <input type="tel" id="tel_text" name="tel__text" value="" placeholder="번호만 입력해 주세요."/>
           </div>
+
+          <div class="mail_box">
+            <label for="mail_text">이메일을 입력해 주세요.</label>
+            <input type="email" id="mail_text" name="mail__text" value="" placeholder="ex)gyuwanc@naver.com"/>
+          </div>
+
+          <div class="way_box">
+            <p>상담 방식을 선택해 주세요.(중복 가능)</p>
+            <div class="check_area">
+              <div class="box_radio">
+                <input type="checkbox" name="way_con">
+                <label>문자 답변</label>
+              </div>
+              <div class="box_radio">
+                <input type="checkbox" name="way_con">
+                <label>전화 답변</label>
+              </div>
+              <div class="box_radio">
+                <input type="checkbox" name="way_con">
+                <label>이메일 답변</label>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="private_box">
+            <p><span>개인정보 수집 및 이용안내</span><br />
+              1. 수집항목 : 이름, 회사명, 팀명 ,연락처(휴대폰 번호, 이메일주소), 회사주소<br />
+              2. 수집목적 : 사무환경 컨설팅 및 제품구매 상담, 이벤트 참여 및 경품 발송<br />
+              3. 보유기간 : 세미나 종료 후 6개월<br />
+              ※ 그 밖의 사항은 퍼시스(www.fursys.com)의 개인정보처리방침을 준수합니다.
+            </p>
+          </div>
+          <div class="private_radio">
+            <input type="checkbox" name="way_con">
+            <label>개인정보수집 및 이용에동의합니다.(필수)</label>
+          </div>
+
+          <div class="third_box">
+            <p><span>개인정보 제3자 제공동의</span><br />
+              1. 제공자 : ㈜퍼시스<br />
+              2. 제공받는 자 : 퍼시스 공식 유통망 (퍼시스 홈페이지> 고객서비스 > 대리점안내 게시 대리점)<br />
+              3. 제공받는 자의 이용목적 : 사무환경 컨설팅 및 제품구매 상담<br />
+              4. 수집항목 : 이름, 회사명, 팀명 ,연락처(휴대폰 번호, 이메일주소), 회사주소, 상담내용<br />
+              5. 보유기간 : 상담 과정 종료 후 6개월<br />
+              단, 특정 사유가 있을 경우 이의 해결시점까지 이며, 관계법령 규정에 의하여 보존할 필요성이 있는 경우에는 관계 법령에 따라 보관합니다.<br />
+              ※ 개인정보 수집 이용에 동의하지 않을 수 있으나, 미동의 시 상담 안내가 불가능합니다.<br />
+            </p>
+          </div>
+          <div class="third_radio">
+            <input type="checkbox" name="third_con">
+            <label>개인정보 제3자 제공에동의합니다.(필수)</label>
+          </div>
+  
 
         </fieldset>
       </form>

@@ -4,6 +4,11 @@ html, body {
   height: 100%;
 }
 
+html, body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 200;
+}
+
 html, body,
 h1, h2, h3, h4, h5, h6,
 p, pre, blockquote, address,
@@ -81,7 +86,5 @@ header, article, nav, section, footer, aside,
 main, figure, figcaption, hgroup {
   display: block;
 }
-
-/*# sourceMappingURL=reset.css.map */
 
 /*# sourceMappingURL=reset.css.map */

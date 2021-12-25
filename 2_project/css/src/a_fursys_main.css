@@ -1161,7 +1161,7 @@
 @media all and (max-width: 767px) {
   .advice_area {
     width: 100%;
-    height: 1500px;
+    height: auto;
     padding: 50px 16px;
     background-color: whitesmoke;
   }
@@ -1219,11 +1219,112 @@
     height: 30px;
     border: 1px solid #171717;
   }
+  .advice_area .mail_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .mail_box > label {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .mail_box input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #171717;
+  }
+  .advice_area .way_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .way_box p {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .way_box .check_area {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20px;
+  }
+  .advice_area .way_box .check_area .box_radio {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+  }
+  .advice_area .way_box .check_area .box_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .way_box .check_area .box_radio label {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .private_box {
+    width: 100%;
+    height: 160px;
+  }
+  .advice_area .private_box p {
+    width: 100%;
+    height: 160px;
+    border: 1px solid #171717;
+    padding: 5px;
+    overflow-y: auto;
+    line-height: 30px;
+  }
+  .advice_area .private_box p span {
+    font-weight: 700;
+  }
+  .advice_area .private_radio {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+  .advice_area .private_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .private_radio label {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
+  .advice_area .third_box {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+  }
+  .advice_area .third_box p {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #171717;
+    padding: 5px;
+    overflow-y: auto;
+    line-height: 30px;
+  }
+  .advice_area .third_box p span {
+    font-weight: 700;
+  }
+  .advice_area .third_radio {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+  .advice_area .third_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .third_radio label {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
   .advice_area {
     width: 100%;
-    height: 1500px;
+    height: auto;
     padding: 150px 40px;
     background-color: whitesmoke;
   }
@@ -1281,11 +1382,112 @@
     height: 30px;
     border: 1px solid #171717;
   }
+  .advice_area .mail_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .mail_box > label {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .mail_box input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #171717;
+  }
+  .advice_area .way_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .way_box p {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .way_box .check_area {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 20px;
+  }
+  .advice_area .way_box .check_area .box_radio {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+  }
+  .advice_area .way_box .check_area .box_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .way_box .check_area .box_radio label {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .private_box {
+    width: 100%;
+    height: 160px;
+  }
+  .advice_area .private_box p {
+    width: 100%;
+    height: 160px;
+    border: 1px solid #171717;
+    padding: 10px;
+    overflow-y: auto;
+    line-height: 30px;
+  }
+  .advice_area .private_box p span {
+    font-weight: 700;
+  }
+  .advice_area .private_radio {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+  .advice_area .private_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .private_radio label {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
+  .advice_area .third_box {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+  }
+  .advice_area .third_box p {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #171717;
+    padding: 5px;
+    overflow-y: auto;
+    line-height: 30px;
+  }
+  .advice_area .third_box p span {
+    font-weight: 700;
+  }
+  .advice_area .third_radio {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+  .advice_area .third_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .third_radio label {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
   .advice_area {
     width: 100%;
-    height: 1300px;
+    height: auto;
     padding: 40px 0;
     background-color: whitesmoke;
   }
@@ -1374,11 +1576,112 @@
     height: 37px;
     border: 1px solid #171717;
   }
+  .advice_area .mail_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .mail_box > label {
+    width: 100%;
+    height: 17px;
+  }
+  .advice_area .mail_box input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #171717;
+  }
+  .advice_area .way_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .way_box p {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .way_box .check_area {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 20px;
+  }
+  .advice_area .way_box .check_area .box_radio {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+  }
+  .advice_area .way_box .check_area .box_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .way_box .check_area .box_radio label {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .private_box {
+    width: 100%;
+    height: 160px;
+  }
+  .advice_area .private_box p {
+    width: 100%;
+    height: 160px;
+    border: 1px solid #171717;
+    padding: 5px;
+    overflow-y: auto;
+    line-height: 30px;
+  }
+  .advice_area .private_box p span {
+    font-weight: 700;
+  }
+  .advice_area .private_radio {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+  .advice_area .private_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .private_radio label {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
+  .advice_area .third_box {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+  }
+  .advice_area .third_box p {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #171717;
+    padding: 5px;
+    overflow-y: auto;
+    line-height: 30px;
+  }
+  .advice_area .third_box p span {
+    font-weight: 700;
+  }
+  .advice_area .third_radio {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+  .advice_area .third_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .third_radio label {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
 }
 @media all and (min-width: 1440px) {
   .advice_area {
     width: 100%;
-    height: 1400px;
+    height: auto;
     padding: 45px;
     background-color: whitesmoke;
   }
@@ -1467,6 +1770,107 @@
     width: 100%;
     height: 37px;
     border: 1px solid #171717;
+  }
+  .advice_area .mail_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .mail_box > label {
+    width: 100%;
+    height: 17px;
+  }
+  .advice_area .mail_box input {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #171717;
+  }
+  .advice_area .way_box {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px;
+  }
+  .advice_area .way_box p {
+    width: 100%;
+    height: 24px;
+  }
+  .advice_area .way_box .check_area {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 20px;
+  }
+  .advice_area .way_box .check_area .box_radio {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+  }
+  .advice_area .way_box .check_area .box_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .way_box .check_area .box_radio label {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .private_box {
+    width: 100%;
+    height: 160px;
+  }
+  .advice_area .private_box p {
+    width: 100%;
+    height: 160px;
+    border: 1px solid #171717;
+    padding: 10px;
+    overflow-y: auto;
+    line-height: 30px;
+  }
+  .advice_area .private_box p span {
+    font-weight: 700;
+  }
+  .advice_area .private_radio {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+  .advice_area .private_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .private_radio label {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
+  .advice_area .third_box {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+  }
+  .advice_area .third_box p {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #171717;
+    padding: 5px;
+    overflow-y: auto;
+    line-height: 30px;
+  }
+  .advice_area .third_box p span {
+    font-weight: 700;
+  }
+  .advice_area .third_radio {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+  }
+  .advice_area .third_radio input {
+    width: auto;
+    height: auto;
+  }
+  .advice_area .third_radio label {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
   }
 }
 @media all and (max-width: 767px) {
