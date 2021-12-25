@@ -1,0 +1,30 @@
+@media all and (max-width: 767px) {
+  #wrap {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #wrap {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #wrap {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+  }
+}
+@media all and (min-width: 1440px) {
+  #wrap {
+    width: 1440px;
+    height: auto;
+    min-height: 100px;
+  }
+}
+
+/*# sourceMappingURL=b_campaign_sub.css.map */
