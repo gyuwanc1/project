@@ -3,9 +3,9 @@
 
 
 @media all and (max-width:767px){
-  .slide_box {position:relative; overflow: hidden; width: 100%; height: 650px;}
+  .slide_box {position:relative;  width: 100%; height: 650px;}
   .view_box {display: flex; justify-content: space-around; width: 300%; height: 650px;
-    & li:nth-of-type(1) { width: 100%; height: 650px; 
+    & .slide_01 { width: 100%; height: 650px; 
       background: {
         image:url(../../../multi/img/section01_img01.jpg);
         repeat:no-repeat;
@@ -13,7 +13,7 @@
         size:cover;
         }
     }
-    & li:nth-of-type(2){width:100%; height: 650px;
+      .slide_02{width:100%; height: 650px;
       background: {
         image:url(../../../multi/img/section01_img02.jpg);
         repeat:no-repeat;
@@ -21,14 +21,16 @@
         size:cover;
         }
     } 
-    & li:nth-of-type(3){width:100%; height: 650px; 
+      .slide_03 {width:100%; height: 650px; 
       background: {
         image:url(../../../multi/img/section01_img03.jpg);
         repeat:no-repeat;
         position:50% 50% ;
         size:cover;
         }
-    } 
+    }
+
+      
   }
   .button_box {position: absolute; display: flex; justify-content: space-between; top: 40%; left: 0; width: 100%; height:0; padding: 0 10px;
     & button { width: auto; height: auto;
@@ -40,9 +42,9 @@
 
 
 @media all and (min-width:768px) and (max-width:1279px) {
-  .slide_box {position:relative; overflow: hidden; width: 100%; height: 650px;}
+  .slide_box {position:relative;  width: 100%; height: 650px;}
   .view_box {display: flex; justify-content: space-around; width: 300%; height: 650px;
-    & li:nth-of-type(1) { width: 100%; height: 650px; 
+    & .slide_01{ width: 100%; height: 650px; 
       background: {
         image:url(../../../multi/img/section01_img01.jpg);
         repeat:no-repeat;
@@ -50,7 +52,7 @@
         size:cover;
         }
     }
-    & li:nth-of-type(2){width:100%; height: 650px;
+    & .slide_02{width:100%; height: 650px;
       background: {
         image:url(../../../multi/img/section01_img02.jpg);
         repeat:no-repeat;
@@ -58,7 +60,7 @@
         size:cover;
         }
     } 
-    & li:nth-of-type(3){width:100%; height: 650px; 
+    & .slide_03{width:100%; height: 650px; 
       background: {
         image:url(../../../multi/img/section01_img03.jpg);
         repeat:no-repeat;
@@ -75,9 +77,9 @@
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px) {
-  .slide_box {position:relative; overflow: hidden; width: 100%; height: 650px;}
+  .slide_box {position:relative;  width: 100%; height: 650px;}
   .view_box {display: flex; justify-content: space-around; width: 300%; height: 650px;
-    & li:nth-of-type(1) {float: left; width: 100%; height: 650px; 
+    & .slide_01 {float: left; width: 100%; height: 650px; 
       background: {
         image:url(../../../multi/img/section01_img01.jpg);
         repeat:no-repeat;
@@ -85,7 +87,7 @@
         size:cover;
         }
     }
-    & li:nth-of-type(2){float: left; width:100%; height: 650px;
+    & .slide_02 {float: left; width:100%; height: 650px;
       background: {
         image:url(../../../multi/img/section01_img02.jpg);
         repeat:no-repeat;
@@ -93,7 +95,7 @@
         size:cover;
         }
     } 
-    & li:nth-of-type(3){float: left; width:100%; height: 650px; 
+    & .slide_03 {float: left; width:100%; height: 650px; 
       background: {
         image:url(../../../multi/img/section01_img03.jpg);
         repeat:no-repeat;
@@ -111,9 +113,9 @@
 
 
 @media all and (min-width:1440px) {
-  .slide_box {position:relative; overflow:hidden; width: 100%; height: 650px;}
+  .slide_box {position:relative;  width: 100%; height: 650px;}
   .view_box {display: flex; justify-content: space-around; width: 300%; height: 650px;
-    & li:nth-of-type(1) { width: 100%; height: 650px; 
+    & .slide_01 { width: 100%; height: 650px; 
       background: {
         image:url(../../../multi/img/section01_img01.jpg);
         repeat:no-repeat;
@@ -121,7 +123,7 @@
         size:cover;
         }
     }
-    & li:nth-of-type(2){width:100%; height: 650px;
+    & .slide_02 {width:100%; height: 650px;
       background: {
         image:url(../../../multi/img/section01_img02.jpg);
         repeat:no-repeat;
@@ -129,7 +131,7 @@
         size:cover;
         }
     } 
-    & li:nth-of-type(3){width:100%; height: 650px; 
+    & .slide_03 {width:100%; height: 650px; 
       background: {
         image:url(../../../multi/img/section01_img03.jpg);
         repeat:no-repeat;
