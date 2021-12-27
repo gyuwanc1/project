@@ -68,6 +68,7 @@
   }
   #headBox .mobile_menu.on {
     display: block;
+    transition: opacity 1;
   }
   #headBox .mobile_menu ul {
     position: absolute;
