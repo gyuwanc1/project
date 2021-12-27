@@ -1,0 +1,49 @@
+//footer
+@charset "UTF-8";
+
+@media all and (max-width:767px){
+  #seminar_end {width: 100%; height: 530px; background-color: #5BD9C1; padding:50px 13px;
+    & ul {display: flex; justify-content: space-around; flex-direction: column; width: 100%; height: 100%; 
+      & li {width: 100%; height: auto; font-size: 16px; color:#fff;font-weight: bold; 
+        & a{display: block; text-decoration: underline;}
+      }
+      & li:nth-child(1) {font-size: 30px; }
+    }
+  }
+      
+}// 디자인기준 320px
+
+
+@media all and (min-width:768px) and (max-width:1279px) {
+  #seminar_end {width: 100%; height: 530px; background-color: #5BD9C1;padding:50px 30px;
+    & ul {display: flex; justify-content: space-around; flex-direction: column; width: 100%; height: 100%; 
+      & li {width: 100%; height: auto; font-size: 16px; color:#fff;font-weight: bold; 
+        & a{display: block; width: 210px; height: auto; text-decoration: underline;}
+      }
+      & li:nth-child(1) {font-size: 50px; }
+    }
+  }
+}// 디자인 기준 768px
+
+@media all and (min-width:1280px) and (max-width:1439px){
+  #seminar_end {width: 100%; height: 738px; background-color: #5BD9C1;padding:100px 70px;
+    & ul {display: flex; justify-content: space-around; width: 100%; height: 100%; 
+      & li {width: 100%; height: auto; font-size: 24px; color:#fff;font-weight: bold; margin: auto; 
+        & a{display: block; width: 210px; height: auto; text-decoration: underline;}
+      }
+      & li:nth-child(1) {font-size: 70px; }
+    }
+  }
+}// 디자인 기준 1280px
+
+
+@media all and (min-width:1440px) {
+  #seminar_end {width: 100%; height: 738px; background-color: #5BD9C1; padding:100px 150px;
+    & ul {display: flex; justify-content: space-around; width: 100%; height: 100%; 
+      & li {width: 100%; height: auto; font-size: 24px; color:#fff;font-weight: bold; margin: auto; 
+        & a{display: block; width: 210px; height: auto; text-decoration: underline;}
+      }
+      & li:nth-child(1) {font-size: 70px; }
+    }
+  }
+}//디자인 기준 1440px

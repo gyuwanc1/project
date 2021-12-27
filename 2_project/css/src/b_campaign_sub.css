@@ -277,6 +277,7 @@
 }
 @media all and (max-width: 767px) {
   #main_view {
+    position: relative;
     width: 100%;
     height: 870px;
     background-color: #fad;
@@ -299,6 +300,42 @@
   .slogan_box p span {
     font-size: 20px;
     font-weight: normal;
+  }
+
+  .sem_area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -90px;
+    width: 180px;
+    height: 45px;
+    background-image: linear-gradient(270deg, #D084FF 0.9%, #2E40FA 109.58%);
+    border-radius: 60px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .sem_area a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .direct_arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -21px;
+    width: 42px;
+    height: auto;
+  }
+  .direct_arrow a {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: auto;
+    color: #fff;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
@@ -326,11 +363,47 @@
     font-size: 20px;
     font-weight: normal;
   }
+
+  .sem_area {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -90px;
+    width: 180px;
+    height: 45px;
+    background-image: linear-gradient(270deg, #D084FF 0.9%, #2E40FA 109.58%);
+    border-radius: 60px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .sem_area a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .direct_arrow {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -21px;
+    width: 42px;
+    height: auto;
+  }
+  .direct_arrow a {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: auto;
+    color: #fff;
+  }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
   #main_view {
     width: 100%;
-    height: 870px;
+    height: 900px;
     background-color: #fad;
     padding: 200px 100px 0;
   }
@@ -351,12 +424,32 @@
   .slogan_box p span {
     font-size: 30px;
     font-weight: normal;
+  }
+
+  .sem_area {
+    display: none;
+  }
+
+  .direct_arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -21px;
+    width: 42px;
+    height: auto;
+  }
+  .direct_arrow a {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: auto;
+    color: #fff;
   }
 }
 @media all and (min-width: 1440px) {
   #main_view {
     width: 100%;
-    height: 870px;
+    height: 1070px;
     background-color: #fad;
     padding: 200px 100px 0;
   }
@@ -377,6 +470,176 @@
   .slogan_box p span {
     font-size: 30px;
     font-weight: normal;
+  }
+
+  .sem_area {
+    display: none;
+  }
+
+  .direct_arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -21px;
+    width: 42px;
+    height: auto;
+  }
+  .direct_arrow a {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: auto;
+    color: #fff;
+  }
+}
+@media all and (max-width: 767px) {
+  #seminar_end {
+    width: 100%;
+    height: 530px;
+    background-color: #5BD9C1;
+    padding: 50px 13px;
+  }
+  #seminar_end ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  #seminar_end ul li {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  #seminar_end ul li a {
+    display: block;
+    text-decoration: underline;
+  }
+  #seminar_end ul li:nth-child(1) {
+    font-size: 30px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #seminar_end {
+    width: 100%;
+    height: 530px;
+    background-color: #5BD9C1;
+    padding: 50px 30px;
+  }
+  #seminar_end ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  #seminar_end ul li {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  #seminar_end ul li a {
+    display: block;
+    width: 210px;
+    height: auto;
+    text-decoration: underline;
+  }
+  #seminar_end ul li:nth-child(1) {
+    font-size: 50px;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #seminar_end {
+    width: 100%;
+    height: 738px;
+    background-color: #5BD9C1;
+    padding: 100px 70px;
+  }
+  #seminar_end ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+  #seminar_end ul li {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    margin: auto;
+  }
+  #seminar_end ul li a {
+    display: block;
+    width: 210px;
+    height: auto;
+    text-decoration: underline;
+  }
+  #seminar_end ul li:nth-child(1) {
+    font-size: 70px;
+  }
+}
+@media all and (min-width: 1440px) {
+  #seminar_end {
+    width: 100%;
+    height: 738px;
+    background-color: #5BD9C1;
+    padding: 100px 150px;
+  }
+  #seminar_end ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+  #seminar_end ul li {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    margin: auto;
+  }
+  #seminar_end ul li a {
+    display: block;
+    width: 210px;
+    height: auto;
+    text-decoration: underline;
+  }
+  #seminar_end ul li:nth-child(1) {
+    font-size: 70px;
+  }
+}
+@media all and (max-width: 767px) {
+  #program_int {
+    width: 100%;
+    height: 2300px;
+    background-color: #262626;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #program_int {
+    width: 100%;
+    height: 4230px;
+    background-color: #262626;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #program_int {
+    width: 100%;
+    height: 1650px;
+    background-color: #262626;
+  }
+}
+@media all and (min-width: 1440px) {
+  #program_int {
+    width: 100%;
+    height: 1650px;
+    background-color: #262626;
   }
 }
 @media all and (max-width: 767px) {
