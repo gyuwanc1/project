@@ -1,4 +1,5 @@
-//a_fursys_main.js
+(()=>{
+  //a_fursys_main.js
 
 //modal_menu
   //선택자----------------------------------
@@ -19,6 +20,7 @@ closeBtn.addEventListener('click', e=> {
   e.preventDefault();
   modalmenu.classList.remove('on');
 })
+
 //--------------------------------------------
 
 
@@ -48,7 +50,7 @@ viewBox.prepend(copyLi); //복제요소를 앞으로 추가첨부는 css에서 n
 
 //변경된 요소의 갯수에 맞게, UL(viewBox)의 사이즈와 li(viewEtc)요소의 사이즈 변경
 
-viewBox.style.width = ( (slideLen + 1) * 100) + '%'; //UL(viewBox) 사이즈 변경
+viewBox.style.width = ( (slideLen + 1) * slidewidth) + '%'; //UL(viewBox) 사이즈 변경
 //=========================================
 
 
@@ -152,3 +154,5 @@ prev.addEventListener('click', e=>{
 
 
 
+
+})()
