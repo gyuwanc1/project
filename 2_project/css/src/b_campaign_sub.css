@@ -617,61 +617,461 @@
 @media all and (max-width: 767px) {
   #program_int {
     width: 100%;
-    height: 2300px;
+    height: auto;
     background-color: #262626;
+    padding: 80px 13px 50px;
+  }
+  #program_int .int_pro_box {
+    width: 100%;
+    height: auto;
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .int_card {
+    width: 100%;
+    height: auto;
+    padding: 0px 13px;
+  }
+  .int_card li {
+    width: 100%;
+    height: 340px;
+    margin-bottom: 30px;
+    background-color: #666;
+    border-radius: 20px;
+  }
+  .int_card li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .int_card li:nth-child(1) {
+    background-image: url(../../multi/img/campaign/section03_pic01_2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .int_card li:nth-child(2) {
+    background-image: url(../../multi/img/campaign/section03_pic02_2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .int_card li:nth-child(3) {
+    background-image: url(../../multi/img/campaign/section03_pic03_2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .int_card li:nth-child(4) {
+    background-image: url(../../multi/img/campaign/section03_pic04_2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .int_card li:nth-child(5) {
+    background-image: url(../../multi/img/campaign/section03_pic05_2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+
+  #program_int .link_addre {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
   #program_int {
     width: 100%;
-    height: 4230px;
+    height: auto;
     background-color: #262626;
+    padding: 80px;
+  }
+  #program_int .int_pro_box {
+    width: 100%;
+    height: auto;
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .int_card {
+    width: 100%;
+    height: 100%;
+    padding: 0px 13px;
+  }
+  .int_card li {
+    width: 100%;
+    height: 754px;
+    margin-bottom: 30px;
+    background-color: #666;
+    border-radius: 20px;
+  }
+  .int_card li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .int_card li:nth-child(1) {
+    background-image: url(../../multi/img/campaign/section03_pic01_2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .int_card li:nth-child(2) {
+    background-image: url(../../multi/img/campaign/section03_pic02_2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .int_card li:nth-child(3) {
+    background-image: url(../../multi/img/campaign/section03_pic03_2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .int_card li:nth-child(4) {
+    background-image: url(../../multi/img/campaign/section03_pic04_2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .int_card li:nth-child(5) {
+    background-image: url(../../multi/img/campaign/section03_pic05_2x.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+
+  #program_int .link_addre {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
   #program_int {
     width: 100%;
-    height: 1650px;
+    height: auto;
     background-color: #262626;
+    padding: 140px 140px 100px;
+  }
+  #program_int .int_pro_box {
+    width: 100%;
+    height: auto;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .int_card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+  .int_card li {
+    width: 100%;
+    height: 340px;
+    margin-bottom: 30px;
+    background-color: #666;
+    border-radius: 20px;
+  }
+  .int_card li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .int_card li:nth-child(1) {
+    background-image: url(../../multi/img/campaign/section03_pic01_2x.png);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: contain;
+  }
+  .int_card li:nth-child(2) {
+    width: 492px;
+    height: 332px;
+    background-image: url(../../multi/img/campaign/section03_pic02_2x.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+  .int_card li:nth-child(3) {
+    width: 492px;
+    height: 332px;
+    background-image: url(../../multi/img/campaign/section03_pic03_2x.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+  .int_card li:nth-child(4) {
+    width: 492px;
+    height: 332px;
+    background-image: url(../../multi/img/campaign/section03_pic04_2x.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+  .int_card li:nth-child(5) {
+    width: 492px;
+    height: 332px;
+    background-image: url(../../multi/img/campaign/section03_pic05_2x.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+  #program_int .link_addre {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
   }
 }
 @media all and (min-width: 1440px) {
   #program_int {
     width: 100%;
-    height: 1650px;
+    height: auto;
     background-color: #262626;
+    padding: 140px 208px 50px;
+  }
+
+  .int_pro_box {
+    width: 100%;
+    height: auto;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .int_card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .int_card li {
+    width: 100%;
+    height: 340px;
+    margin-bottom: 30px;
+    background-color: #666;
+    border-radius: 20px;
+  }
+  .int_card li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .int_card li:nth-child(1) {
+    background-image: url(../../multi/img/campaign/section03_pic01_2x.png);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: contain;
+  }
+  .int_card li:nth-child(2) {
+    width: 492px;
+    height: 332px;
+    background-image: url(../../multi/img/campaign/section03_pic02_2x.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+  .int_card li:nth-child(3) {
+    width: 492px;
+    height: 332px;
+    background-image: url(../../multi/img/campaign/section03_pic03_2x.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+  .int_card li:nth-child(4) {
+    width: 492px;
+    height: 332px;
+    background-image: url(../../multi/img/campaign/section03_pic04_2x.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+  .int_card li:nth-child(5) {
+    width: 492px;
+    height: 332px;
+    background-image: url(../../multi/img/campaign/section03_pic05_2x.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+  .link_addre {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
   }
 }
 @media all and (max-width: 767px) {
   #footBox {
     width: 100%;
-    height: 480px;
-    padding: 40px 0;
-    background-color: #2a2a2a;
+    height: auto;
+    padding: 40px 13px;
+    background-color: #1a1a1a;
+  }
+  #footBox ul {
+    width: 100%;
+    height: auto;
+  }
+  #footBox ul li {
+    color: #8a8a8a;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #footBox ul li:nth-child(1) {
+    margin-bottom: 30px;
+  }
+  #footBox ul li:nth-child(2) {
+    width: 100%;
+    height: 58px;
+    margin-bottom: 20px;
+    background-color: #444;
+  }
+  #footBox ul li:nth-child(2) a {
+    display: block;
+    width: 150px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
   #footBox {
     width: 100%;
-    height: 480px;
-    padding: 40px 0;
-    background-color: #2a2a2a;
+    height: auto;
+    padding: 40px 30px;
+    background-color: #1a1a1a;
+  }
+  #footBox ul {
+    width: 100%;
+    height: auto;
+  }
+  #footBox ul li {
+    color: #8a8a8a;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #footBox ul li:nth-child(1) {
+    margin-bottom: 30px;
+  }
+  #footBox ul li:nth-child(2) {
+    width: 100%;
+    height: 58px;
+    margin-bottom: 20px;
+  }
+  #footBox ul li:nth-child(2) a {
+    display: block;
+    width: 150px;
+    height: 100%;
+    border-radius: 30px;
+    border: 1px solid #8a8a8a;
+    padding: 13px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 29px;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
   #footBox {
     width: 100%;
     height: 308px;
-    padding: 40px 0;
-    background-color: #2a2a2a;
+    padding: 20px 80px;
+    background-color: #1a1a1a;
+  }
+  #footBox ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+  }
+  #footBox ul li {
+    color: #8a8a8a;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #footBox ul li:nth-child(1) {
+    margin-bottom: 30px;
+  }
+  #footBox ul li:nth-child(2) {
+    width: 100%;
+    height: 58px;
+    margin-bottom: 20px;
+  }
+  #footBox ul li:nth-child(2) a {
+    display: block;
+    float: right;
+    width: 150px;
+    height: 100%;
+    border: 1px solid #8a8a8a;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
   }
 }
 @media all and (min-width: 1440px) {
   #footBox {
     width: 100%;
     height: 308px;
-    padding: 40px 0;
-    background-color: #2a2a2a;
+    padding: 40px 150px;
+    background-color: #1a1a1a;
+  }
+  #footBox ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+  }
+  #footBox ul li {
+    color: #8a8a8a;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #footBox ul li:nth-child(1) {
+    margin-bottom: 30px;
+  }
+  #footBox ul li:nth-child(2) {
+    width: 100%;
+    height: 58px;
+    margin-bottom: 20px;
+  }
+  #footBox ul li:nth-child(2) a {
+    display: block;
+    float: right;
+    width: 150px;
+    height: 100%;
+    border: 1px solid #8a8a8a;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
   }
 }
 

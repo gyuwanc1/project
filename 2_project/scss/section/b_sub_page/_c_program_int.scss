@@ -2,23 +2,185 @@
 @charset "UTF-8";
 
 @media all and (max-width:767px){
-  #program_int {width: 100%; height: 2300px; background-color: #262626;}
+  #program_int {width: 100%; height: auto; background-color: #262626; padding:80px 13px 50px;
+    .int_pro_box {width: 100%; height: auto; font-size: 34px; color:#fff; text-align: center; font-weight: bold; margin-bottom: 30px;}
+    @at-root .int_card {width: 100%; height: auto; padding:0px 13px;
+      & li {width: 100%; height: 340px; margin-bottom: 30px; background-color: #666; border-radius: 20px;
+        & a {display: block; width: 100%; height: 100%;}        
+      }
+      & li:nth-child(1) {background: {image:url(../../multi/img/campaign/section03_pic01_2x.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:cover;
+        }
+      }
+      & li:nth-child(2) {background: {image:url(../../multi/img/campaign/section03_pic02_2x.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:cover;
+        }
+      }
+      & li:nth-child(3) {background: {image:url(../../multi/img/campaign/section03_pic03_2x.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:cover;
+        }
+      }
+      & li:nth-child(4) {background: {image:url(../../multi/img/campaign/section03_pic04_2x.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:cover;
+        }
+      }
+      & li:nth-child(5) {background: {image:url(../../multi/img/campaign/section03_pic05_2x.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:cover;
+        }
+      }
+    }
+    .link_addre {width: 100%; height: auto; font-size: 14px; color:#fff; font-weight: 500; text-align: center;}
+  }
+  
 
 }// 디자인기준 320px
 
 
 @media all and (min-width:768px) and (max-width:1279px) {
-  #program_int {width: 100%; height: 4230px; background-color: #262626;}
+  #program_int {width: 100%; height: auto; background-color: #262626;padding:80px;
+    .int_pro_box {width: 100%; height: auto; font-size: 34px; color:#fff; text-align: center; font-weight: bold; margin-bottom: 30px;}
+    @at-root .int_card {width: 100%; height: 100%; padding:0px 13px;
+      & li {width: 100%; height: 754px; margin-bottom: 30px; background-color: #666; border-radius: 20px;
+        & a {display: block; width: 100%; height: 100%;}        
+      }
+      & li:nth-child(1) {background: {image:url(../../multi/img/campaign/section03_pic01_2x.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:cover;
+        }
+      }
+      & li:nth-child(2) {background: {image:url(../../multi/img/campaign/section03_pic02_2x.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:cover;
+        }
+      }
+      & li:nth-child(3) {background: {image:url(../../multi/img/campaign/section03_pic03_2x.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:cover;
+        }
+      }
+      & li:nth-child(4) {background: {image:url(../../multi/img/campaign/section03_pic04_2x.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:cover;
+        }
+      }
+      & li:nth-child(5) {background: {image:url(../../multi/img/campaign/section03_pic05_2x.png);
+        repeat:no-repeat;
+        position:0 0 ;
+        size:cover;
+        }
+      }
+    }
+    .link_addre {width: 100%; height: auto; font-size: 14px; color:#fff;font-weight: 300; text-align: center;}
+  }
 
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px){
-  #program_int {width: 100%; height: 1650px; background-color: #262626;}
+  #program_int {width: 100%; height: auto; background-color: #262626;padding:140px 140px 100px;
+    .int_pro_box {width: 100%; height: auto; font-size: 60px; color:#fff; text-align: center; font-weight: bold; margin-bottom: 30px;}
+    @at-root .int_card {display: flex; justify-content: space-around; flex-wrap: wrap;
+      width: 100%; height: auto;
+      & li {width: 100%; height: 340px; margin-bottom: 30px; background-color: #666; border-radius: 20px;
+        & a {display: block; width: 100%; height: 100%;}        
+      }
+      & li:nth-child(1) {background: {image:url(../../multi/img/campaign/section03_pic01_2x.png);
+        repeat:no-repeat;
+        position:80% ;
+        size:contain;
+        }
+      }
+      & li:nth-child(2) { width: 492px; height: 332px;
+        background: {image:url(../../multi/img/campaign/section03_pic02_2x.png);
+        repeat:no-repeat;
+        position:50% 50% ;
+        size:contain;
+        }
+      }
+      & li:nth-child(3) {width: 492px; height: 332px;
+        background: {image:url(../../multi/img/campaign/section03_pic03_2x.png);
+        repeat:no-repeat;
+        position: 50% 50% ;
+        size:contain;
+        }
+      }
+      & li:nth-child(4) {width: 492px; height: 332px;
+        background: {image:url(../../multi/img/campaign/section03_pic04_2x.png);
+        repeat:no-repeat;
+        position: 50% 50% ;
+        size:contain;
+        }
+      }
+      & li:nth-child(5) {width: 492px; height: 332px;
+        background: {image:url(../../multi/img/campaign/section03_pic05_2x.png);
+        repeat:no-repeat;
+        position: 50% 50% ;
+        size:contain;
+        }
+      }
+    }
+    .link_addre {width: 100%; height: auto; font-size: 16px; color:#fff;font-weight: 500; text-align: center; margin-top: 50px;}
+  }
 
 }// 디자인 기준 1280px
 
 
 @media all and (min-width:1440px) {
-
-  #program_int {width: 100%; height: 1650px; background-color: #262626;}
+  #program_int {width: 100%; height: auto; background-color: #262626; padding:140px 208px 50px;}
+  .int_pro_box{width: 100%; height: auto; font-size: 60px; color:#fff; text-align: center; font-weight: bold; margin-bottom: 30px;}
+  @at-root .int_card {display: flex; justify-content: space-around; flex-wrap: wrap;
+    width: 100%; height: 100%; 
+    & li {width: 100%; height: 340px; margin-bottom: 30px; background-color: #666; border-radius: 20px;
+      & a {display: block; width: 100%; height: 100%;}        
+    }
+    & li:nth-child(1) {background: {image:url(../../multi/img/campaign/section03_pic01_2x.png);
+      repeat:no-repeat;
+      position:80% ;
+      size:contain;
+      }
+    }
+    & li:nth-child(2) { width: 492px; height: 332px;
+      background: {image:url(../../multi/img/campaign/section03_pic02_2x.png);
+      repeat:no-repeat;
+      position:50% 50% ;
+      size:contain;
+      }
+    }
+    & li:nth-child(3) {width: 492px; height: 332px;
+      background: {image:url(../../multi/img/campaign/section03_pic03_2x.png);
+      repeat:no-repeat;
+      position: 50% 50% ;
+      size:contain;
+      }
+    }
+    & li:nth-child(4) {width: 492px; height: 332px;
+      background: {image:url(../../multi/img/campaign/section03_pic04_2x.png);
+      repeat:no-repeat;
+      position: 50% 50% ;
+      size:contain;
+      }
+    }
+    & li:nth-child(5) {width: 492px; height: 332px;
+      background: {image:url(../../multi/img/campaign/section03_pic05_2x.png);
+      repeat:no-repeat;
+      position: 50% 50% ;
+      size:contain;
+      }
+    }
+    
+  }
+  .link_addre {width: 100%; height: auto; font-size: 16px; color:#fff;font-weight: 500;  text-align: center;}
 }//디자인 기준 1440px
