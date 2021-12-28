@@ -59,7 +59,7 @@ viewBox.style.width = ( (slideLen + 1) * slidewidth) + '%'; //UL(viewBox) 사이
 viewBox.style.position = 'relative';
 viewBox.style.left = 0; //초기값 설정
 viewBox.style.marginLeft = '-100%';
-// slideBox.style.overflow='hidden';
+slideBox.style.overflow='hidden';
 
 //** 위의 3가지는 CSS에서 컨트롤 해도 상관없음
 //===========================================
