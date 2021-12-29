@@ -10,7 +10,8 @@ const slideCv02 = [].slice.call(boothLi);
 const boothwidth = 100;
 const slideLen02 = boothLi.length; 
 //기능------------------------------------------
-const LastEl02 = slideCv02.at(-1);
+
+const LastEl02 = slideCv02[slideLen02 -1];
 const copyLi02 = LastEl02.cloneNode(true); 
 boothPd.prepend(copyLi02); 
 
