@@ -15,7 +15,7 @@ viewList.forEach(el=>{
   el.style.width = (100 / (slideLen + 1) ) + '%';
 })
 
-const cloneLI = viewList.at(0).cloneNode(true);
+const cloneLI = viewList[0].cloneNode(true);
 viewBox.append(cloneLI);
 
 viewBox.style.transition = 'margin-left 300ms ease';
@@ -34,3 +34,4 @@ next.addEventListener('click', (e)=>{
 
 }
 //되요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ미친다 
+//작동안해요 
