@@ -46,7 +46,8 @@ const slideLen = viewEtc.length; //li의 갯수
 //기능------------------------------------------
 
 //마지막 li복사하여 맨앞에 넣기
-const LastEl = slideCv.at(-1);//마지막 li선택
+const LastEl = slideCv[slideLen -1];//마지막
+
 const copyLi = LastEl.cloneNode(true); //마지막 li복사 cloneNode(true)=>내부요소까지 복제
 viewBox.prepend(copyLi); //복제요소를 앞으로 추가첨부는 css에서 nth사용 불가(클래스명으로 할당) 
 
@@ -58,7 +59,7 @@ viewBox.style.width = ( (slideLen + 1) * slidewidth) + '%'; //UL(viewBox) 사이
 
 viewBox.style.position = 'relative';
 viewBox.style.left = 0; //초기값 설정
-viewBox.style.marginLeft = '-100%';
+viewBox.style.marginLeft = '-100%'; 
 // slideBox.style.overflow='hidden';
 
 //** 위의 3가지는 CSS에서 컨트롤 해도 상관없음
