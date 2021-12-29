@@ -385,6 +385,7 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
     top: 40%;
     left: 0;
     width: 100%;
@@ -392,6 +393,7 @@
     padding: 0 10px;
   }
   .button_box button {
+    display: block;
     width: auto;
     height: auto;
   }
@@ -449,6 +451,7 @@
     padding: 0 10px;
   }
   .button_box button {
+    display: block;
     width: auto;
     height: auto;
   }
@@ -499,6 +502,7 @@
   }
 
   .button_box {
+    display: block;
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -556,6 +560,7 @@
   }
 
   .button_box {
+    display: block;
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -893,6 +898,7 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
     top: 30%;
     left: 0;
     width: 100%;
