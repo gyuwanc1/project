@@ -117,7 +117,7 @@ const aniPrev = async( )=>{
 
 
 //==========================================================이벤트버튼
-next.addEventListener('click', e=>{
+next.addEventListener('click', (e)=>{
   e.preventDefault();
   //아이폰하고ㅠ갤럭시s10 하고 플립3요 
 
@@ -153,13 +153,5 @@ prev.addEventListener('click', e=>{
   }
 })
 //=====================================================================
-
-
-
-
-
-
-
-
 
 })()

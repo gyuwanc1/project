@@ -367,6 +367,9 @@
     height: 3rem;
     cursor: pointer;
   }
+  .button_box button button:hover {
+    color: #fad;
+  }
   .button_box button i {
     color: #fff;
   }
