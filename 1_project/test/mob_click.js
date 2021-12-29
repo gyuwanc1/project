@@ -1,19 +1,27 @@
 
 
 {
-const slide_box = document.querySelector('.slide_box');
-const next = slide_box.querySelector('.next');
+const slideBox = document.querySelector('.slide_box');
+const next = slideBox.querySelector('.next');
+const viewBox = slideBox.querySelector('.view_box');
+const viewBoxLi = viewBox.children;
+const viewList = [...viewBoxLi];
+const slideLen = viewList.length;
+
+let slideIndex = 0;
+const SLIDE_WIDTH = slideBox.clientWidth;
+
 
 next.addEventListener('click', (e)=>{
   e.preventDefault();
-  alert('apple test!!');
-})
+  if(slideIndex < slideLen-1) {
+    slideIndex += 1; 
+  }else{ 
+    slideIndex = 0;
+  }
+  const moveWidth = slideIndex *  SLIDE_WIDTH;
+  viewBox.style.marginLeft = moveWidth * -1 + 'px';
+
+});
+
 }
-//잠시만 기다려주세요  바로 안되더라구요
-
-//클릭도되요
-
-//버튼 화면에 나오는건 잡았는데
-
-//클릭하면 슬라이드가안넘어가요 
-//넵 
