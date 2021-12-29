@@ -27,8 +27,15 @@
     & .close_btn {float: right; width: 22px; height: 32px;}
     & a {display: block; 
       & i {color:#fff;}
-    }  
+    }
+    & ul {position: absolute; left: 0; top: 120px; width: 100%; height: a;
+      & li {width: 100%;height: 24px; font-size: 16px; font-weight: 400; margin-bottom: 25px; color:#fff;text-align: center;}
+      & li:last-of-type {width: 250px; border-radius: 10px; background:linear-gradient(270deg, #ab67f7, #3438f2); margin: auto;}
+    }
+    & .mo_bg {position: fixed; bottom:0; left:0; z-index: 100; width: 100%; height: 33%;
+      background-color: #232323; opacity: 0.5;}     
   }
+  .on {display: block;}  
 } 
 
 
@@ -59,8 +66,18 @@
       & .close_btn {float: right; width: 22px; height: 32px;}
       & a {display: block; 
       & i {color:#fff}
-      }  
+      }
+      & ul {position: absolute; left: 0; top: 120px; width: 100%; height: a;
+        & li {width: 250px;height: 50px; font-size: 16px; font-weight: 400; 
+          margin: auto;  margin-bottom: 25px; padding: 13px; color:#fff;text-align: center;
+          &a {display: block; width: 100%; height: 100%;}
+        }
+        & li:last-of-type {border-radius: 10px; background:linear-gradient(270deg, #ab67f7, #3438f2);}
+      }
+      & .mo_bg {position: fixed; bottom:0; left:0; z-index: 100; width: 100%; height: 33%;
+        background-color: #232323; opacity: 0.5;}  
     }
+    .on {display: block;}  
   } 
 }// 디자인 기준 768px
 
