@@ -349,41 +349,11 @@
     overflow: hidden;
   }
 
-  .view_box {
-    display: flex;
-    justify-content: space-around;
-    width: 300%;
-    height: 650px;
-  }
-  .view_box .slide_01 {
-    width: 100%;
-    height: 650px;
-    background-image: url(../../../multi/img/section01_img01.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  .view_box .slide_02 {
-    width: 100%;
-    height: 650px;
-    background-image: url(../../../multi/img/section01_img02.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  .view_box .slide_03 {
-    width: 100%;
-    height: 650px;
-    background-image: url(../../../multi/img/section01_img03.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
   .button_box {
     position: absolute;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
     top: 40%;
     left: 0;
     width: 100%;
@@ -398,14 +368,6 @@
   .button_box button i {
     color: #fff;
   }
-}
-@media all and (min-width: 768px) and (max-width: 1279px) {
-  .slide_box {
-    position: relative;
-    width: 100%;
-    height: 650px;
-    overflow: hidden;
-  }
 
   .view_box {
     display: flex;
@@ -437,6 +399,14 @@
     background-position: 50% 50%;
     background-size: cover;
   }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  .slide_box {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+  }
 
   .button_box {
     position: absolute;
@@ -444,17 +414,49 @@
     justify-content: space-between;
     top: 50%;
     left: 0;
+    z-index: 10;
     width: 100%;
     height: auto;
     padding: 0 10px;
   }
   .button_box button {
     display: block;
-    width: auto;
-    height: auto;
+    width: 3rem;
+    height: 3rem;
   }
   .button_box button i {
     color: #fff;
+  }
+
+  .view_box {
+    display: flex;
+    justify-content: space-around;
+    width: 300%;
+    height: 650px;
+  }
+  .view_box .slide_01 {
+    width: 100%;
+    height: 650px;
+    background-image: url(../../../multi/img/section01_img01.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .view_box .slide_02 {
+    width: 100%;
+    height: 650px;
+    background-image: url(../../../multi/img/section01_img02.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .view_box .slide_03 {
+    width: 100%;
+    height: 650px;
+    background-image: url(../../../multi/img/section01_img03.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
@@ -465,6 +467,27 @@
     overflow: hidden;
   }
 
+  .button_box {
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 0;
+    padding: 0 40px;
+  }
+  .button_box button {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+  }
+  .button_box button i {
+    color: #fff;
+  }
+
   .view_box {
     display: flex;
     justify-content: space-around;
@@ -497,25 +520,6 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-  }
-
-  .button_box {
-    display: block;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 0;
-    padding: 0 40px;
-  }
-  .button_box button {
-    width: auto;
-    height: auto;
-  }
-  .button_box button i {
-    color: #fff;
   }
 }
 @media all and (min-width: 1440px) {
@@ -526,6 +530,27 @@
     overflow: hidden;
   }
 
+  .button_box {
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 0;
+    padding: 0 50px;
+  }
+  .button_box button {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+  }
+  .button_box button i {
+    color: #fff;
+  }
+
   .view_box {
     display: flex;
     justify-content: space-around;
@@ -555,25 +580,6 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-  }
-
-  .button_box {
-    display: block;
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 0;
-    padding: 0 50px;
-  }
-  .button_box button {
-    width: auto;
-    height: auto;
-  }
-  .button_box button i {
-    color: #fff;
   }
 }
 @media all and (max-width: 767px) {
@@ -825,6 +831,24 @@
     height: 500px;
     overflow: hidden;
   }
+  .booth_wrap .booth_button_box {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding: 0 10px;
+  }
+  .booth_wrap .booth_button_box button {
+    width: 3rem;
+    height: 3rem;
+  }
+  .booth_wrap .booth_button_box button i {
+    color: #000;
+  }
   .booth_wrap .booth_pd {
     display: flex;
     justify-content: flex-start;
@@ -892,24 +916,6 @@
     height: auto;
     font-size: 13px;
   }
-  .booth_wrap .booth_button_box {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    z-index: 10;
-    top: 30%;
-    left: 0;
-    width: 100%;
-    height: 0;
-    padding: 0 10px;
-  }
-  .booth_wrap .booth_button_box button {
-    width: 3rem;
-    height: 3rem;
-  }
-  .booth_wrap .booth_button_box button i {
-    color: #000;
-  }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
   .ex_booth {
@@ -941,6 +947,24 @@
     width: 100%;
     height: 760px;
     overflow: hidden;
+  }
+  .booth_wrap .booth_button_box {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 55%;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 0;
+    padding: 0 20px;
+  }
+  .booth_wrap .booth_button_box button {
+    width: 3rem;
+    height: 3rem;
+  }
+  .booth_wrap .booth_button_box button i {
+    color: #000;
   }
   .booth_wrap .booth_pd {
     display: flex;
@@ -1010,24 +1034,6 @@
     height: auto;
     font-size: 13px;
   }
-
-  .booth_button_box {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    top: 55%;
-    left: 0;
-    width: 100%;
-    height: 0;
-    padding: 0 20px;
-  }
-  .booth_button_box button {
-    width: auto;
-    height: auto;
-  }
-  .booth_button_box button i {
-    color: #000;
-  }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
   .ex_booth {
@@ -1058,6 +1064,23 @@
     width: 100%;
     height: 600px;
     overflow: hidden;
+  }
+  .booth_wrap .booth_button_box {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 0;
+  }
+  .booth_wrap .booth_button_box button {
+    width: auto;
+    height: auto;
+  }
+  .booth_wrap .booth_button_box button i {
+    color: #000;
   }
   .booth_wrap .booth_pd {
     display: flex;
@@ -1127,23 +1150,6 @@
     height: auto;
     font-size: 13px;
   }
-
-  .booth_button_box {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 0;
-  }
-  .booth_button_box button {
-    width: auto;
-    height: auto;
-  }
-  .booth_button_box button i {
-    color: #000;
-  }
 }
 @media all and (min-width: 1440px) {
   .ex_booth {
@@ -1174,6 +1180,24 @@
     width: 100%;
     height: 600px;
     overflow: hidden;
+  }
+  .booth_wrap .booth_button_box {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 0;
+    padding: 0 20px;
+  }
+  .booth_wrap .booth_button_box button {
+    width: 3rem;
+    height: 3rem;
+  }
+  .booth_wrap .booth_button_box button i {
+    color: #000;
   }
   .booth_wrap .booth_pd {
     display: flex;
@@ -1242,24 +1266,6 @@
     width: 283px;
     height: auto;
     font-size: 13px;
-  }
-
-  .booth_button_box {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 0;
-    padding: 0 20px;
-  }
-  .booth_button_box button {
-    width: auto;
-    height: auto;
-  }
-  .booth_button_box button i {
-    color: #000;
   }
 }
 @media all and (max-width: 767px) {
