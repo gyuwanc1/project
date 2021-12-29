@@ -76,6 +76,9 @@ ReCvt.forEach((el,idx)=>{
 const prev = slideBox.querySelector('.prev');
 const next = slideBox.querySelector('.next');
 
+next.style.cursor='pointer';
+prev.style.cursor='pointer';
+
 let i =0; //전역변수로 설정해놔야 반환되는 값이 지속적으로 사용가능
 let PERMISSION = true;
 
