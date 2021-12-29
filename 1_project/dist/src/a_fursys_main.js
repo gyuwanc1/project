@@ -1,7 +1,7 @@
 (()=>{
   //a_fursys_main.js
 
-  window.alert('교육용으로 제작된 웹페이지 입니다.');
+  // window.alert('교육용으로 제작된 웹페이지 입니다.');
 
 //modal_menu
   //선택자----------------------------------
@@ -93,7 +93,7 @@ const delay = async (ms = 0) => {
 const fnAniSlide = async () => {
   await delay();
   viewBox.style.transition='left 300ms ease';
-  viewBox.style.left = (-100 * i) + '%'
+  viewBox.style.left = (-100 * i) + '%';
   await delay(500);
   PERMISSION = true;
 }
@@ -114,8 +114,10 @@ const aniPrev = async( )=>{
 
 
 //==========================================================이벤트버튼
-next.addEventListener('click', e=>{
+next.addEventListener('touchstart', e=>{
   e.preventDefault();
+  alert(e); //아이폰하고ㅠ갤럭시s10 하고 플립3요 
+
   if(PERMISSION){
     PERMISSION =false;
     i +=1;
