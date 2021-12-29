@@ -1,7 +1,7 @@
 (()=>{
   //a_fursys_main.js
 
-  // window.alert('교육용으로 제작된 웹페이지 입니다.');
+  window.alert('교육용으로 제작된 웹페이지 입니다.');
 
 //modal_menu
   //선택자----------------------------------
@@ -114,9 +114,9 @@ const aniPrev = async( )=>{
 
 
 //==========================================================이벤트버튼
-next.addEventListener('touchstart', e=>{
+next.addEventListener('click', e=>{
   e.preventDefault();
-  alert(e); //아이폰하고ㅠ갤럭시s10 하고 플립3요 
+  //아이폰하고ㅠ갤럭시s10 하고 플립3요 
 
   if(PERMISSION){
     PERMISSION =false;
