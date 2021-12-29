@@ -32,7 +32,7 @@
 
       
   }
-  .button_box {position: absolute; display: flex; justify-content: space-between;top: 40%; left: 10% ; width: 80%; height:0; padding: 0 10px;
+  .button_box {position: absolute; display: flex; justify-content: space-between;top: 40%; left: 10% ; z-index: 1000; width: 80%; height:0; padding: 0 10px;
     & button {display: block; width: auto; height: auto;
       & i {color: #fff;}
     }
