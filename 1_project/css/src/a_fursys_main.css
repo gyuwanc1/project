@@ -343,7 +343,7 @@ body, #wrap {
 }
 
 @media all and (max-width: 767px) {
-  .slide_box {
+  #slide_box {
     position: relative;
     z-index: 100;
     width: 100%;
@@ -409,7 +409,7 @@ body, #wrap {
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
-  .slide_box {
+  #slide_box {
     position: relative;
     width: 100%;
     height: 650px;
@@ -468,7 +468,7 @@ body, #wrap {
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
-  .slide_box {
+  #slide_box {
     position: relative;
     width: 100%;
     height: 650px;
@@ -531,7 +531,7 @@ body, #wrap {
   }
 }
 @media all and (min-width: 1440px) {
-  .slide_box {
+  #slide_box {
     position: relative;
     width: 100%;
     height: 650px;
@@ -591,7 +591,7 @@ body, #wrap {
   }
 }
 @media all and (max-width: 767px) {
-  .intro {
+  #intro {
     width: 100%;
     height: 600px;
     padding: 50px 13px;
@@ -645,7 +645,7 @@ body, #wrap {
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
-  .intro {
+  #intro {
     width: 100%;
     height: 1050px;
     padding: 50px 30px;
@@ -699,7 +699,7 @@ body, #wrap {
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
-  .intro {
+  #intro {
     width: 100%;
     height: 1050px;
     padding: 50px 100px;
@@ -754,7 +754,7 @@ body, #wrap {
   }
 }
 @media all and (min-width: 1440px) {
-  .intro {
+  #intro {
     width: 100%;
     height: 1050px;
     padding: 50px 100px;
@@ -809,7 +809,7 @@ body, #wrap {
   }
 }
 @media all and (max-width: 767px) {
-  .ex_booth {
+  #ex_booth {
     width: 100%;
     height: 800px;
     padding: 50px 16px;
@@ -926,7 +926,7 @@ body, #wrap {
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
-  .ex_booth {
+  #ex_booth {
     width: 100%;
     height: auto;
     padding: 50px 45px;
@@ -1044,7 +1044,7 @@ body, #wrap {
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
-  .ex_booth {
+  #ex_booth {
     width: 100%;
     height: auto;
     padding: 100px 100px;
@@ -1160,7 +1160,7 @@ body, #wrap {
   }
 }
 @media all and (min-width: 1440px) {
-  .ex_booth {
+  #ex_booth {
     width: 100%;
     height: auto;
     padding: 100px 100px;
@@ -1277,13 +1277,13 @@ body, #wrap {
   }
 }
 @media all and (max-width: 767px) {
-  .advice_area {
+  #advice_area {
     width: 100%;
     height: auto;
     padding: 50px 16px;
     background-color: whitesmoke;
   }
-  .advice_area h2 {
+  #advice_area h2 {
     width: 100%;
     height: 32px;
     font-size: 20px;
@@ -1291,99 +1291,99 @@ body, #wrap {
     line-height: 32px;
     margin-bottom: 30px;
   }
-  .advice_area fieldset {
+  #advice_area fieldset {
     width: 100%;
     height: auto;
   }
-  .advice_area .basic_form {
+  #advice_area .basic_form {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .basic_form > label {
+  #advice_area .basic_form > label {
     width: 100%;
     height: 24px;
   }
-  .advice_area .basic_form input {
+  #advice_area .basic_form input {
     width: 100%;
     height: 30px;
     border: 1px solid #171717;
   }
-  .advice_area .advice_box {
+  #advice_area .advice_box {
     width: 100%;
     height: 200px;
     margin-top: 10px;
   }
-  .advice_area .advice_box p {
+  #advice_area .advice_box p {
     width: 100%;
     height: 24px;
   }
-  .advice_area .advice_box textarea {
+  #advice_area .advice_box textarea {
     width: 100%;
     height: 176px;
     border: 1px solid #171717;
   }
-  .advice_area .tel_box {
+  #advice_area .tel_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .tel_box > label {
+  #advice_area .tel_box > label {
     width: 100%;
     height: 24px;
   }
-  .advice_area .tel_box input {
+  #advice_area .tel_box input {
     width: 100%;
     height: 30px;
     border: 1px solid #171717;
   }
-  .advice_area .mail_box {
+  #advice_area .mail_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .mail_box > label {
+  #advice_area .mail_box > label {
     width: 100%;
     height: 24px;
   }
-  .advice_area .mail_box input {
+  #advice_area .mail_box input {
     width: 100%;
     height: 30px;
     border: 1px solid #171717;
   }
-  .advice_area .way_box {
+  #advice_area .way_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .way_box p {
+  #advice_area .way_box p {
     width: 100%;
     height: 24px;
   }
-  .advice_area .way_box .check_area {
+  #advice_area .way_box .check_area {
     display: flex;
     justify-content: space-around;
     width: 100%;
     height: 20px;
   }
-  .advice_area .way_box .check_area .box_radio {
+  #advice_area .way_box .check_area .box_radio {
     width: 100%;
     height: 100%;
     font-size: 14px;
   }
-  .advice_area .way_box .check_area .box_radio input {
+  #advice_area .way_box .check_area .box_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .way_box .check_area .box_radio label {
+  #advice_area .way_box .check_area .box_radio label {
     width: auto;
     height: auto;
   }
-  .advice_area .private_box {
+  #advice_area .private_box {
     width: 100%;
     height: 160px;
   }
-  .advice_area .private_box p {
+  #advice_area .private_box p {
     width: 100%;
     height: 160px;
     border: 1px solid #171717;
@@ -1391,29 +1391,29 @@ body, #wrap {
     overflow-y: auto;
     line-height: 30px;
   }
-  .advice_area .private_box p span {
+  #advice_area .private_box p span {
     font-weight: 700;
   }
-  .advice_area .private_radio {
+  #advice_area .private_radio {
     width: 100%;
     height: 100%;
     margin-top: 5px;
   }
-  .advice_area .private_radio input {
+  #advice_area .private_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .private_radio label {
+  #advice_area .private_radio label {
     width: 100%;
     height: auto;
     font-size: 14px;
   }
-  .advice_area .third_box {
+  #advice_area .third_box {
     width: 100%;
     height: 200px;
     margin-top: 10px;
   }
-  .advice_area .third_box p {
+  #advice_area .third_box p {
     width: 100%;
     height: 200px;
     border: 1px solid #171717;
@@ -1421,32 +1421,32 @@ body, #wrap {
     overflow-y: auto;
     line-height: 30px;
   }
-  .advice_area .third_box p span {
+  #advice_area .third_box p span {
     font-weight: 700;
   }
-  .advice_area .third_radio {
+  #advice_area .third_radio {
     width: 100%;
     height: 100%;
     margin-top: 5px;
   }
-  .advice_area .third_radio input {
+  #advice_area .third_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .third_radio label {
+  #advice_area .third_radio label {
     width: 100%;
     height: auto;
     font-size: 14px;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
-  .advice_area {
+  #advice_area {
     width: 100%;
     height: auto;
     padding: 150px 40px;
     background-color: whitesmoke;
   }
-  .advice_area h2 {
+  #advice_area h2 {
     width: 100%;
     height: 32px;
     font-size: 20px;
@@ -1454,99 +1454,99 @@ body, #wrap {
     line-height: 32px;
     margin-bottom: 50px;
   }
-  .advice_area fieldset {
+  #advice_area fieldset {
     width: 100%;
     height: auto;
   }
-  .advice_area .basic_form {
+  #advice_area .basic_form {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .basic_form > label {
+  #advice_area .basic_form > label {
     width: 100%;
     height: 24px;
   }
-  .advice_area .basic_form input {
+  #advice_area .basic_form input {
     width: 100%;
     height: 30px;
     border: 1px solid #171717;
   }
-  .advice_area .advice_box {
+  #advice_area .advice_box {
     width: 100%;
     height: 200px;
     margin-top: 10px;
   }
-  .advice_area .advice_box p {
+  #advice_area .advice_box p {
     width: 100%;
     height: 24px;
   }
-  .advice_area .advice_box textarea {
+  #advice_area .advice_box textarea {
     width: 100%;
     height: 176px;
     border: 1px solid #171717;
   }
-  .advice_area .tel_box {
+  #advice_area .tel_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .tel_box > label {
+  #advice_area .tel_box > label {
     width: 100%;
     height: 24px;
   }
-  .advice_area .tel_box input {
+  #advice_area .tel_box input {
     width: 100%;
     height: 30px;
     border: 1px solid #171717;
   }
-  .advice_area .mail_box {
+  #advice_area .mail_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .mail_box > label {
+  #advice_area .mail_box > label {
     width: 100%;
     height: 24px;
   }
-  .advice_area .mail_box input {
+  #advice_area .mail_box input {
     width: 100%;
     height: 30px;
     border: 1px solid #171717;
   }
-  .advice_area .way_box {
+  #advice_area .way_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .way_box p {
+  #advice_area .way_box p {
     width: 100%;
     height: 24px;
   }
-  .advice_area .way_box .check_area {
+  #advice_area .way_box .check_area {
     display: flex;
     justify-content: left;
     width: 100%;
     height: 20px;
   }
-  .advice_area .way_box .check_area .box_radio {
+  #advice_area .way_box .check_area .box_radio {
     width: 100%;
     height: 100%;
     font-size: 14px;
   }
-  .advice_area .way_box .check_area .box_radio input {
+  #advice_area .way_box .check_area .box_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .way_box .check_area .box_radio label {
+  #advice_area .way_box .check_area .box_radio label {
     width: auto;
     height: auto;
   }
-  .advice_area .private_box {
+  #advice_area .private_box {
     width: 100%;
     height: 160px;
   }
-  .advice_area .private_box p {
+  #advice_area .private_box p {
     width: 100%;
     height: 160px;
     border: 1px solid #171717;
@@ -1554,29 +1554,29 @@ body, #wrap {
     overflow-y: auto;
     line-height: 30px;
   }
-  .advice_area .private_box p span {
+  #advice_area .private_box p span {
     font-weight: 700;
   }
-  .advice_area .private_radio {
+  #advice_area .private_radio {
     width: 100%;
     height: 100%;
     margin-top: 5px;
   }
-  .advice_area .private_radio input {
+  #advice_area .private_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .private_radio label {
+  #advice_area .private_radio label {
     width: 100%;
     height: auto;
     font-size: 14px;
   }
-  .advice_area .third_box {
+  #advice_area .third_box {
     width: 100%;
     height: 200px;
     margin-top: 10px;
   }
-  .advice_area .third_box p {
+  #advice_area .third_box p {
     width: 100%;
     height: 200px;
     border: 1px solid #171717;
@@ -1584,32 +1584,32 @@ body, #wrap {
     overflow-y: auto;
     line-height: 30px;
   }
-  .advice_area .third_box p span {
+  #advice_area .third_box p span {
     font-weight: 700;
   }
-  .advice_area .third_radio {
+  #advice_area .third_radio {
     width: 100%;
     height: 100%;
     margin-top: 5px;
   }
-  .advice_area .third_radio input {
+  #advice_area .third_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .third_radio label {
+  #advice_area .third_radio label {
     width: 100%;
     height: auto;
     font-size: 14px;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
-  .advice_area {
+  #advice_area {
     width: 100%;
     height: auto;
     padding: 40px 0;
     background-color: whitesmoke;
   }
-  .advice_area h2 {
+  #advice_area h2 {
     width: 100%;
     height: 32px;
     font-size: 20px;
@@ -1617,130 +1617,130 @@ body, #wrap {
     line-height: 32px;
     margin-bottom: 50px;
   }
-  .advice_area fieldset {
+  #advice_area fieldset {
     width: 600px;
     height: auto;
     margin: auto;
   }
-  .advice_area .nom_area {
+  #advice_area .nom_area {
     float: left;
     width: 45%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .nom_area > label {
+  #advice_area .nom_area > label {
     width: 100%;
     height: 17px;
   }
-  .advice_area .nom_area input {
+  #advice_area .nom_area input {
     width: 100%;
     height: 37px;
     border: 1px solid #171717;
   }
-  .advice_area .office_area {
+  #advice_area .office_area {
     float: right;
     width: 45%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .office_area > label {
+  #advice_area .office_area > label {
     width: 100%;
     height: 17px;
   }
-  .advice_area .office_area input {
+  #advice_area .office_area input {
     width: 100%;
     height: 37px;
     border: 1px solid #171717;
   }
-  .advice_area .office_addre {
+  #advice_area .office_addre {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .office_addre > label {
+  #advice_area .office_addre > label {
     width: 100%;
     height: 17px;
   }
-  .advice_area .office_addre input {
+  #advice_area .office_addre input {
     width: 100%;
     height: 37px;
     border: 1px solid #171717;
   }
-  .advice_area .advice_box {
+  #advice_area .advice_box {
     width: 100%;
     height: 150px;
     margin-top: 10px;
   }
-  .advice_area .advice_box p {
+  #advice_area .advice_box p {
     width: 100%;
     height: 24px;
   }
-  .advice_area .advice_box textarea {
+  #advice_area .advice_box textarea {
     width: 100%;
     height: 126px;
     border: 1px solid #171717;
   }
-  .advice_area .tel_box {
+  #advice_area .tel_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .tel_box > label {
+  #advice_area .tel_box > label {
     width: 100%;
     height: 17px;
   }
-  .advice_area .tel_box input {
+  #advice_area .tel_box input {
     width: 100%;
     height: 37px;
     border: 1px solid #171717;
   }
-  .advice_area .mail_box {
+  #advice_area .mail_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .mail_box > label {
+  #advice_area .mail_box > label {
     width: 100%;
     height: 17px;
   }
-  .advice_area .mail_box input {
+  #advice_area .mail_box input {
     width: 100%;
     height: 37px;
     border: 1px solid #171717;
   }
-  .advice_area .way_box {
+  #advice_area .way_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .way_box p {
+  #advice_area .way_box p {
     width: 100%;
     height: 24px;
   }
-  .advice_area .way_box .check_area {
+  #advice_area .way_box .check_area {
     display: flex;
     justify-content: left;
     width: 100%;
     height: 20px;
   }
-  .advice_area .way_box .check_area .box_radio {
+  #advice_area .way_box .check_area .box_radio {
     width: 100%;
     height: 100%;
     font-size: 14px;
   }
-  .advice_area .way_box .check_area .box_radio input {
+  #advice_area .way_box .check_area .box_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .way_box .check_area .box_radio label {
+  #advice_area .way_box .check_area .box_radio label {
     width: auto;
     height: auto;
   }
-  .advice_area .private_box {
+  #advice_area .private_box {
     width: 100%;
     height: 160px;
   }
-  .advice_area .private_box p {
+  #advice_area .private_box p {
     width: 100%;
     height: 160px;
     border: 1px solid #171717;
@@ -1748,29 +1748,29 @@ body, #wrap {
     overflow-y: auto;
     line-height: 30px;
   }
-  .advice_area .private_box p span {
+  #advice_area .private_box p span {
     font-weight: 700;
   }
-  .advice_area .private_radio {
+  #advice_area .private_radio {
     width: 100%;
     height: 100%;
     margin-top: 5px;
   }
-  .advice_area .private_radio input {
+  #advice_area .private_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .private_radio label {
+  #advice_area .private_radio label {
     width: 100%;
     height: auto;
     font-size: 14px;
   }
-  .advice_area .third_box {
+  #advice_area .third_box {
     width: 100%;
     height: 200px;
     margin-top: 10px;
   }
-  .advice_area .third_box p {
+  #advice_area .third_box p {
     width: 100%;
     height: 200px;
     border: 1px solid #171717;
@@ -1778,32 +1778,32 @@ body, #wrap {
     overflow-y: auto;
     line-height: 30px;
   }
-  .advice_area .third_box p span {
+  #advice_area .third_box p span {
     font-weight: 700;
   }
-  .advice_area .third_radio {
+  #advice_area .third_radio {
     width: 100%;
     height: 100%;
     margin-top: 5px;
   }
-  .advice_area .third_radio input {
+  #advice_area .third_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .third_radio label {
+  #advice_area .third_radio label {
     width: 100%;
     height: auto;
     font-size: 14px;
   }
 }
 @media all and (min-width: 1440px) {
-  .advice_area {
+  #advice_area {
     width: 100%;
     height: auto;
     padding: 45px;
     background-color: whitesmoke;
   }
-  .advice_area h2 {
+  #advice_area h2 {
     width: 100%;
     height: 32px;
     font-size: 20px;
@@ -1811,131 +1811,131 @@ body, #wrap {
     line-height: 32px;
     margin-bottom: 50px;
   }
-  .advice_area fieldset {
+  #advice_area fieldset {
     width: 645px;
     height: auto;
     margin: auto;
     clear: both;
   }
-  .advice_area .nom_area {
+  #advice_area .nom_area {
     float: left;
     width: 45%;
     height: 64px;
     margin-top: 10px;
   }
-  .advice_area .nom_area > label {
+  #advice_area .nom_area > label {
     width: 100%;
     height: 22px;
   }
-  .advice_area .nom_area input {
+  #advice_area .nom_area input {
     width: 100%;
     height: 42px;
     border: 1px solid #171717;
   }
-  .advice_area .office_area {
+  #advice_area .office_area {
     float: right;
     width: 45%;
     height: 64px;
     margin-top: 10px;
   }
-  .advice_area .office_area > label {
+  #advice_area .office_area > label {
     width: 100%;
     height: 22px;
   }
-  .advice_area .office_area input {
+  #advice_area .office_area input {
     width: 100%;
     height: 42px;
     border: 1px solid #171717;
   }
-  .advice_area .office_addre {
+  #advice_area .office_addre {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .office_addre > label {
+  #advice_area .office_addre > label {
     width: 100%;
     height: 17px;
   }
-  .advice_area .office_addre input {
+  #advice_area .office_addre input {
     width: 100%;
     height: 37px;
     border: 1px solid #171717;
   }
-  .advice_area .advice_box {
+  #advice_area .advice_box {
     width: 100%;
     height: 150px;
     margin-top: 10px;
   }
-  .advice_area .advice_box p {
+  #advice_area .advice_box p {
     width: 100%;
     height: 24px;
   }
-  .advice_area .advice_box textarea {
+  #advice_area .advice_box textarea {
     width: 100%;
     height: 126px;
     border: 1px solid #171717;
   }
-  .advice_area .tel_box {
+  #advice_area .tel_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .tel_box > label {
+  #advice_area .tel_box > label {
     width: 100%;
     height: 17px;
   }
-  .advice_area .tel_box input {
+  #advice_area .tel_box input {
     width: 100%;
     height: 37px;
     border: 1px solid #171717;
   }
-  .advice_area .mail_box {
+  #advice_area .mail_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .mail_box > label {
+  #advice_area .mail_box > label {
     width: 100%;
     height: 17px;
   }
-  .advice_area .mail_box input {
+  #advice_area .mail_box input {
     width: 100%;
     height: 37px;
     border: 1px solid #171717;
   }
-  .advice_area .way_box {
+  #advice_area .way_box {
     width: 100%;
     height: 54px;
     margin-top: 10px;
   }
-  .advice_area .way_box p {
+  #advice_area .way_box p {
     width: 100%;
     height: 24px;
   }
-  .advice_area .way_box .check_area {
+  #advice_area .way_box .check_area {
     display: flex;
     justify-content: left;
     width: 100%;
     height: 20px;
   }
-  .advice_area .way_box .check_area .box_radio {
+  #advice_area .way_box .check_area .box_radio {
     width: 100%;
     height: 100%;
     font-size: 14px;
   }
-  .advice_area .way_box .check_area .box_radio input {
+  #advice_area .way_box .check_area .box_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .way_box .check_area .box_radio label {
+  #advice_area .way_box .check_area .box_radio label {
     width: auto;
     height: auto;
   }
-  .advice_area .private_box {
+  #advice_area .private_box {
     width: 100%;
     height: 160px;
   }
-  .advice_area .private_box p {
+  #advice_area .private_box p {
     width: 100%;
     height: 160px;
     border: 1px solid #171717;
@@ -1943,29 +1943,29 @@ body, #wrap {
     overflow-y: auto;
     line-height: 30px;
   }
-  .advice_area .private_box p span {
+  #advice_area .private_box p span {
     font-weight: 700;
   }
-  .advice_area .private_radio {
+  #advice_area .private_radio {
     width: 100%;
     height: 100%;
     margin-top: 5px;
   }
-  .advice_area .private_radio input {
+  #advice_area .private_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .private_radio label {
+  #advice_area .private_radio label {
     width: 100%;
     height: auto;
     font-size: 14px;
   }
-  .advice_area .third_box {
+  #advice_area .third_box {
     width: 100%;
     height: 200px;
     margin-top: 10px;
   }
-  .advice_area .third_box p {
+  #advice_area .third_box p {
     width: 100%;
     height: 200px;
     border: 1px solid #171717;
@@ -1973,19 +1973,19 @@ body, #wrap {
     overflow-y: auto;
     line-height: 30px;
   }
-  .advice_area .third_box p span {
+  #advice_area .third_box p span {
     font-weight: 700;
   }
-  .advice_area .third_radio {
+  #advice_area .third_radio {
     width: 100%;
     height: 100%;
     margin-top: 5px;
   }
-  .advice_area .third_radio input {
+  #advice_area .third_radio input {
     width: auto;
     height: auto;
   }
-  .advice_area .third_radio label {
+  #advice_area .third_radio label {
     width: 100%;
     height: auto;
     font-size: 14px;
