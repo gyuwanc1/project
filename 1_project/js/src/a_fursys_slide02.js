@@ -3,7 +3,7 @@
 
 //부스 광고
 
-const exBooth = document.querySelector('.ex_booth');
+const exBooth = document.querySelector('#ex_booth');
 const boothPd = exBooth.querySelector('.booth_pd');
 const boothLi = boothPd.querySelectorAll('li');
 const slideCv02 = [].slice.call(boothLi); 

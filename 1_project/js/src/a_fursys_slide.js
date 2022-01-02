@@ -10,7 +10,7 @@
 //---------------------------------------------------
 //슬라이드 광고
 
-const slideBox = document.querySelector('.slide_box');
+const slideBox = document.querySelector('#slide_box');
 const viewBox = slideBox.querySelector('.view_box');
 const viewEtc = viewBox.querySelectorAll('li');//유사배열
 const slideCv = [].slice.call(viewEtc); //배열화 시키기
