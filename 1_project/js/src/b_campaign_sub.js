@@ -1,5 +1,5 @@
 //b_campaign_sub.ks
-
+{
 const headBox = document.querySelector('#headBox');
 const menuWrap = headBox.querySelector('.menu_wrap');
 const mobilBtn = menuWrap.querySelector('.mobile_gnb_btn');
@@ -16,3 +16,4 @@ closeBtn.addEventListener('click', e=> {
   e.preventDefault();
   modalmenu.classList.remove('on');
 })
+}
