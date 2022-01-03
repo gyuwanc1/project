@@ -20,10 +20,7 @@ const mediaMatches = window.matchMedia(mediaSize);
 //===============================================================
 
 //기능함수
-const delScript= ()=>{ 
-const scScript=document.querySelector('.navScript');
-if(!!scScript){scScript.remove();}
-}
+
 
 const Mkscript = (data)=>{
   const mksc = document.createElement('script');
@@ -31,8 +28,13 @@ const Mkscript = (data)=>{
   mksc.setAttribute('class','navScript');
   Body.append(mksc);
 };
-const MobileCk = (type)=>{
 
+const delScript= ()=>{ 
+  const scScript=document.querySelector('.navScript');
+  if(scScript){scScript.remove();}
+  }
+
+const MobileCk = (type = mediaMatches.matches)=>{
   if(type){
     // console.log('mobile버전')
     // menuWrap.append(NavBtn);
@@ -41,24 +43,27 @@ const MobileCk = (type)=>{
     fetch(setDevice[0].nav)
     .then(response=>response.text())
     .then( data => {HeadBox.innerHTML= data } )
-    .then( ()=>{Mkscript(setDevice[0].script) })    
+    .then( ()=>{Mkscript(setDevice[0].script) })
+
   }else{
-    // console.log('pc버전')    
-    delScript();
+    // console.log('pc버전')       
     fetch(setDevice[1].nav)
     .then(response=>response.text())
-    .then( data => {HeadBox.innerHTML= data } )      
+    .then( data => {HeadBox.innerHTML= data } )
+    .then(delScript())      
   } 
 };
 MobileCk();
 //===============================================================
 
 //이벤트처리
+console.log(mediaMatches.matches);
 
 mediaMatches.addEventListener('change',(e)=>{
-  location.reload;  
+  // location.reload;  
   MobileCk(e.matches);  
 });
 
 }
+
 
