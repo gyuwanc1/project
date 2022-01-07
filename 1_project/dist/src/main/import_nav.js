@@ -7,13 +7,7 @@
     mob: path+'mob_nav.html',
     laptop: path+'laptop_nav.html',
     mobJs: path02+'mobile.js'
-  }
-
-  // const data = [
-  //   {type : 'mobile', url:path+'mob_nav.html', js: path02+'mobile.js'},
-  //   {type : 'laptop', url:path+'laptop_nav.html'},
-  // ]
-  
+  }  
   const elbody = document.querySelector('body');
   const elNav = document.querySelector('.menu_wrap')
   let ckClass;
@@ -24,7 +18,6 @@
       ckClass.remove();
       }
   }
-
   const MkScript = (url)=>{
     // const ckClass = ?.classList.contains('.navScript');
 
@@ -35,7 +28,6 @@
     mkScript.setAttribute('class', 'navScript');
     console.log('mobile 에서 script 생성', url);
     elbody.append(mkScript);
-  
   };
   
   const fnDevicenav = (type, tscript)=>{
@@ -52,7 +44,6 @@
       }
     })
   };
-
   // fnDevicenav(data.mob);
   //=================================================
   //브라우저 1280을 기준으로 html 문서 data.mob/data.laptop의 코드로 확인하여 처리
