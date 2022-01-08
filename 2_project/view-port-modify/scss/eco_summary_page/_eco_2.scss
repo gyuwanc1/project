@@ -8,7 +8,13 @@ section {margin-bottom: 0;}
   }
   .summary_wrap {width: 100%; height: 400px; overflow: hidden;}
   .summary_box {display: flex; justify-content:space-between; width: 300%; height: 400px; background-color: $color_summary; padding: 60px;
-    & li {width: 200px; height: 280px; background-color: $color__gray; } 
+    & li {width: 200px; height: 280px;
+      background: {image:url(../../multi/img/ECO2.jpg);
+        repeat:no-repeat;
+        position:50% 45% ;
+        size:cover;
+      }
+    } 
   }
   .indicator_02 {display: flex; justify-content: space-around; width: 100%; height: 250px; padding:100px 35px;
     & li {width: 50px; height: 50px; border-radius: 100%; background-color: $color__gray02;}
@@ -23,7 +29,13 @@ section {margin-bottom: 0;}
   }
   // .summary_wrap{width: 0; height: 0;}
   .summary_box {display: flex; justify-content: space-around; flex-wrap: wrap; width: 100%; height: 400px; background-color: $color_summary;
-    & li {width: 200px; height: 280px; background-color: $color__gray;}
+    & li {width: 200px; height: 280px;
+      background: {image:url(../../multi/img/ECO2.jpg);
+        repeat:no-repeat;
+        position:50% 45% ;
+        size:cover;
+      }
+    }
   }
     .indicator_02 {display: flex; justify-content: space-around; width: 320px; height: 250px; padding:100px 35px; margin: auto;
     & li {width: 50px; height: 50px; border-radius: 100%; background-color: $color__gray02;}
@@ -38,7 +50,13 @@ section {margin-bottom: 0;}
   }
   //.summary_wrap {width:0; height:0;}
   .summary_box {display: flex; justify-content: space-around; width: 900px; height: 400px; background-color: $color_summary; margin: auto;
-    & li {width: 200px; height: 280px; background-color: $color__gray; margin: auto;}
+    & li {width: 200px; height: 280px;margin: auto;
+      background: {image:url(../../multi/img/ECO2.jpg);
+        repeat:no-repeat;
+        position:50% 45% ;
+        size:cover;
+      }
+    }
   }
   .indicator_02 {position: absolute; top:260px; right:-25px; z-index: 10; display: flex; justify-content: space-around; flex-direction: column; 
     width: 240px; height: 300px; padding:35px 70px; margin: auto;
@@ -54,7 +72,13 @@ section {margin-bottom: 0;}
   h2 {width: 300px; height: 50px; margin: auto; text-align: center; line-height: 50px; margin-bottom:50px}
   }
   .summary_box {display: flex; justify-content: space-around; width: 900px; height: 400px; background-color: $color_summary; margin: auto;
-    & li {width: 200px; height: 280px; background-color: $color__gray; margin: auto;}
+    & li {width: 200px; height: 280px;margin: auto;
+      background: {image:url(../../multi/img/ECO2.jpg);
+        repeat:no-repeat;
+        position:50% 45% ;
+        size:cover;
+      }
+    }
   }
   .indicator_02 {position: absolute; top:260px; right:40px; z-index: 10; display: flex; justify-content: space-around; flex-direction: column; 
     width: 240px; height: 300px; padding:35px 70px; margin: auto;

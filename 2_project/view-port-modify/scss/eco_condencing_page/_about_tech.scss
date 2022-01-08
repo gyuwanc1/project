@@ -2,14 +2,26 @@
 
 @media all and (max-width:767px){
   #about_tech { width: 100%; height: 1250px; 
-    & > div {width: 100%; height: 600px; background-color: $color__gray; margin-bottom: 50px;}
+    & > div {width: 100%; height: 600px; margin-bottom: 50px;
+      background: {image:url(../../multi/img/ECO1.jpg);
+        repeat:no-repeat;
+        position:50% 50% ;
+        size:cover;
+      }
+    }
     & > p {width: 100%; height: 600px; background-color: $color__gray02;}
   }
 }// 디자인기준 320px
 
 @media all and (min-width:768px) and (max-width:1279px) {
   #about_tech {width: 100%; height: 1350px; padding:50px 82px; 
-    & > div {width: 600px; height: 600px; background-color: $color__gray; margin-bottom: 50px; margin: auto;}
+    & > div {width: 600px; height: 600px;margin-bottom: 50px; margin: auto;
+      background: {image:url(../../multi/img/ECO1.jpg);
+        repeat:no-repeat;
+        position:50% 50% ;
+        size:cover;
+      }
+    }
     & > p {width: 600px; height: 600px; background-color: $color__gray02; margin: auto;}
   }
 
@@ -17,13 +29,25 @@
 
 @media all and (min-width:1280px) and (max-width:1439px) {
   #about_tech {display: flex; justify-content: space-between; width: 100%; height: 700px; padding:50px 18px;
-    & >div {width: 600px; height: 600px; background-color: $color__gray;}
+    & >div {width: 600px; height: 600px;
+      background: {image:url(../../multi/img/ECO1.jpg);
+        repeat:no-repeat;
+        position:50% 50% ;
+        size:cover;
+      }
+    }
     & > p {width: 600px; height: 600px; background-color: $color__gray02;}
   }}// 디자인 기준 1280px
 
 @media all and (min-width:1440px) {
   #about_tech {display: flex; justify-content: space-between; width: 100%; height: 700px; padding:50px 18px;
-    & >div {width: 600px; height: 600px; background-color: $color__gray;}
+    & >div {width: 600px; height: 600px; 
+      background: {image:url(../../multi/img/ECO1.jpg);
+        repeat:no-repeat;
+        position:50% 50% ;
+        size:cover;
+      }
+    }
     & > p {width: 600px; height: 600px; background-color: $color__gray02;}
   }
 }//디자인 기준 1440px

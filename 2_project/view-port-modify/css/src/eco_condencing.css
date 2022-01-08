@@ -403,52 +403,64 @@
   #explain_box {
     width: 100%;
     height: 1500px;
-    background-color: #dfdfdf;
     padding: 100px 0;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #explain_box > p {
     width: 100%;
     height: 1300px;
-    background-color: #777;
+    background-color: rgba(119, 119, 119, 0.5);
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
   #explain_box {
     width: 100%;
     height: 800px;
-    background-color: #dfdfdf;
     padding: 200px 82px 0;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #explain_box > p {
     width: 100%;
     height: 600px;
-    background-color: #777;
+    background-color: rgba(119, 119, 119, 0.5);
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
   #explain_box {
     width: 100%;
     height: 800px;
-    background-color: #dfdfdf;
     padding: 100px 80px 100px 600px;
+    background-image: url(../../multi/img/ECO4.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #explain_box > p {
     width: 600px;
     height: 600px;
-    background-color: #777;
+    background-color: rgba(119, 119, 119, 0.5);
   }
 }
 @media all and (min-width: 1440px) {
   #explain_box {
     width: 100%;
     height: 800px;
-    background-color: #dfdfdf;
     padding: 100px 80px 100px 760px;
+    background-image: url(../../multi/img/ECO4.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #explain_box > p {
     width: 600px;
     height: 600px;
-    background-color: #777;
+    background-color: rgba(119, 119, 119, 0.5);
   }
 }
 @media all and (max-width: 767px) {
@@ -459,8 +471,11 @@
   #about_tech > div {
     width: 100%;
     height: 600px;
-    background-color: #333;
     margin-bottom: 50px;
+    background-image: url(../../multi/img/ECO1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #about_tech > p {
     width: 100%;
@@ -477,9 +492,12 @@
   #about_tech > div {
     width: 600px;
     height: 600px;
-    background-color: #333;
     margin-bottom: 50px;
     margin: auto;
+    background-image: url(../../multi/img/ECO1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #about_tech > p {
     width: 600px;
@@ -499,7 +517,10 @@
   #about_tech > div {
     width: 600px;
     height: 600px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #about_tech > p {
     width: 600px;
@@ -518,7 +539,10 @@
   #about_tech > div {
     width: 600px;
     height: 600px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #about_tech > p {
     width: 600px;
@@ -535,7 +559,10 @@
     width: 100%;
     height: 500px;
     margin-bottom: 50px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #solution > p {
     width: 100%;
@@ -553,7 +580,10 @@
     width: 100%;
     height: 500px;
     margin-bottom: 50px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #solution > p {
     width: 100%;
@@ -571,7 +601,10 @@
   #solution > div {
     width: 100%;
     height: 500px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #solution > p {
     position: absolute;
@@ -580,7 +613,7 @@
     z-index: 10;
     width: 1040px;
     height: 220px;
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.5);
   }
 }
 @media all and (min-width: 1440px) {
@@ -593,7 +626,10 @@
   #solution > div {
     width: 100%;
     height: 500px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #solution > p {
     position: absolute;
@@ -602,7 +638,7 @@
     z-index: 10;
     width: 1200px;
     height: 220px;
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.5);
   }
 }
 @media all and (max-width: 767px) {
@@ -613,8 +649,11 @@
   #effect > div {
     width: 100%;
     height: 500px;
-    background-color: #333;
     margin-bottom: 50px;
+    background-image: url(../../multi/img/ECO3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #effect > p {
     width: 100%;
@@ -631,8 +670,11 @@
   #effect > div {
     width: 100%;
     height: 500px;
-    background-color: #333;
     margin-bottom: 50px;
+    background-image: url(../../multi/img/ECO3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #effect > p {
     width: 100%;
@@ -650,7 +692,10 @@
   #effect > div {
     width: 100%;
     height: 500px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #effect > p {
     position: absolute;
@@ -659,7 +704,7 @@
     z-index: 10;
     width: 1040px;
     height: 275px;
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.5);
   }
 }
 @media all and (min-width: 1440px) {
@@ -672,7 +717,10 @@
   #effect > div {
     width: 100%;
     height: 500px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #effect > p {
     position: absolute;
@@ -681,7 +729,7 @@
     z-index: 10;
     width: 1200px;
     height: 200px;
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.5);
   }
 }
 @media all and (max-width: 767px) {

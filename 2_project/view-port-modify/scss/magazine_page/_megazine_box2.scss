@@ -4,7 +4,13 @@
 @media all and (max-width:767px){
   #magazine_box2 {width: 100%; height: 870px; background-color: $color__sky; padding:100px 0px;}
     .magazine_card02 {width: 100%; height: 670px; background-color: $color__sky;
-      & > div {width: 298px; height: 300px; margin: auto; background-color: $color__black;}
+      & > div {width: 298px; height: 300px; margin: auto;
+        background: {image:url(../../multi/img/2019_Navien_Company/2019_Navien_Company-31.png);
+          repeat:no-repeat;
+          position:50% 50% ;
+          size:cover;
+        } 
+      }
       & dl {width: 298px; height: 300px;  margin: auto; margin-top:50px; background-color: $color__white; padding-top: 30px;
         & dt {width: 100%; height: 40px; line-height: 40px;  }
         & dd {width: 100%; height: 182px;}
@@ -15,7 +21,13 @@
 @media all and (min-width:768px) and (max-width:1279px) {
   #magazine_box2 {width: 100%; height: 500px; background-color: $color__sky; padding: 100px 0;}
     .magazine_card02 {display:flex; justify-content: space-around; width: 100%; height: 300px; 
-      & > div {width: 300px; height: 300px; background-color: $color__black;}
+      & > div {width: 300px; height: 300px;
+        background: {image:url(../../multi/img/2019_Navien_Company/2019_Navien_Company-31.png);
+          repeat:no-repeat;
+          position:50% 50% ;
+          size:cover;
+        } 
+      }
       & dl {width: 300px; height: 300px; background-color: $color__white;
         & dt {width: 100%; height: 40px; line-height: 40px;  }
         & dd {width: 100%; height: 182px;}
@@ -28,7 +40,13 @@
   #magazine_box2 {width: 100%; height: 500px; background-color: $color__sky;}
     .magazine_card02 {display: flex; justify-content: space-around; width:1040px; height: 500px; 
       background-color: $color__sky; margin: auto; 
-      & > div {width: 350px; height: 350px; background-color: $color__black; margin-top: 75px;}
+      & > div {width: 350px; height: 350px;margin-top: 75px;
+        background: {image:url(../../multi/img/2019_Navien_Company/2019_Navien_Company-31.png);
+          repeat:no-repeat;
+          position:50% 50% ;
+          size:cover;
+        } 
+      }
       & dl {width: 400px; height: 300px; background-color: $color__white; margin-top: 100px;
         & dt {width: 100%; height: 40px; line-height: 40px;  }
         & dd {width: 100%; height: 182px;}
@@ -42,7 +60,13 @@
   #magazine_box2 {width: 100%; height: 500px; background-color: $color__sky;}
   .magazine_card02 {display: flex; justify-content: space-around; width:1040px; height: 500px; 
     background-color: $color__sky; margin: auto; 
-    & > div {width: 350px; height: 350px; background-color: $color__black; margin-top: 75px;}
+    & > div {width: 350px; height: 350px; margin-top: 75px;
+      background: {image:url(../../multi/img/2019_Navien_Company/2019_Navien_Company-31.png);
+        repeat:no-repeat;
+        position:50% 50% ;
+        size:cover;
+      } 
+    }
     & dl {width: 400px; height: 300px; background-color: $color__white; margin-top: 100px;
       & dt {width: 100%; height: 40px; line-height: 40px;  }
       & dd {width: 100%; height: 182px;}

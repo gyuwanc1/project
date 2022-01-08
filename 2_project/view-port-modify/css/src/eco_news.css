@@ -421,7 +421,10 @@
   .main_news_image_area .main_image {
     width: 100%;
     height: 600px;
-    background-color: #333;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-48.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
@@ -445,7 +448,10 @@
   .main_news_image_area .main_image {
     width: 100%;
     height: 600px;
-    background-color: #333;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-48.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-size: cover;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
@@ -469,7 +475,10 @@
   .main_news_image_area .main_image {
     width: 1280px;
     height: 600px;
-    background-color: #333;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-48.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 }
 @media all and (min-width: 1440px) {
@@ -493,8 +502,11 @@
   .main_news_image_area .main_image {
     width: 1280px;
     height: 600px;
-    background-color: #333;
     margin: auto;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-48.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 }
 @media all and (max-width: 767px) {
@@ -502,12 +514,15 @@
     width: 100%;
     height: 820px;
     padding: 10px;
-    background-color: #666;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-40.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_01 > div {
     width: 100%;
-    height: 800px;
-    background-color: #777;
+    height: 700px;
+    background-color: rgba(119, 119, 119, 0.5);
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
@@ -515,14 +530,17 @@
     width: 500px;
     height: 820px;
     padding: 10px 100px;
-    background-color: #666;
     margin: auto;
     margin-bottom: 100px;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_01 > div {
     width: 100%;
     height: 800px;
-    background-color: #777;
+    background-color: rgba(119, 119, 119, 0.5);
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
@@ -530,14 +548,17 @@
     width: 1280px;
     height: 500px;
     padding: 100px 255px;
-    background-color: #666;
     margin: auto;
     margin-bottom: 100px;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-40.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_01 > div {
     width: 100%;
     height: 300px;
-    background-color: #777;
+    background-color: rgba(119, 119, 119, 0.7);
   }
 }
 @media all and (min-width: 1440px) {
@@ -545,14 +566,17 @@
     width: 1280px;
     height: 500px;
     padding: 100px 318px;
-    background-color: #666;
     margin: auto;
     margin-bottom: 100px;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-40.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_01 > div {
     width: 100%;
     height: 300px;
-    background-color: #777;
+    background-color: rgba(119, 119, 119, 0.5);
   }
 }
 @media all and (max-width: 767px) {
@@ -569,8 +593,11 @@
   #news_02 > div > div {
     width: 100%;
     height: 250px;
-    background-color: #333;
     margin-bottom: 50px;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-41.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_02 > div > p {
     width: 100%;
@@ -594,8 +621,11 @@
   #news_02 > div > div {
     width: 100%;
     height: 250px;
-    background-color: #333;
     margin-bottom: 50px;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-41.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_02 > div > p {
     width: 100%;
@@ -618,8 +648,11 @@
   #news_02 > div > div {
     width: 100%;
     height: 250px;
-    background-color: #333;
     margin-bottom: 50px;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-41.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_02 > div > p {
     width: 100%;
@@ -642,8 +675,11 @@
   #news_02 > div > div {
     width: 100%;
     height: 250px;
-    background-color: #333;
     margin-bottom: 50px;
+    background-image: url(../../multi/img/2019_Navien_Company/2019_Navien_Company-41.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_02 > div > p {
     width: 100%;
@@ -660,8 +696,11 @@
   #news_03 > div {
     width: 100%;
     height: 570px;
-    background-color: #333;
     margin-bottom: 50px;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_03 > p {
     width: 100%;
@@ -681,7 +720,10 @@
     float: left;
     width: 426px;
     height: 100%;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_03 > p {
     float: right;
@@ -703,7 +745,10 @@
     float: left;
     width: 426px;
     height: 100%;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_03 > p {
     float: right;
@@ -725,7 +770,10 @@
     float: left;
     width: 426px;
     height: 100%;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_03 > p {
     float: right;
@@ -745,8 +793,11 @@
   #news_04 > div {
     width: 100%;
     height: 704px;
-    background-color: #333;
     margin-bottom: 50px;
+    background-image: url(../../multi/img/ECO4.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+    background-size: cover;
   }
   #news_04 > p {
     width: 100%;
@@ -764,8 +815,11 @@
   #news_04 > div {
     width: 100%;
     height: 400px;
-    background-color: #333;
     margin-bottom: 50px;
+    background-image: url(../../multi/img/ECO4.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_04 > p {
     width: 100%;
@@ -787,7 +841,10 @@
   #news_04 > div {
     width: 400px;
     height: 200px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO4.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_04 > p {
     width: 400px;
@@ -809,7 +866,10 @@
   #news_04 > div {
     width: 400px;
     height: 200px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO4.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   #news_04 > p {
     width: 400px;

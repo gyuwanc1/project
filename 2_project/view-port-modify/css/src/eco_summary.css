@@ -403,7 +403,7 @@
   #eco_summary_01 {
     width: 100%;
     height: 950px;
-    background-color: #fda;
+    background-color: rgba(255, 221, 170, 0.7);
     padding: 100px 0;
   }
 
@@ -414,13 +414,20 @@
   .summary_img_Box > li {
     width: 100%;
     height: 300px;
-    background-color: #F5F4F2;
     margin-bottom: 100px;
+    background-image: url(../../multi/img/ECO1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   .summary_img_Box > li:last-of-type {
     width: 100%;
     height: 100px;
     margin-bottom: 0;
+    background-image: url(../../multi/img/slogan.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
 
   .indi_box {
@@ -461,13 +468,20 @@
   .summary_img_Box > li {
     width: 100%;
     height: 300px;
-    background-color: #F5F4F2;
     margin-bottom: 100px;
+    background-image: url(../../multi/img/ECO1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   .summary_img_Box > li:last-of-type {
     width: 100%;
     height: 100px;
     margin-bottom: 0;
+    background-image: url(../../multi/img/slogan.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    background-size: cover;
   }
 
   .indi_box {
@@ -511,13 +525,20 @@
   .summary_img_Box > li {
     width: 100%;
     height: 300px;
-    background-color: #F5F4F2;
     margin-bottom: 100px;
+    background-image: url(../../multi/img/ECO1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   .summary_img_Box > li:last-of-type {
     width: 100%;
     height: 100px;
     margin-bottom: 0;
+    background-image: url(../../multi/img/slogan.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    background-size: cover;
   }
 
   .indi_box {
@@ -563,13 +584,20 @@
   .summary_img_Box > li {
     width: 100%;
     height: 300px;
-    background-color: #F5F4F2;
     margin-bottom: 100px;
+    background-image: url(../../multi/img/ECO1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   .summary_img_Box > li:last-of-type {
     width: 100%;
     height: 100px;
     margin-bottom: 0;
+    background-image: url(../../multi/img/slogan.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    background-size: cover;
   }
 
   .indi_box {
@@ -636,7 +664,10 @@ section {
   .summary_box li {
     width: 200px;
     height: 280px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    background-size: cover;
   }
 
   .indicator_02 {
@@ -683,7 +714,10 @@ section {
   .summary_box li {
     width: 200px;
     height: 280px;
-    background-color: #333;
+    background-image: url(../../multi/img/ECO2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    background-size: cover;
   }
 
   .indicator_02 {
@@ -732,8 +766,11 @@ section {
   .summary_box li {
     width: 200px;
     height: 280px;
-    background-color: #333;
     margin: auto;
+    background-image: url(../../multi/img/ECO2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    background-size: cover;
   }
 
   .indicator_02 {
@@ -788,8 +825,11 @@ section {
   .summary_box li {
     width: 200px;
     height: 280px;
-    background-color: #333;
     margin: auto;
+    background-image: url(../../multi/img/ECO2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    background-size: cover;
   }
 
   .indicator_02 {
@@ -848,7 +888,10 @@ section {
   .eco_03_area > li > div {
     width: 100%;
     height: 350px;
-    background-color: #555;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   .eco_03_area > li > dl {
     width: 100%;
@@ -919,7 +962,10 @@ section {
   .eco_03_area > li > div {
     width: 100%;
     height: 375px;
-    background-color: #555;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   .eco_03_area > li > dl {
     width: 100%;
@@ -996,7 +1042,10 @@ section {
   .eco_03_area > li > div {
     width: 350px;
     height: 350px;
-    background-color: #555;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   .eco_03_area > li > dl {
     width: 400px;
@@ -1076,7 +1125,10 @@ section {
   .eco_03_area > li > div {
     width: 350px;
     height: 350px;
-    background-color: #555;
+    background-image: url(../../multi/img/ECO5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
   }
   .eco_03_area > li > dl {
     width: 400px;

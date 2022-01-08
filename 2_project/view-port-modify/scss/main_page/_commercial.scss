@@ -5,24 +5,48 @@
 
 @media all and (max-width:767px){
   #comBox {width: 100%; height: 437px;
-    .commer {width: 100%; height: 437px; background-color: $color__aLgray;}
+    .commer {width: 100%; height: 437px;
+      background: {image:url(../../multi/img/2019_Navien_Company/2019_Navien_Company-02.png);
+        repeat:no-repeat;
+        position:50% 50% ;
+        size:cover;
+        }       
+    }
   }
 }// 디자인기준 320px
 
 @media all and (min-width:768px) and (max-width:1279px) {
   #comBox {width: 100%; height: 437px;
-    .commer {width: 100%; height: 437px; background-color: $color__aLgray;}
+    .commer {width: 100%; height: 437px; background-color: $color__aLgray;
+      background: {image:url(../../multi/img/2019_Navien_Company/2019_Navien_Company-03.png);
+        repeat:no-repeat;
+        position:50% 50% ;
+        size:cover
+        }  
+    }
   }
 }// 디자인 기준 768px
 
 @media all and (min-width:1280px) and (max-width:1439px) {
   #comBox {width: 100%; height: 600px;
-    .commer {width: 100%; height: 600px; background-color: $color__aLgray;}
+    .commer {width: 100%; height: 600px; background-color: $color__aLgray;
+      background: {image:url(../../multi/img/commercial.png);
+        repeat:no-repeat;
+        position:38% 50% ;
+        size:cover;
+        }  
+    }
 }}// 디자인 기준 1280px
 
 
 @media all and (min-width:1440px) {
   #comBox {width: 100%; height: 437px;
-    .commer {width: 100%; height: 437px; background-color: $color__aLgray;}
+    .commer {width: 100%; height: 437px; background-color: $color__aLgray;
+      background: {image:url(../../multi/img/commercial.png);
+        repeat:no-repeat;
+        position:50% 50% ;
+        size:cover;
+        }  
+    }
   }
 }//디자인 기준 1440px

@@ -4,8 +4,13 @@
 
 @media all and (max-width:767px){
 
-  #news_01 {width: 100%; height: 820px; padding: 10px; background-color: $color__news;
-  & > div {width: 100%; height: 800px; background-color: $color__aLgray;}
+  #news_01 {width: 100%; height: 820px; padding: 10px;
+    background: {image:url(../../multi/img/2019_Navien_Company/2019_Navien_Company-40.png);
+      repeat:no-repeat;
+      position:50% 50% ;
+      size:cover;
+    };
+  & > div {width: 100%; height: 700px; background-color: rgba($color__aLgray, 0.5);}
   }
 
 
@@ -13,8 +18,14 @@
 
 @media all and (min-width:768px) and (max-width:1279px) {
 
-  #news_01 {width: 500px; height: 820px; padding: 10px 100px; background-color: $color__news; margin: auto;  margin-bottom:100px ;
-  & > div {width: 100%; height: 800px; background-color: $color__aLgray;}
+  #news_01 {width: 500px; height: 820px; padding: 10px 100px; 
+    margin: auto;  margin-bottom:100px ;
+    background: {image:url(../../multi/img/ECO5.jpg);
+      repeat:no-repeat;
+      position:50% 50% ;
+      size:cover;
+    }
+  & > div {width: 100%; height: 800px; background-color: rgba($color__aLgray,0.5);}
   }
 
 
@@ -22,8 +33,13 @@
 
 @media all and (min-width:1280px) and (max-width:1439px) {
 
-  #news_01 {width: 1280px; height: 500px; padding: 100px 255px; background-color: $color__news; margin: auto; margin-bottom: 100px;
-  & > div {width: 100%; height: 300px; background-color: $color__aLgray;}
+  #news_01 {width: 1280px; height: 500px; padding: 100px 255px; margin: auto; margin-bottom: 100px;
+    background: {image:url(../../multi/img/2019_Navien_Company/2019_Navien_Company-40.png);
+      repeat:no-repeat;
+      position:50% 50% ;
+      size:cover;
+    }
+  & > div {width: 100%; height: 300px; background-color: rgba($color__aLgray, 0.7);}
   }
 
   
@@ -31,8 +47,13 @@
 
 @media all and (min-width:1440px) {
 
-    #news_01 {width: 1280px; height: 500px; padding: 100px 318px; background-color: $color__news; margin: auto; margin-bottom: 100px;
-    & > div {width: 100%; height: 300px; background-color: $color__aLgray;}
+    #news_01 {width: 1280px; height: 500px; padding: 100px 318px;margin: auto; margin-bottom: 100px;
+      background: {image:url(../../multi/img/2019_Navien_Company/2019_Navien_Company-40.png);
+        repeat:no-repeat;
+        position:50% 50% ;
+        size:cover;
+      }
+    & > div {width: 100%; height: 300px; background-color: rgba($color__aLgray, 0.5);}
     }
     
 }//디자인 기준 1440px
