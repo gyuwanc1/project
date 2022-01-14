@@ -1,0 +1,12 @@
+//Header.scss
+
+#headBox {display: flex; justify-content: space-between;
+  width: 100%; height: auto; 
+  background-color: #666;
+
+  h1 {width: 300px; height: 100px; background-color: #fad; font-size: 30px; 
+    line-height: 100px;}
+  & ul {display: flex; justify-content: space-around; width: 600px; height: 100px; background-color: #fad;
+    & li {width: auto; height: 100%; font-size: 30px; line-height: 100px;}
+  }  
+}
