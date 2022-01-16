@@ -3,6 +3,25 @@
 #mainBox {display: flex; justify-content: space-around; width: 100%; height: 700px; background-color: #fff;
   padding:50px
 }
-.mainArea {width: 40%; height: 100%; background-color: #777;}
+.mainArea {width: 40%; height: 100%; background-color: #777;
+  background: {image:url('../multi/img/KakaoTalk_20220116_211427520.jpg');
+    repeat:no-repeat;
+    position:0 0 ;
+    size:cover;
+  }
+}
 
-.text_area {width: 40%; height: 100%;}
+.text_area {width: 40%; height: 100%; padding: 50px 0; 
+  & li{font-size: 60px;
+    & p {text-transform:uppercase;}
+  }
+  & li:nth-child(1) {margin-top: 25px; font-weight: bold;}
+  & li:nth-child(2) {margin-top: 50px; font-size: 34px; font-weight: bold;}
+  & li:nth-child(3) {font-size: 34px; font-weight: bold;}
+  & li:nth-child(4) { font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px; font-size: 34px; font-weight:lighter;
+    & p {text-transform: capitalize;}
+  }
+
+
+}
