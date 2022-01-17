@@ -2,11 +2,11 @@
 
 #headBox {display: flex; justify-content: space-between;
   width: 100%; height: auto; 
-  background-color: #666;
+  background-color: #E5CEE0;
 
-  h1 {width: 300px; height: 100px; background-color: #fad; font-size: 30px; 
+  h1 {width: 300px; height: 100px; background-color: #E5CEE0; font-size: 30px; 
     line-height: 100px;}
-  & ul {display: flex; justify-content: space-around; width: 600px; height: 100px; background-color: #fad;
+  & ul {display: flex; justify-content: space-around; width: 600px; height: 100px; background-color: #E5CEE0;
     & li {width: auto; height: 100%; font-size: 30px; line-height: 100px; text-transform:uppercase;}
   }  
 }

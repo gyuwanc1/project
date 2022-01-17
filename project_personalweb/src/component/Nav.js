@@ -8,7 +8,7 @@ export default function Nav() {
         <ul>
           <li><NavLink to="Profile">profile</NavLink></li>
           <li><NavLink to="#">portpolio</NavLink></li>
-          <li><NavLink to="#">github</NavLink></li>
+          <li><a href="https://github.com/gyuwanc1" target="blank">github</a></li>
         </ul>
       </nav>     
     
