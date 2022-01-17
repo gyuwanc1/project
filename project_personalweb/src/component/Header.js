@@ -7,7 +7,7 @@ import { Link, NavLink } from 'react-router-dom'
 export default function Header() {
   return (
     <header id="headBox">
-      <h1><Link to="/">gyuwanHomelogo</Link></h1>
+      <h1><Link to="/"><span className='blind'>Homelogo</span></Link></h1>
       <Nav />
     </header>
   )

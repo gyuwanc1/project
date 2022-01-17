@@ -7,7 +7,7 @@ export default function Nav() {
       <nav className='navBox'>
         <ul>
           <li><NavLink to="Profile">profile</NavLink></li>
-          <li><NavLink to="#">portpolio</NavLink></li>
+          <li><NavLink to="Portpolio">portfolio</NavLink></li>
           <li><a href="https://github.com/gyuwanc1" target="blank">github</a></li>
         </ul>
       </nav>     

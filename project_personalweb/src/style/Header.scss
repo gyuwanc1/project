@@ -4,9 +4,25 @@
   width: 100%; height: auto; 
   background-color: #E5CEE0;
 
-  h1 {width: 300px; height: 100px; background-color: #E5CEE0; font-size: 30px; 
-    line-height: 100px;}
+  h1 {width: 100px; height: 100px; background-color: #E5CEE0;line-height: 100px;
+    background: {image:url('../multi/img/Group\ 1.png');
+      repeat:no-repeat;
+      position:50% 50% ;
+      size: 80px 80px;            
+    }
+    & a{ display: block; width: 100%; height: 100%; }
+    
+    & a:hover { background-color: rgba(#fda, 0.5);}
+    
+    
+  }
   & ul {display: flex; justify-content: space-around; width: 600px; height: 100px; background-color: #E5CEE0;
-    & li {width: auto; height: 100%; font-size: 30px; line-height: 100px; text-transform:uppercase;}
+    & li {width: auto; height: 100%; font-size: 30px; line-height: 100px; text-transform:uppercase; 
+      font-family: sans-serif; font-weight: bolder;
+    }
+    & a:hover { background-color: #fda;}
+    & .active {background-color: #fff; color: #A6244D; border: 1px solid #171717; 
+      box-shadow: 5px 5px 5px #555; font-weight: bold;} 
+    
   }  
 }
