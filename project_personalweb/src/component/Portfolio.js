@@ -13,7 +13,7 @@ export default function Portfolio() {
             <dd>use lang: html scss</dd>
           </dl>
           <div className='link_addr'>
-            <a href="https://bit.ly/gyuwanc02" target='_blank'>detail site</a>
+            <a href="https://bit.ly/gyuwanc02" target='blank'>detail site</a>
           </div>
         </li>
         <li className='card'>
@@ -24,7 +24,7 @@ export default function Portfolio() {
             <dd>use lang: html scss js</dd>
           </dl>
           <div className='link_addr'>
-            <a href="https://bit.ly/gyuwanc1" target='_blank'>detail site</a>
+            <a href="https://bit.ly/gyuwanc1" target='blank'>detail site</a>
           </div>
         </li>
 

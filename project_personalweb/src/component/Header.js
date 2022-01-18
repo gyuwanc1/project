@@ -1,8 +1,7 @@
 import React from 'react'
 import Nav from './Nav'
 import '../style/Header.scss'
-import { Route, Routes } from 'react-router-dom'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
