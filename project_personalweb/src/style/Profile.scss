@@ -14,7 +14,8 @@ padding: 50px;
 
 .profile_text {display: flex; flex-direction: column; justify-content: space-around;  
   width: auto; height: 500px; font-weight: normal;
-  font-family: sans-serif
+  font-family: sans-serif;
+  & li { margin-bottom: 20px;}
 }
 
 .PROFILE_01 {width: 100%; height: auto; font-size: 24px;   
@@ -25,13 +26,23 @@ padding: 50px;
 .PROFILE_02 {width: 100%; height: auto; font-size: 24px; 
   & span {font-size: 32px; font-weight: bold;}
   }
+  .PROFILE_03 {width: 100%; height: auto; font-size: 24px; text-transform:capitalize;
+        & span {font-size: 32px; font-weight:bold;}
+        & p {width: auto; height: auto; }
+  }
+  .PROFILE_04 {width: 100%; height: auto; font-size: 24px; text-transform:capitalize;
+    & span {font-size: 32px; font-weight:bold;}
+    & p {width: auto; height: auto; }
+  }
 
-  .PROFILE_03 {width: 100%; height: auto; font-size: 32px; 
+  .PROFILE_05 {width: 100%; height: auto; font-size: 32px; 
     & span {font-weight: bold;}
     & p {font-size: 24px;}
     }
 
-  .PROFILE_04 {width: 100%; height: auto; font-size: 24px; 
+
+  .PROFILE_06 {width: 100%; height: auto; font-size: 24px; 
     & span {font-size: 32px; font-weight:bold;}
   }
+    
     
