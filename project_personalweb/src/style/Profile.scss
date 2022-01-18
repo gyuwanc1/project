@@ -15,7 +15,7 @@ padding: 50px;
 .profile_text {display: flex; flex-direction: column; justify-content: space-around;  
   width: auto; height: 500px; font-weight: normal;
   font-family: sans-serif;
-  & li { margin-bottom: 20px;}
+  & li { text-align: left;}
 }
 
 .PROFILE_01 {width: 100%; height: auto; font-size: 24px;   
@@ -24,25 +24,64 @@ padding: 50px;
   }
 
 .PROFILE_02 {width: 100%; height: auto; font-size: 24px; 
-  & span {font-size: 32px; font-weight: bold;}
+  & span {font-size: 28px; font-weight: bold;}
   }
-  .PROFILE_03 {width: 100%; height: auto; font-size: 24px; text-transform:capitalize;
-        & span {font-size: 32px; font-weight:bold;}
+  .PROFILE_03 {display: flex; width: 100%; height: auto;
+        & span {font-size: 28px; font-weight:bold;}
         & p {width: auto; height: auto; }
-  }
-  .PROFILE_04 {width: 100%; height: auto; font-size: 24px; text-transform:capitalize;
-    & span {font-size: 32px; font-weight:bold;}
+        & .lang_img {display: flex; justify-content: space-around; align-items: center; width: 200px; height: auto;}         
+        & .html_box {width: 32px; height: 32px;  
+          background: {image:url('../multi/img/html5.png');
+            repeat:no-repeat;
+            position: 50% 50%;
+            size:cover;
+          }
+        }
+        & .css_box {width: 32px; height: 32px;  
+          background: {image:url('../multi/img/css.png');
+            repeat:no-repeat;
+            position: 50% 50%;
+            size:cover;
+          }
+        }    
+        & .scss_box {width: 32px; height: 32px;  
+          background: {image:url('../multi/img/sass.png');
+            repeat:no-repeat;
+            position: 50% 50%;
+            size:cover;
+          }
+        }    
+        & .js_box {width: 32px; height: 32px;  
+          background: {image:url('../multi/img/js.png');
+            repeat:no-repeat;
+            position: 50% 50%;
+            size:cover;
+          }
+        }
+        & .react_box {width: 32px; height: 32px;  
+          background: {image:url('../multi/img/react.png');
+            repeat:no-repeat;
+            position: 50% 50%;
+            size:cover;
+          }
+        }           
+      
+      }
+
+  .PROFILE_04 {width: 100%; height: auto; font-size: 24px; text-transform:uppercase;
+    & span {font-size: 28px; font-weight:bold;}
     & p {width: auto; height: auto; }
   }
 
-  .PROFILE_05 {width: 100%; height: auto; font-size: 32px; 
+  .PROFILE_05 {width: 100%; height: auto; font-size: 28px; 
     & span {font-weight: bold;}
     & p {font-size: 24px;}
     }
 
 
   .PROFILE_06 {width: 100%; height: auto; font-size: 24px; 
-    & span {font-size: 32px; font-weight:bold;}
+    & span {font-weight:bold; text-transform: uppercase;}
+  .contact_box {display: block; font-size: 28px; margin-bottom: 10px;}
   }
     
     
