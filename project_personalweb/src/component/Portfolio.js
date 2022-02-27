@@ -27,6 +27,17 @@ export default function Portfolio() {
             <a href="https://bit.ly/gyuwanc1" target='blank'>detail site</a>
           </div>
         </li>
+        <li className='card'>
+          <div className='img_box03'></div>
+          <dl>
+            <dt>ozic</dt>
+            <dd>react coding</dd>
+            <dd>use lang: html scss react</dd>
+          </dl>
+          <div className='link_addr'>
+            <a href="https://bit.ly/ozic_react" target='blank'>detail site</a>
+          </div>
+        </li>
 
       </ul>
     </section>

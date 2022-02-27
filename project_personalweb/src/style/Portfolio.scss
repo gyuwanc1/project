@@ -20,7 +20,15 @@
       repeat:no-repeat;
       position:0 0 ;
       size:cover;
-    }}
+    }
+  }
+  & .img_box03 { width: 300px; height: 200px;border: 1px solid rgba(#777, 0.5); box-shadow: 15px 15px 5px #E5CEE0;  
+    background: {image:url('../multi/img/ozic_main.png');
+      repeat:no-repeat;
+      position:0 0 ;
+      size:cover;
+    }
+  }
   & dl {width: auto; height: auto;
     dt {width:auto; height: auto; font-size:32px; font-weight: bold; margin-bottom: 30px;}
     dd {width:auto; height: auto; font-size: 28px; margin-bottom: 30px;}
